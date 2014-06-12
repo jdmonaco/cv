@@ -1,4 +1,4 @@
-% resume.tex
+% JMonacoCV.tex
 %
 % (c) 2002 Matthew M. Boedicker <mboedick@mboedick.org> http://mboedick.org
 % $Id: resume.tex,v 1.7 2004/02/02 14:21:06 mboedick Exp $
@@ -8,7 +8,8 @@
 \usepackage{fullpage}
 \usepackage{palatino}
 \usepackage{hyperref}
-% \usepackage{url}
+\usepackage{multirow}
+\usepackage{tabu}
 \textheight=9.0in
 \pagestyle{empty}
 \raggedbottom
@@ -21,58 +22,77 @@
 
 \begin{document}
 
-\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
-\textbf{\Large Joseph Daniel Monaco, Ph.D.}   & \\[0.1in] %\textit{Curriculum Vitae} \\[0.1in]
-Johns Hopkins University School of Medicine   & Phone: \href{tel:16172725668}{\texttt{617-272-5668}} \\
-Biomedical Engineering Department             & Email: \href{mailto:jmonaco@jhu.edu}{\texttt{jmonaco@jhu.edu}} \\
-720 Rutland Ave                               & Web: \href{http://jdmonaco.com/}{\texttt{jdmonaco.com}} \\
-Traylor 407                                   & ORCID: \href{http://jdmonaco.com/orcid}{\texttt{0000-0003-0792-8322}} \\
-Baltimore, MD 21205--2109                     & Google Scholar: \href{http://jdmonaco.com/google-scholar}{\texttt{gceOLZEAAAAJ}} \\
+
+\begin{tabular*}{6.5in}{c@{\extracolsep{\fill}}rl}
+\hline\\[0.02in]
+\textsc{\textbf{\Large Joseph Daniel Monaco, Ph.D.}}      & Phone          & \href{tel:16172725668}{\texttt{617-272-5668}} \\
+\multirow{2}{*}{\large Postdoctoral Fellow}               & Email          & \href{mailto:jmonaco@jhu.edu}{\texttt{jmonaco@jhu.edu}} \\
+                                                          & Web            & \href{http://jdmonaco.com/}{\texttt{jdmonaco.com}} \\
+Biomedical Engineering Department                         & ORCID          & \href{http://jdmonaco.com/orcid}{\texttt{0000-0003-0792-8322}} \\
+Johns Hopkins University School of Medicine               & Google Scholar & \href{http://jdmonaco.com/google-scholar}{\texttt{gceOLZEAAAAJ}} \\[0.1in]
+\hline
 \end{tabular*}
-\\
 \vspace{0.1in}
+
+{\large \textbf{Research Bio}} 
+\vspace{0.1in}
+
+I study the hippocampus and its roles in navigation, spatial cognition, and episodic memory. My research began when
+William ``Chip'' Levy recruited me as a first-year undergraduate at the University of Virginia to study the recurrent
+network dynamics of the CA3 subregion of hippocampus. Our paper on goal-directed spatial navigation received an IEEE
+Best Paper award. As a graduate student at Brandeis University, I collaborated with Michael Kahana on a study of
+recognition memory and joined Larry Abbott's theory group. After moving with Larry to the Center for Theoretical
+Neuroscience at Columbia University, I collaborated with Isabel Muzzio and Eric R. Kandel on a study of spatial map
+stability in mice and, following the landmark discovery of grid cells, developed a novel model of hippocampal
+processing that made key predictions about the functional organization of grid cells. I currently hold a postdoctoral
+position at Johns Hopkins University working with Kechen Zhang and James Knierim to study how experience constructs the
+cognitive map of space using computational models and state-of-the-art statistical analysis. My most recent work
+demonstrated, for the first time, a behavioral link to memory formation in real time.
+
+\vspace{0.1in}
+
+{\large \textbf{Recent Publications}}
+
+\begin{description}
+\item \textbf{Monaco JD}, Rao G, Roth ED, and Knierim JJ. (2014). \emph{Attentive scanning behavior drives one-trial potentiation of hippocampal place fields}. Nature Neuroscience, 17(5), 725--731. doi:~\href{http://dx.doi.org/10.1038/nn.3687}{10.1038/nn.3687}.
+\begin{itemize}
+  \item \underline{\bf News \& Views}: Dupret D and Csicsvari J. (2014). \emph{Turning heads to remember places}. Nature Neuroscience, 17(5), 643--644. doi:~\href{http://dx.doi.org/10.1038/nn.3700}{10.1038/nn.3700}.
+  \item \underline{\bf F1000Prime}: Moser E and Rowland D: ``This exciting study finds an unexpected relationship between exploratory head scanning behavior and the development of new place fields in the rat hippocampus...'' Faculty of 1000, May 12, 2014. \href{http://f1000prime.com/718333676#eval793494783}{f1000.com/718333676}
+  \item \underline{\bf F1000Prime}: Maler L: ``This elegant and original study has demonstrated a strong link between the neural activity of hippocampal pyramidal neurons (PNs) during head scanning behavior and their subsequent acquisition of a new place field...'' Faculty of 1000, April 10, 2014. \href{http://f1000prime.com/718333676#eval793493493}{f1000.com/718333676}
+\end{itemize}
+\item \textbf{Monaco JD}, Knierim JJ, and Zhang K. (2011). \emph{Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity}. Frontiers in Computational Neuroscience, 5:39. doi:~\href{http://dx.doi.org/10.3389/fncom.2011.00039}{10.3389/fncom.2011.00039}.
+\item \textbf{Monaco JD} and Abbott LF. (2011). \emph{Modular realignment of entorhinal grid cell activity as a basis for hippocampal remapping}. Journal of Neuroscience, 31(25), 9414--25. \href{http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011}{doi:~10.1523/jneurosci.1433-11.2011}
+\begin{itemize}
+    \item \underline{\bf F1000Prime}: Giocomo L and Moser E: ``This paper presents an interesting computational model which utilizes grid-cell modularity to generate robust remapping...'' Faculty of 1000, June 29, 2011. \href{http://f1000.com/11553956}{f1000.com/11553956}
+\end{itemize}
+\end{description}
+
 {\large \textbf{Education}}
+\begin{itemize}
+  \item 
+    \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+    	\textbf{Columbia University} & New York, NY \\
+    	Ph.D., Neurobiology \& Behavior & 2005--9 \\
+    	Degrees: M.A. (2006), M.Phil. (2008), Ph.D. (2009) & \\
+    	\textit{Transferred from Brandeis University} & \\
+    \end{tabular*}
+  \item 
+    \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+    	\textbf{Brandeis University} & Waltham, MA \\
+    	Ph.D., Neuroscience & 2003--5 \\
+    	\textit{Continued at Columbia University} & \\
+    \end{tabular*}
+  \item
+    \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+    	\textbf{University of Virginia} & Charlottesville, VA \\
+    	Degrees: B.A. Cognitive Science; B.A. Mathematics & 1999--2003 \\
+    	Echols Scholar & \\
+    \end{tabular*}
+\end{itemize}
 
-	\begin{itemize}
-    % \item 
-    % \begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
-    %   \textbf{Johns Hopkins University} & Baltimore, MD \\
-    %   Postdoctoral Fellow & 2009--present \\
-    %   Zanvyl Krieger Mind/Brain Institute, Neuroscience & \\
-    % \end{tabular*}
-    % 
-	\item 
-	\begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
-		\textbf{Columbia University} & New York, NY \\
-		Ph.D., Neurobiology \& Behavior & 2005--9 \\
-		Degrees: M.A. (2006), M.Phil. (2008), Ph.D. (2009) & \\
-		\textit{Transferred from Brandeis University} & \\
-	\end{tabular*}
-
-	\item 
-	\begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
-		\textbf{Brandeis University} & Waltham, MA \\
-		Ph.D., Neuroscience & 2003--5 \\
-		\textit{Continued at Columbia University} & \\
-	\end{tabular*}
-
-	\item
-	\begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
-		\textbf{University of Virginia} & Charlottesville, VA \\
-		Degrees: B.A. Cognitive Science; B.A. Mathematics & 1999--2003 \\
-		Echols Scholar & \\
-	\end{tabular*}
-
-    % \item
-    % \begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
-    %   \textbf{Springbrook High School} & Silver Spring, MD \\
-    %   Graduated 1999 (GPA 3.92) & \\
-    % \end{tabular*}
-
-	\end{itemize}
+\pagebreak
 
 {\large \textbf{Positions}}
-
 \begin{itemize}
 
 \item
@@ -152,23 +172,15 @@ Baltimore, MD 21205--2109                     & Google Scholar: \href{http://jdm
 
 \begin{description}
 \item \textbf{Monaco JD}, Rao G, Roth ED, and Knierim JJ. (2014). \emph{Attentive scanning behavior drives one-trial potentiation of hippocampal place fields}. Nature Neuroscience, 17(5), 725--731. doi:~\href{http://dx.doi.org/10.1038/nn.3687}{10.1038/nn.3687}.
-\begin{itemize}
-  \item \underline{\bf News \& Views}: Dupret D and Csicsvari J. (2014). \emph{Turning heads to remember places}. Nature Neuroscience, 17(5), 643--644. doi:~\href{http://dx.doi.org/10.1038/nn.3700}{10.1038/nn.3700}.
-  \item \underline{\bf F1000Prime}: Moser E and Rowland D: ``This exciting study finds an unexpected relationship between exploratory head scanning behavior and the development of new place fields in the rat hippocampus...'' Faculty of 1000, May 12, 2014. \href{http://f1000prime.com/718333676#eval793494783}{f1000.com/718333676}
-  \item \underline{\bf F1000Prime}: Maler L: ``This elegant and original study has demonstrated a strong link between the neural activity of hippocampal pyramidal neurons (PNs) during head scanning behavior and their subsequent acquisition of a new place field...'' Faculty of 1000, April 10, 2014. \href{http://f1000prime.com/718333676#eval793493493}{f1000.com/718333676}
-\end{itemize}
 \item \textbf{Monaco JD}, Knierim JJ, and Zhang K. (2011). \emph{Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity}. Frontiers in Computational Neuroscience, 5:39. doi:~\href{http://dx.doi.org/10.3389/fncom.2011.00039}{10.3389/fncom.2011.00039}.
 \item \textbf{Monaco JD} and Abbott LF. (2011). \emph{Modular realignment of entorhinal grid cell activity as a basis for hippocampal remapping}. Journal of Neuroscience, 31(25), 9414--25. \href{http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011}{doi:~10.1523/jneurosci.1433-11.2011}
-\begin{itemize}
-    \item \underline{\bf F1000Prime}: Giocomo L and Moser E: ``This paper presents an interesting computational model which utilizes grid-cell modularity to generate robust remapping...'' Faculty of 1000, June 29, 2011. \href{http://f1000.com/11553956}{f1000.com/11553956}
-\end{itemize}
 \item \textbf{Monaco JD}. (2009). \emph{Models and mechanisms for integrating cortical feature spaces}. Ph.D. Dissertation, Columbia University. \href{http://gradworks.umi.com/33/93/3393609.html}{ProQuest Publication No. AAT 3393609}.
 \item Muzzio IA, Levita L, Kulkarni J, \textbf{Monaco J}, Kentros CG, Stead M, Abbott LF, and Kandel ER. (2009). \emph{Attention enhances the retrieval and stability of visuospatial and olfactory representations in the dorsal hippocampus}. PLoS Biology, 7(6), e1000140.
 \item \textbf{Monaco JD}, Abbott LF, and Kahana MJ. (2007). \emph{Lexico-semantic structure and the recognition word-frequency effect}. Learning \& Memory, 14(3), 204--213. 
 \item \textbf{Monaco JD} and Levy WB. (2003). \emph{T-maze training of a recurrent CA3 model reveals the necessity of novelty-based modulation of LTP in hippocampal region CA3}. Proceedings International Joint Conference on Neural Networks, 1655--1660.\nopagebreak
-\begin{itemize}
-    \item IJCNN 2003 Best Student Paper, First Place
-\end{itemize}
+% \begin{itemize}
+%     \item IJCNN 2003 Best Student Paper, First Place
+% \end{itemize}
 \end{description}
 
 {\large \textbf{Presentations}}\nopagebreak
@@ -176,9 +188,9 @@ Baltimore, MD 21205--2109                     & Google Scholar: \href{http://jdm
 \begin{description}
 \item \textbf{Talks}\nopagebreak
 \item[\quad] \textbf{Joseph Monaco}, ``Landmark influence: How attention to sensory cues stabilizes and updates the hippocampal cognitive representation of space.'' \emph{Advanced Researcher Seminar}. Krieger Mind/Brain Institute, Johns Hopkins University, Baltimore, MD. April 21, 2014.
-\item[\quad] \textbf{Joe Monaco}, ``Head scans drive the formation and potentiation of place fields during exploration.'' \emph{Data Blitz}. Winter Conference on Learning \& Memory, Park City, UT. January 3, 2014.
-\item[\quad] \textbf{Joe Monaco}, ``Medial versus lateral modes for reconfiguring hippocampal representations.'' \emph{Grid Cells: Formation and Function}. Gatsby Computational Neuroscience Unit, UCL, UK. July 1, 2010.
-\item[\quad] \textbf{Joseph Daniel Monaco}, ``Rapid spatial map formation and remapping by competing over grid cell inputs.'' \emph{Thesis Seminar}. Columbia University Medical Center, New York, NY. April 10, 2009.
+\item[\quad] \textbf{Joseph Monaco}, ``Head scans drive the formation and potentiation of place fields during exploration.'' \emph{Data Blitz}. Winter Conference on Learning \& Memory, Park City, UT. January 3, 2014.
+\item[\quad] \textbf{Joseph Monaco}, ``Medial versus lateral modes for reconfiguring hippocampal representations.'' \emph{Grid Cells: Formation and Function}. Gatsby Computational Neuroscience Unit, UCL, UK. July 1, 2010.
+\item[\quad] \textbf{Joseph Monaco}, ``Rapid spatial map formation and remapping by competing over grid cell inputs.'' \emph{Thesis Seminar}. Columbia University Medical Center, New York, NY. April 10, 2009.
 \end{description}
 
 \begin{description}
