@@ -9,7 +9,6 @@
 
 \documentclass[10pt]{article}
 \usepackage{fullpage}
-\usepackage{palatino}
 \usepackage[hidelinks]{hyperref}
 \usepackage{multirow}
 \usepackage{tabu}
@@ -22,6 +21,11 @@
 \addtolength{\textheight}{.9in}
 \addtolength{\hoffset}{-.25in}
 \addtolength{\textwidth}{.2in}
+
+% Choose font package
+%\usepackage{palatino}
+\usepackage{fontspec} % forces XeLaTeX engine, use \setmainfont (etc) below
+\setmainfont[Mapping=tex-text,Ligatures=TeX]{Helvetica Neue} % choose any system font
 
 \begin{document}
 
@@ -66,17 +70,25 @@
 \end{itemize}
 
 \vspace{\stretch{1}}
-{\large \textbf{Work}}
+{\large \textbf{Positions}}
 \begin{itemize}
 
 \item
   \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
-    \textbf{Johns Hopkins University} & 2009--present\\
+    \textbf{Johns Hopkins University School of Medicine} & 2013--present\\
     Postdoctoral Fellow\\
-    Biomedical Engineering Department, School of Medicine (2013--present)\\
-    Zanvyl Krieger Mind/Brain Institute (2009--13)\\
-    PIs: James J. Knierim, Ph.D., Kechen Zhang, Ph.D. \\
-    Collaborator: H. Tad Blair, Ph.D. \\
+    Biomedical Engineering Department\\
+    PI: Kechen Zhang, Ph.D.\\
+    Collaborators: Hugh T. Blair, Ph.D.; Mark Wu, Ph.D. \\
+  \end{tabular*}
+
+\item
+  \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+    \textbf{Johns Hopkins University} & 2009--13\\
+    Postdoctoral Fellow\\
+    Zanvyl Krieger Mind/Brain Institute\\
+    PI: James J. Knierim, Ph.D. \\
+    Collaborator: Kechen Zhang, Ph.D. \\
   \end{tabular*}
 
 \end{itemize}
@@ -85,16 +97,16 @@
 {\large \textbf{Publications}}
 
 \begin{description}
-\item \textbf{Monaco JD}, Rao G, Roth ED, and Knierim JJ. (2014). \href{http://dx.doi.org/10.1038/nn.3687}{\emph{Attentive scanning behavior drives one-trial potentiation of hippocampal place fields}. Nature Neuroscience, 17(5), 725--731. doi:~10.1038/nn.3687}.
-\item \textbf{Monaco JD}, Knierim JJ, and Zhang K. (2011). \href{http://dx.doi.org/10.3389/fncom.2011.00039}{\emph{Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity}. Frontiers in Computational Neuroscience, 5:39. doi:~10.3389/fncom.2011.00039}.
-\item \textbf{Monaco JD} and Abbott LF. (2011). \href{http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011}{\emph{Modular realignment of entorhinal grid cell activity as a basis for hippocampal remapping}. Journal of Neuroscience, 31(25), 9414--25. doi:~10.1523/jneurosci.1433-11.2011}.
-\item Muzzio IA, Levita L, Kulkarni J, \textbf{Monaco J}, Kentros CG, Stead M, Abbott LF, and Kandel ER. (2009). \href{http://dx.doi.org/10.1371/journal.pbio.1000140}{\emph{Attention enhances the retrieval and stability of visuospatial and olfactory representations in the dorsal hippocampus}. PLoS Biology, 7(6), e1000140. doi:~10.1371/journal.pbio.1000140}.
-\item \textbf{Monaco JD}, Abbott LF, and Kahana MJ. (2007). \href{http://dx.doi.org/10.1101/lm.363207}{\emph{Lexico-semantic structure and the recognition word-frequency effect}. Learning \& Memory, 14(3), 204--213. doi:~10.1101/lm.363207}.
-\item \textbf{Monaco JD} and Levy WB. (2003). \href{http://dx.doi.org/10.1109/IJCNN.2003.1223655}{\emph{T-maze training of a recurrent CA3 model reveals the necessity of novelty-based modulation of LTP in hippocampal region CA3}. Proceedings International Joint Conference on Neural Networks, 1655--1660. doi:~10.1109/IJCNN.2003.1223655}.
+  \item \textbf{Monaco JD}, Blair HT, and Zhang K. (prepared). Spatial theta cells in competitive burst synchronization networks: Reference frames from phase codes. \emph{Manuscript to be submitted}.
+\item \textbf{Monaco JD}, Rao G, Roth ED, and Knierim JJ. (2014). \href{http://dx.doi.org/10.1038/nn.3687}{{Attentive scanning behavior drives one-trial potentiation of hippocampal place fields}. \emph{Nature Neuroscience}, 17(5), 725--731. doi:~10.1038/nn.3687}.
+\item \textbf{Monaco JD}, Knierim JJ, and Zhang K. (2011). \href{http://dx.doi.org/10.3389/fncom.2011.00039}{{Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity}. \emph{Frontiers in Computational Neuroscience}, 5:39. doi:~10.3389/fncom.2011.00039}.
+\item \textbf{Monaco JD} and Abbott LF. (2011). \href{http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011}{{Modular realignment of entorhinal grid cell activity as a basis for hippocampal remapping}. \emph{Journal of Neuroscience}, 31(25), 9414--25. doi:~10.1523/jneurosci.1433-11.2011}.
+\item Muzzio IA, Levita L, Kulkarni J, \textbf{Monaco J}, Kentros CG, Stead M, Abbott LF, and Kandel ER. (2009). \href{http://dx.doi.org/10.1371/journal.pbio.1000140}{{Attention enhances the retrieval and stability of visuospatial and olfactory representations in the dorsal hippocampus}. \emph{PLoS Biology}, 7(6), e1000140. doi:~10.1371/journal.pbio.1000140}.
+\item \textbf{Monaco JD}, Abbott LF, and Kahana MJ. (2007). \href{http://dx.doi.org/10.1101/lm.363207}{{Lexico-semantic structure and the recognition word-frequency effect}. \emph{Learning \& Memory, 14(3), 204--213. doi:~10.1101/lm.363207}.
+\item \textbf{Monaco JD} and Levy WB. (2003). \href{http://dx.doi.org/10.1109/IJCNN.2003.1223655}{T-maze training of a recurrent CA3 model reveals the necessity of novelty-based modulation of LTP in hippocampal region CA3}. \emph{Proceedings of the  International Joint Conference on Neural Networks}, 1655--1660. doi:~10.1109/IJCNN.2003.1223655}.
 \end{description}
 \vspace{\stretch{1}}
 
-\pagebreak
 \vspace{\stretch{1}}
 {\large \textbf{Thesis}}
 
@@ -116,6 +128,7 @@
 
 \begin{description}
 \item \textbf{Posters}
+\item[\quad] \textbf{Monaco J}, Blair HT, and Zhang K. (upcoming). Decoding septohippocampal theta cells during exploration reveals unbiased environmental cues in firing phase. Society for Neuroscience 2017. Washington, D.C. November~2017.
 \item[\quad] \textbf{Monaco JD}, Blair HT, and Zhang K. (2015). Spatial rate/phase correlations in theta cells can stabilize randomly drifting path integrators. COSYNE 2015. Salt Lake City, UT. March~2015.
 \item[\quad] \textbf{Monaco J}, Blair HT, and Zhang K. (2014). Spatial rate/phase codes provide landmark-based error correction in a temporal model of theta cells. Society for Neuroscience 2014, 752.07/UU25. Washington, D.C. November~2014.
 \item[\quad] Wang CH, Rao G, \textbf{Monaco JD}, Deshmukh SS, and Knierim JJ. (2014). Potentiation of place fields along the CA1 transverse axis by investigatory head-scanning behavior. Society for Neuroscience 2014, 848.15/UU30. Washington, D.C. November~2014.
@@ -134,19 +147,20 @@
 {\large \textbf{Funding}}
 \begin{itemize}
   \item Johns Hopkins Science of Learning Institute, \emph{Learning to explore paths through space}, 2016--2018 \\
-    \textbf{PI:} Kechen Zhang, \textbf{Co-PI:} David J. Foster, \textbf{Research Associate:} Joseph D. Monaco
+    \textbf{PI:} Kechen Zhang, \textbf{Co-PI:} David J. Foster (UC Berkeley), \textbf{Research Associate:} Joseph D. Monaco
 \end{itemize}
 
 {\large \textbf{Professional}}
 \begin{itemize}
   % \item \emph{Ad-hoc Reviewer:} Neuroscience, IEEE/INNS Neural Networks, Neurocomputing, Biological Cybernetics
+  \item Society for Neuroscience, \emph{Postdoc Member (2011--present)}
   \item COSYNE 2016, \emph{Review committee}
+  \item PeerJ, \emph{Ad-hoc reviewer}
   \item IEEE Transactions in Biomedical Engineering, \emph{Ad-hoc reviewer}
   \item IEEE/INNS Neural Networks, \emph{Ad-hoc reviewer}
   \item Neuroscience, \emph{Ad-hoc reviewer}
   \item Neurocomputing, \emph{Ad-hoc reviewer}
   \item Biological Cybernetics, \emph{Ad-hoc reviewer}
-  \item Society for Neuroscience, \emph{Postdoc Member (2011--present)}
 \end{itemize}
   
 {\large \textbf{Mentoring/Teaching}}
