@@ -17,79 +17,90 @@ Joseph Daniel Monaco, Ph.D.
 
 ### Education
 
-Columbia University: Ph.D., Neurobiology & Behavior, 2005-2009
+<p>Columbia University: Ph.D., Neurobiology &amp; Behavior, 2005-2009</p>
+<blockquote>
+<p>Center for Theoretical Neuroscience, Columbia University, New York, NY<br />
+Degrees: M.A. (2006), M.Phil. (2008), Ph.D. (2009)<br />
+Advisor: L. F. Abbott, Ph.D.<br />
+Collaborators: Isabel Muzzio, Ph.D., Eric R. Kandel, Ph.D. (2006-2008)</p>
+</blockquote>
+<p>Brandeis University, 2003-2005</p>
+<blockquote>
+<p>Volen Center for Complex Systems, Brandeis University, Waltham, MA<br />
+Graduate Program in Neuroscience, <em>Continued at Columbia University</em><br />
+Advisor: L. F. Abbott, Ph.D. <br />
+Collaborator: Michael J. Kahana, Ph.D. (2004-2006)</p>
+</blockquote>
+<p>University of Virginia, 1999-2003</p>
+<blockquote>
+<p>Lab. of Computational Neurodynamics, University of Virginia, Charlottesville, VA<br />
+Degrees: B.A. Cognitive Science; B.A. Mathematics<br />
+Advisor: W. B Levy, Ph.D. <br />
+Echols Scholar</p>
+</blockquote>
+<h3 id="positions">Positions</h3>
+<p>Johns Hopkins University School of Medicine, 2013-present</p>
+<blockquote>
+<p>Postdoctoral Fellow<br />
+Biomedical Engineering Department<br />
+PI: Kechen Zhang, Ph.D. <br />
+Collaborator: H. T. Blair, Ph.D.</p>
+</blockquote>
+<p>Johns Hopkins University, 2009-2013</p>
+<blockquote>
+<p>Postdoctoral Fellow<br />
+Zanvyl Krieger Mind/Brain Institute<br />
+PI: James J. Knierim, Ph.D. <br />
+Collaborator: Kechen Zhang, Ph.D.</p>
+</blockquote>
 
-> Center for Theoretical Neuroscience, Columbia University, New York, NY  
-> Degrees: M.A. (2006), M.Phil. (2008), Ph.D. (2009)  
-> Advisor: L. F. Abbott, Ph.D.  
-> Collaborators: Isabel Muzzio, Ph.D., Eric R. Kandel, Ph.D. (2006-2008)  
+### Publications
 
-Brandeis University, 2003-2005
-
-> Volen Center for Complex Systems, Brandeis University, Waltham, MA  
-> Graduate Program in Neuroscience, *Continued at Columbia University*  
-> Advisor: L. F. Abbott, Ph.D.  
-> Collaborator: Michael J. Kahana, Ph.D. (2004-2006)  
-
-University of Virginia, 1999-2003
-
-> Lab. of Computational Neurodynamics, University of Virginia, Charlottesville, VA  
-> Degrees: B.A. Cognitive Science; B.A. Mathematics  
-> Advisor: W. B Levy, Ph.D.  
-> Echols Scholar  
-
-### Positions
-
-Johns Hopkins University School of Medicine, 2013-present
-
-> Postdoctoral Fellow  
-> Biomedical Engineering Department  
-> PI: Kechen Zhang, Ph.D.  
-> Collaborator: H. T. Blair, Ph.D.  
-
-Johns Hopkins University, 2009-2013
-
-> Postdoctoral Fellow  
-> Zanvyl Krieger Mind/Brain Institute  
-> PI: James J. Knierim, Ph.D.  
-> Collaborator: Kechen Zhang, Ph.D.  
+- <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization codes from coupled rate-phase neurons. *PLOS Computational Biology*. doi:&nbsp;10.1371/journal.pcbi.1006741</a> <a href="http://dx.doi.org/10.6084/m9.figshare.6072317">[code]</a> <a href="https://osf.io/psbcw/">[data]</a>
+- <a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31228-5" class="cv">Tabuchi M, **Monaco JD**, Duan G, Bell BJ, Liu S, Zhang K, and Wu MN. (2018). Clock-generated temporal codes determine synaptic plasticity to control sleep. *Cell*, 175(5), 1213-27. doi:&nbsp;10.1016/j.cell.2018.09.016.</a>
+- <a href="http://dx.doi.org/10.1038/nn.3687" class="cv">**Monaco JD**, Rao G, Roth ED, and Knierim JJ. (2014). Attentive scanning behavior drives one-trial potentiation of hippocampal place fields. *Nature Neuroscience*, 17(5), 725–731. doi:&nbsp;10.1038/nn.3687.</a>
+- <a href="http://dx.doi.org/10.3389/fncom.2011.00039" class="cv">**Monaco JD**, Knierim JJ, and Zhang K. (2011). Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity. *Frontiers in Computational Neuroscience*, 5:39. doi:&nbsp;10.3389/fncom.2011.00039.</a>
+- <a href="http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011" class="cv">**Monaco JD** and Abbott LF. (2011). Modular realignment of entorhinal grid cell activity as a basis for hippocampal remapping. *Journal of Neuroscience*, 31(25), 9414–25. doi:&nbsp;10.1523/JNEUROSCI.1433-11.2011</a>
+- <a href="http://dx.doi.org/10.1371/journal.pbio.1000140" class="cv">Muzzio IA, Levita L, Kulkarni J, **Monaco J**, Kentros CG, Stead M, Abbott LF, and Kandel ER. (2009). Attention enhances the retrieval and stability of visuospatial and olfactory representations in the dorsal hippocampus. *PLOS Biology*, 7(6), e1000140. doi:&nbsp;10.1371/journal.pbio.1000140</a>
+- <a href="http://dx.doi.org/10.1101/lm.363207" class="cv">**Monaco JD**, Abbott LF, and Kahana MJ. (2007). Lexico-semantic structure and the recognition word-frequency effect. *Learning & Memory*, 14(3), 204–213. doi:&nbsp;10.1101/lm.363207</a>
+- <a href="http://dx.doi.org/10.1109/IJCNN.2003.1223655" class="cv">**Monaco JD** and Levy WB. (2003). T-maze training of a recurrent CA3 model reveals the necessity of novelty-based modulation of LTP in hippocampal region CA3. *Proceedings International Joint Conference on Neural Networks*, 1655–1660. doi:&nbsp;10.1109/IJCNN.2003.1223655</a>
 
 ### Preprints
 
-- <a href="http://dx.doi.org/10.1101/211458" class="cv">**Monaco JD**, Blair HT, and Zhang K. (2017). Spatial theta cells in competitive burst synchronization networks: Reference frames from phase codes. *bioRxiv*. doi: 10.1101/211458.</a>
-    
-### Publications
-
-- <a href="http://dx.doi.org/10.1038/nn.3687" class="cv">**Monaco JD**, Rao G, Roth ED, and Knierim JJ. (2014). Attentive scanning behavior drives one-trial potentiation of hippocampal place fields. *Nature Neuroscience*, 17(5), 725–731. doi: 10.1038/nn.3687.</a>
-- <a href="http://dx.doi.org/10.3389/fncom.2011.00039" class="cv">**Monaco JD**, Knierim JJ, and Zhang K. (2011). Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity. *Frontiers in Computational Neuroscience*, 5:39. doi: 10.3389/fncom.2011.00039.</a>
-- <a href="http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011" class="cv">**Monaco JD** and Abbott LF. (2011). Modular realignment of entorhinal grid cell activity as a basis for hippocampal remapping. *Journal of Neuroscience*, 31(25), 9414–25.</a>
-- <a href="http://dx.doi.org/10.1371/journal.pbio.1000140" class="cv">Muzzio IA, Levita L, Kulkarni J, **Monaco J**, Kentros CG, Stead M, Abbott LF, and Kandel ER. (2009). Attention enhances the retrieval and stability of visuospatial and olfactory representations in the dorsal hippocampus. *PLoS Biology*, 7(6), e1000140.</a>
-- <a href="http://dx.doi.org/10.1101/lm.363207" class="cv">**Monaco JD**, Abbott LF, and Kahana MJ. (2007). Lexico-semantic structure and the recognition word-frequency effect. *Learning & Memory*, 14(3), 204–213.</a>
-- <a href="http://dx.doi.org/10.1109/IJCNN.2003.1223655" class="cv">**Monaco JD** and Levy WB. (2003). T-maze training of a recurrent CA3 model reveals the necessity of novelty-based modulation of LTP in hippocampal region CA3. *Proceedings International Joint Conference on Neural Networks*, 1655–1660.</a>
+- <a href="http://dx.doi.org/10.1101/211458" class="cv">**Monaco JD**, Blair HT, and Zhang K. (2017). Spatial theta cells in competitive burst synchronization networks: Reference frames from phase codes. *bioRxiv*. doi:&nbsp;10.1101/211458.</a>
 
 ### Thesis
 
-- <a href="http://search.proquest.com/docview/304862872/abstract" class="cv">**Monaco JD**. (2009). Models and mechanisms for integrating cortical feature spaces. Ph.D. Dissertation, Columbia University. *ProQuest Publication No. AAT 3393609*.</a>
+- <a href="http://search.proquest.com/docview/304862872/abstract" class="cv">**Monaco JD**. (2009). Models and mechanisms for integrating cortical feature spaces. Ph.D. Dissertation, Columbia University. *ProQuest Publication No.&nbsp;AAT&nbsp;3393609*.</a>
 
 ### Funding
 
-- <a href="http://scienceoflearning.jhu.edu/research/learning-to-explore-paths-through-space" class="cv">Johns Hopkins Science of Learning Institute, *Learning to explore paths through space*, 2016--2018
-    
-> **PI:** Kechen Zhang  
-> **Co-PI:** David J. Foster  
-> **Research Associate:** Joseph D. Monaco</a>  
+* <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=false" class="cv">NSF/NCS FOUNDATIONS (BRAIN Initiative) Award No. 1835279, 2018--2020</a>
+    - *NCS-FO: Spatial intelligence for swarms based on hippocampal dynamics*
+    - **PI:** Kechen Zhang, **Co-PIs**: Grace Hwang (JHU/APL); Robert W. Chalmers (JHU/APL), and Kevin Schultz (JHU/APL); **Research Associate:** Joseph D. Monaco
+* <a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&icde=42555668&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball=" class="cv">NIH/NINDS R03 Award No. NS109923--01, 2018--2020</a>
+    - *Spiking network models of sharp-wave ripple sequences with gamma-locked attractor dynamics*
+    - **PI:** Kechen Zhang; **Research Associate:** Joseph D. Monaco
+* <a href="https://research.jhu.edu/major-initiatives/discovery-awards/2018-awardees/" class="cv">Johns Hopkins Discovery Award, 2018--2019</a>
+    - *A dynamical systems approach to understanding the neural computations underlying our sense of direction*
+    - **PIs:** Kathleen Cullen, James J. Knierim, and Kechen Zhang; **Research Associate:** Joseph D.&nbsp;Monaco
+* <a href="http://scienceoflearning.jhu.edu/research/learning-to-explore-paths-through-space/" class="cv">Johns Hopkins Science of Learning Institute Award, 2016--2018</a>
+    - *Learning to explore paths through space*
+    - **PI:** Kechen Zhang, **Co-PI:** David J. Foster, **Research Associate:** Joseph D. Monaco
 
 ### Talks
 
-- **Joseph Monaco**, “Hippocampal circuits for space, memory, and navigation: From minimal models to biologically inferred networks.“ *Invited Talk*. Department of Pharmacology, University of Maryland, Baltimore, MD. January 22, 2016.
-- **Joseph Monaco**, “Stopping to look: How attentive scanning behavior reveals the formation of new memories.” *Retreat Research Talk*. Neuroscience Department, Johns Hopkins University, St. Michaels, MD. September 6, 2014.
-- <a href="http://jdmonaco.com/files/mbi-seminar-abstract.pdf" class="cv">**Joseph Monaco**, “Landmark influence: How attention to sensory cues stabilizes and updates the hippocampal cognitive representation of space.” *Advanced Researcher Seminar*. Krieger Mind/Brain Institute, Johns Hopkins University, Baltimore, MD. April 21, 2014.</a>
-- <a href="http://jdmonaco.com/files/ScanningSlide.pdf" class="cv">**Joseph Monaco**, “Head scans drive the formation and potentiation of place fields during exploration.” 38th Annual Winter Conference on Neurobiology of Learning & Memory, Park City, UT. January 3, 2014.</a>
-- <a href="http://www.gatsby.ucl.ac.uk/workshopjune2010/abstractmonaco.htm" class="cv">**Joseph Monaco**, “Medial versus lateral modes for reconfiguring hippocampal representations.” Grid Cells: Formation and Function. Gatsby Computational Neuroscience Unit, UCL, UK. July 1, 2010.</a>
-- <a href="http://dx.doi.org/10.6084/m9.figshare.693750" class="cv">**Joseph Monaco**, “Rapid spatial map formation and remapping by competing over grid cell inputs.” Thesis Seminar. Columbia University Medical Center, New York, NY. April 10, 2009.</a> 
+- <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems-applications?SSO=1#session-15" class="cv">“Emergent dynamics of hippocampal circuitry as a basis for robust self-organized planning in mobile swarms.“ *Invited Talk*. SPIE (International society for optics and photonics) 2019, *Brain-Inspired Self-Organized Control of Multi-Agent Systems*, Baltimore, MD. April 17, 2019.</a> *Upcoming*.
+- “Hippocampal circuits for space, memory, and navigation: From minimal models to biologically inferred networks.“ *Invited Talk*. Department of Pharmacology, University of Maryland, Baltimore, MD. January 22, 2016.
+- “Stopping to look: How attentive scanning behavior reveals the formation of new memories.” *Retreat Research Talk*. Neuroscience Department, Johns Hopkins University, St. Michaels, MD. September 6, 2014.
+- <a href="http://jdmonaco.com/files/mbi-seminar-abstract.pdf" class="cv">“Landmark influence: How attention to sensory cues stabilizes and updates the hippocampal cognitive representation of space.” *Advanced Researcher Seminar*. Krieger Mind/Brain Institute, Johns Hopkins University, Baltimore, MD. April 21, 2014.</a>
+- <a href="http://jdmonaco.com/files/ScanningSlide.pdf" class="cv">“Head scans drive the formation and potentiation of place fields during exploration.” 38th Annual Winter Conference on Neurobiology of Learning & Memory, Park City, UT. January 3, 2014.</a>
+- <a href="http://www.gatsby.ucl.ac.uk/workshopjune2010/abstractmonaco.htm" class="cv">“Medial versus lateral modes for reconfiguring hippocampal representations.” Grid Cells: Formation and Function. Gatsby Computational Neuroscience Unit, UCL, UK. July 1, 2010.</a>
+- <a href="http://dx.doi.org/10.6084/m9.figshare.693750" class="cv">“Rapid spatial map formation and remapping by competing over grid cell inputs.” Thesis Seminar. Columbia University Medical Center, New York, NY. April 10, 2009.</a> 
 
 ### Posters
 
+- <a href="https://abstractsonline.com/pp8/#!/4649/presentation/10884" class="cv">Hwang GM, Schultz K, **Monaco JD**, Chalmers RW, Lau SW, Yeh BY, and Zhang K. (2018). Self-organized swarm control using neural principles of spatial phase coding. *Society for Neuroscience 2018*. San Diego, CA. November 2018.</a> [[poster]](http://jdmonaco.com/files/hwang-sfn18-neural-swarm-control.pdf)
 - <a href="http://www.abstractsonline.com/pp8/#!/4376/presentation/6085" class="cv">**Monaco J**, Blair HT, and Zhang K. (2017). Decoding septohippocampal theta cells during exploration reveals unbiased environmental cues in firing phase. *Society for Neuroscience 2017*. Washington, D.C. November 2017.</a> [[poster]](http://jdmonaco.com/files/monaco-poster-sfn17.pdf)
 - <a href="http://www.cosyne.org/c/index.php?title=Cosyne2015_posters_3" class="cv">**Monaco JD**, Blair HT, and Zhang K. (2015). Spatial rate/phase correlations in theta cells can stabilize randomly drifting path integrators. *Cosyne 2015*. Salt Lake City, UT. March 2015.</a> [[poster]](http://jdmonaco.com/files/monaco-poster-cosyne15.pdf) [[paper]](http://jdmonaco.com/files/monaco-paper-cosyne15.pdf)
 - <a href="http://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=973d2662-ba7a-4ad2-aff9-fe0d4b77c262&amp;cKey=9917ffaf-9e31-4213-acb9-4aab498ab4cd&amp;mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7" class="cv">**Monaco J**, Blair HT, and Zhang K. (2014). Spatial rate/phase codes provide landmark-based error correction in a temporal model of theta cells. *Society for Neuroscience 2014*, 752.07/UU25. Washington, D.C. November 2014.</a> [[poster]](http://jdmonaco.com/files/landmark_poster_sfn14.pdf) [[figshare]](http://dx.doi.org/10.6084/m9.figshare.1249615) [[github]](http://github.com/jdmonaco/lcomodel) 
@@ -108,14 +119,19 @@ Johns Hopkins University, 2009-2013
 
 ### Professional
 
+- NSF/BRAIN Initiative Workshop: <a href="https://www.utsa.edu/SantamariaLab/Workshop/index.html" class="cv">Present and Future Frameworks of Theoretical Neuroscience</a>, UTSA, San Antonio, TX, Feb 3--7, 2019, *Postdoctoral participant*
 - Society for Neuroscience, *Postdoc Member (2011--present)*
 - COSYNE 2016, *Review committee*
-- PeerJ, *Ad-hoc reviewer*
-- IEEE Transactions in Biomedical Engineering, *Ad-hoc reviewer*
-- IEEE/INNS Neural Networks, *Ad-hoc reviewer*
-- Neuroscience, *Ad-hoc reviewer*
-- Neurocomputing, *Ad-hoc reviewer*
-- Biological Cybernetics, *Ad-hoc reviewer*
+- Reviewer for journals including: 
+    * Neuron
+    * Neural Computation
+    * PeerJ
+    * PLOS ONE
+    * IEEE Transactions in Biomedical Engineering
+    * IEEE/INNS Neural Networks
+    * Neuroscience
+    * Neurocomputing
+    * Biological Cybernetics
 
 ### Mentoring/Teaching
 
@@ -129,8 +145,5 @@ Johns Hopkins University, 2009-2013
 - IJCNN Student Paper Competition, First Place (2003)
 - John A. Harrison III Undergraduate Research Award (U.Va., 2002)
 - Echols Scholar at the University of Virginia (1999–2003)
-- Maryland Distinguished Scholar (1999)
-- Johns Hopkins Mathematics Competition (2nd Place Individual Calculus, 1999)
-- National Merit Scholarship Commended Student
-- AP Scholar with Distinction
-- State of Maryland Merit Scholastic Award
+- Pre-university awards include:
+<blockquote><p>Maryland Distinguished Scholar (1999) &ndash; Johns Hopkins Mathematics Competition (2nd Place Individual Calculus, 1999) &ndash; National Merit Scholarship Commended Student &ndash; AP Scholar with Distinction &ndash; State of Maryland Merit Scholastic Award</p></blockquote>
