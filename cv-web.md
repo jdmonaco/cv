@@ -3,7 +3,8 @@ Joseph Daniel Monaco, Ph.D.
 
 > Johns Hopkins University School of Medicine  
 > Biomedical Engineering Department  
-> 720 Rutland Ave, Traylor 407  
+> 720 Rutland Ave  
+> Traylor 407  
 > Baltimore, MD 21205-2109  
 > 
 > Email: jmonaco [at] jhu [dot] edu  
@@ -12,7 +13,7 @@ Joseph Daniel Monaco, Ph.D.
 > GitHub: [jdmonaco](https://github.com/jdmonaco)  
 > Google Scholar: [gceOLZEAAAAJ](http://jdmonaco.com/google-scholar)  
 >
-> [\[Download the PDF\]](http://jdmonaco.com/jdmonaco_cv.pdf)
+> <a href="http://jdmonaco.com/jdmonaco_cv.pdf" class="cv">[Download the PDF]</a>
 
 
 ### Education
@@ -58,7 +59,7 @@ Collaborator: Kechen Zhang, Ph.D.</p>
 
 - <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization codes from coupled rate-phase neurons. *PLOS Computational Biology*. doi:&nbsp;10.1371/journal.pcbi.1006741</a> <a href="http://dx.doi.org/10.6084/m9.figshare.6072317">[code]</a> <a href="https://osf.io/psbcw/">[data]</a>
 - <a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31228-5" class="cv">Tabuchi M, **Monaco JD**, Duan G, Bell BJ, Liu S, Zhang K, and Wu MN. (2018). Clock-generated temporal codes determine synaptic plasticity to control sleep. *Cell*, 175(5), 1213-27. doi:&nbsp;10.1016/j.cell.2018.09.016.</a>
-- <a href="http://dx.doi.org/10.1038/nn.3687" class="cv">**Monaco JD**, Rao G, Roth ED, and Knierim JJ. (2014). Attentive scanning behavior drives one-trial potentiation of hippocampal place fields. *Nature Neuroscience*, 17(5), 725–731. doi:&nbsp;10.1038/nn.3687.</a>
+- <a href="http://dx.doi.org/10.1038/nn.3687" class="cv">**Monaco JD**, Rao G, Roth ED, and Knierim JJ. (2014). Attentive scanning behavior drives one-trial potentiation of hippocampal place fields. *Nature Neuroscience*, 17(5), 725–731. doi:&nbsp;10.1038/nn.3687.</a> <a href="https://github.com/jdmonaco/scanning-paper">[code]</a>
 - <a href="http://dx.doi.org/10.3389/fncom.2011.00039" class="cv">**Monaco JD**, Knierim JJ, and Zhang K. (2011). Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity. *Frontiers in Computational Neuroscience*, 5:39. doi:&nbsp;10.3389/fncom.2011.00039.</a>
 - <a href="http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011" class="cv">**Monaco JD** and Abbott LF. (2011). Modular realignment of entorhinal grid cell activity as a basis for hippocampal remapping. *Journal of Neuroscience*, 31(25), 9414–25. doi:&nbsp;10.1523/JNEUROSCI.1433-11.2011</a>
 - <a href="http://dx.doi.org/10.1371/journal.pbio.1000140" class="cv">Muzzio IA, Levita L, Kulkarni J, **Monaco J**, Kentros CG, Stead M, Abbott LF, and Kandel ER. (2009). Attention enhances the retrieval and stability of visuospatial and olfactory representations in the dorsal hippocampus. *PLOS Biology*, 7(6), e1000140. doi:&nbsp;10.1371/journal.pbio.1000140</a>
