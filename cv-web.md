@@ -57,7 +57,7 @@ Collaborator: Kechen Zhang, Ph.D.</p>
 
 ### Publications
 
-- <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization codes from coupled rate-phase neurons. *PLOS Computational Biology*. doi:&nbsp;10.1371/journal.pcbi.1006741</a> <a href="http://dx.doi.org/10.6084/m9.figshare.6072317">[code]</a> <a href="https://osf.io/psbcw/">[data]</a>
+- <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization codes from coupled rate-phase neurons. *PLOS Computational Biology*, 15(1), e1006741. doi:&nbsp;10.1371/journal.pcbi.1006741</a> <a href="http://dx.doi.org/10.6084/m9.figshare.6072317">[code]</a> <a href="https://osf.io/psbcw/">[data]</a>
 - <a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31228-5" class="cv">Tabuchi M, **Monaco JD**, Duan G, Bell BJ, Liu S, Zhang K, and Wu MN. (2018). Clock-generated temporal codes determine synaptic plasticity to control sleep. *Cell*, 175(5), 1213-27. doi:&nbsp;10.1016/j.cell.2018.09.016.</a>
 - <a href="http://dx.doi.org/10.1038/nn.3687" class="cv">**Monaco JD**, Rao G, Roth ED, and Knierim JJ. (2014). Attentive scanning behavior drives one-trial potentiation of hippocampal place fields. *Nature Neuroscience*, 17(5), 725–731. doi:&nbsp;10.1038/nn.3687.</a> <a href="https://github.com/jdmonaco/scanning-paper">[code]</a>
 - <a href="http://dx.doi.org/10.3389/fncom.2011.00039" class="cv">**Monaco JD**, Knierim JJ, and Zhang K. (2011). Sensory feedback, error correction, and remapping in a multiple oscillator model of place cell activity. *Frontiers in Computational Neuroscience*, 5:39. doi:&nbsp;10.3389/fncom.2011.00039.</a>
