@@ -45,7 +45,7 @@ Echols Scholar</p>
 <p>Postdoctoral Fellow<br />
 Biomedical Engineering Department<br />
 PI: Kechen Zhang, Ph.D. <br />
-Collaborators: Hugh T. Blair, Ph.D.; David J. Foster, Ph.D.; Mark N. Wu, Ph.D.; Kathleen E. Cullen, Ph.D.</p>
+Collaborators: Hugh T. Blair, Ph.D.; David J. Foster, Ph.D.; Mark N. Wu, Ph.D.; Kathleen E. Cullen, Ph.D.; JHU/Applied Physics Laboratory</p>
 </blockquote>
 <p>Johns Hopkins University, 2009-2013</p>
 <blockquote>
