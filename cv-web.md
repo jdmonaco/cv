@@ -57,6 +57,7 @@ Collaborator: Kechen Zhang, Ph.D.</p>
 
 ### Publications
 
+- <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems-applications?SSO=1#session-15" class="cv">**Monaco JD**, Hwang GM, Schultz KM, and Zhang K. (in press). Cognitive swarming: An approach from the theoretical neuroscience of hippocampal function. *Proceedings of SPIE (International society for optics and photonics)*. *Brain-Inspired Self-Organized Control of Multi-Agent Systems*. doi:&nbsp;TBD</a>
 - <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization codes from coupled rate-phase neurons. *PLOS Computational Biology*, 15(1), e1006741. doi:&nbsp;10.1371/journal.pcbi.1006741</a> <a href="http://dx.doi.org/10.6084/m9.figshare.6072317">[code]</a> <a href="https://osf.io/psbcw/">[data]</a>
 - <a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31228-5" class="cv">Tabuchi M, **Monaco JD**, Duan G, Bell BJ, Liu S, Zhang K, and Wu MN. (2018). Clock-generated temporal codes determine synaptic plasticity to control sleep. *Cell*, 175(5), 1213-27. doi:&nbsp;10.1016/j.cell.2018.09.016.</a>
 - <a href="http://dx.doi.org/10.1038/nn.3687" class="cv">**Monaco JD**, Rao G, Roth ED, and Knierim JJ. (2014). Attentive scanning behavior drives one-trial potentiation of hippocampal place fields. *Nature Neuroscience*, 17(5), 725–731. doi:&nbsp;10.1038/nn.3687.</a> <a href="https://github.com/jdmonaco/scanning-paper">[code]</a>
@@ -91,7 +92,7 @@ Collaborator: Kechen Zhang, Ph.D.</p>
 
 ### Talks
 
-- <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems-applications?SSO=1#session-15" class="cv">“Emergent dynamics of hippocampal circuitry as a basis for robust self-organized planning in mobile swarms.“ *Invited Talk*. SPIE (International society for optics and photonics) 2019, *Brain-Inspired Self-Organized Control of Multi-Agent Systems*, Baltimore, MD. April 17, 2019.</a> *Upcoming*.
+- <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems-applications?SSO=1#session-15" class="cv">“Emergent dynamics of hippocampal circuitry as a basis for robust self-organized planning in mobile swarms.“ *Invited Talk*. SPIE (International society for optics and photonics) 2019, *Brain-Inspired Self-Organized Control of Multi-Agent Systems*, Baltimore, MD. April 17, 2019.</a>
 - “Hippocampal circuits for space, memory, and navigation: From minimal models to biologically inferred networks.“ *Invited Talk*. Department of Pharmacology, University of Maryland, Baltimore, MD. January 22, 2016.
 - “Stopping to look: How attentive scanning behavior reveals the formation of new memories.” *Retreat Research Talk*. Neuroscience Department, Johns Hopkins University, St. Michaels, MD. September 6, 2014.
 - <a href="http://jdmonaco.com/files/mbi-seminar-abstract.pdf" class="cv">“Landmark influence: How attention to sensory cues stabilizes and updates the hippocampal cognitive representation of space.” *Advanced Researcher Seminar*. Krieger Mind/Brain Institute, Johns Hopkins University, Baltimore, MD. April 21, 2014.</a>
@@ -101,6 +102,7 @@ Collaborator: Kechen Zhang, Ph.D.</p>
 
 ### Posters
 
+- <a href="http://www.cvent.com/events/5th-annual-brain-initiative-investigators-meeting/event-summary-de9c0d8f934b46eb8d80b55bcfbfe96a.aspx" class="cv">**Monaco JD**, Hwang GM, Schultz K, and Zhang K. (2019). Self-organized swarm control using neural principles of spatial phase coding. *5th Annual BRAIN Initiative Investigators Meeting*. Washington, D.C. April 2019.</a> [[poster]](http://jdmonaco.com/files/monaco-BRAIN2019-neural-swarm-control.pdf)
 - <a href="https://abstractsonline.com/pp8/#!/4649/presentation/10884" class="cv">Hwang GM, Schultz K, **Monaco JD**, Chalmers RW, Lau SW, Yeh BY, and Zhang K. (2018). Self-organized swarm control using neural principles of spatial phase coding. *Society for Neuroscience 2018*. San Diego, CA. November 2018.</a> [[poster]](http://jdmonaco.com/files/hwang-sfn18-neural-swarm-control.pdf)
 - <a href="http://www.abstractsonline.com/pp8/#!/4376/presentation/6085" class="cv">**Monaco J**, Blair HT, and Zhang K. (2017). Decoding septohippocampal theta cells during exploration reveals unbiased environmental cues in firing phase. *Society for Neuroscience 2017*. Washington, D.C. November 2017.</a> [[poster]](http://jdmonaco.com/files/monaco-poster-sfn17.pdf)
 - <a href="http://www.cosyne.org/c/index.php?title=Cosyne2015_posters_3" class="cv">**Monaco JD**, Blair HT, and Zhang K. (2015). Spatial rate/phase correlations in theta cells can stabilize randomly drifting path integrators. *Cosyne 2015*. Salt Lake City, UT. March 2015.</a> [[poster]](http://jdmonaco.com/files/monaco-poster-cosyne15.pdf) [[paper]](http://jdmonaco.com/files/monaco-paper-cosyne15.pdf)
@@ -120,19 +122,22 @@ Collaborator: Kechen Zhang, Ph.D.</p>
 
 ### Professional
 
+- NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10, 2019, *Participant*
 - NSF/BRAIN Initiative Workshop: <a href="https://www.utsa.edu/SantamariaLab/Workshop/index.html" class="cv">Present and Future Frameworks of Theoretical Neuroscience</a>, UTSA, San Antonio, TX, Feb 3--7, 2019, *Postdoctoral participant*
 - Society for Neuroscience, *Postdoc Member (2011--present)*
 - COSYNE 2016, *Review committee*
 - Reviewer for journals including: 
     * Neuron
     * Neural Computation
+    * Hippocampus
+    * eLife
     * PeerJ
     * PLOS ONE
-    * IEEE Transactions in Biomedical Engineering
-    * IEEE/INNS Neural Networks
     * Neuroscience
     * Neurocomputing
     * Biological Cybernetics
+    * IEEE Transactions in Biomedical Engineering
+    * IEEE/INNS Neural Networks
 
 ### Mentoring/Teaching
 
