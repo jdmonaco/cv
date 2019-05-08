@@ -92,7 +92,7 @@ Collaborator: Kechen Zhang, Ph.D.</p>
 
 ### Talks
 
-- <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems-applications?SSO=1#session-15" class="cv">“Emergent dynamics of hippocampal circuitry as a basis for robust self-organized planning in mobile swarms.“ *Invited Talk*. SPIE (International society for optics and photonics) 2019, *Brain-Inspired Self-Organized Control of Multi-Agent Systems*, Baltimore, MD. April 17, 2019.</a>
+- <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems-applications?SSO=1#session-15" class="cv">“Emergent dynamics of hippocampal circuitry as a basis for robust self-organized planning in mobile swarms.“ *Invited Talk*. SPIE (International society for optics and photonics) 2019, *Brain-Inspired Self-Organized Control of Multi-Agent Systems*, Baltimore, MD. April 17, 2019.</a> [[Keynote (143MB)]](http://jdmonaco.com/files/monaco-spie19-neuroswarms-slides.key)
 - “Hippocampal circuits for space, memory, and navigation: From minimal models to biologically inferred networks.“ *Invited Talk*. Department of Pharmacology, University of Maryland, Baltimore, MD. January 22, 2016.
 - “Stopping to look: How attentive scanning behavior reveals the formation of new memories.” *Retreat Research Talk*. Neuroscience Department, Johns Hopkins University, St. Michaels, MD. September 6, 2014.
 - <a href="http://jdmonaco.com/files/mbi-seminar-abstract.pdf" class="cv">“Landmark influence: How attention to sensory cues stabilizes and updates the hippocampal cognitive representation of space.” *Advanced Researcher Seminar*. Krieger Mind/Brain Institute, Johns Hopkins University, Baltimore, MD. April 21, 2014.</a>
