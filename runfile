@@ -1,0 +1,44 @@
+#!/usr/bin/env sh
+set -ue
+
+#
+# Runfile script
+#
+# Add commands as test cases below.
+#
+
+USAGE="Usage: run -i|-e|pdf|edit|update"
+
+if [[ $# != 1 ]]
+then
+    echo $USAGE
+    exit 1
+fi
+
+case "$1" in
+
+pdf) xelatex cv >/dev/null && open cv.pdf ;;
+
+edit)
+    if [[ -e Session.vim ]]; then
+        mvim -S Session.vim
+    else
+        mvim --servername VIM -O cv.tex cv-web.md
+    fi
+    ;;
+
+update)
+    xelatex --output-directory=build cv >/dev/null && \
+        cp build/cv.pdf ~/Sites/jdmonaco_com/files/ && \
+        cp cv-web.md ~/Sites/jdmonaco_com-pages/cv/index.md && \
+        cp ../publications/pubs-web.md ~/Sites/jdmonaco_com-pages/pubs/index.md && \
+        cd ~/Sites && run build_jdmonaco && run upload_jdmonaco && \
+        open http://jdmonaco.com/cv/
+    ;;
+
+*)
+    echo $USAGE
+    exit 1
+    ;;
+
+esac
