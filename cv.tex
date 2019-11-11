@@ -8,16 +8,17 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage[hidelinks]{hyperref}
 \usepackage{multirow}
+\usepackage{sectsty}
 \usepackage{tabu}
 \usepackage{soul}
 \usepackage{fontspec}
 
 % Page geometry formatting
-\textheight=9.0in
-\pagestyle{empty}
 \raggedbottom
 \raggedright
+\textheight=9in
 \setlength{\tabcolsep}{0in}
+\addtolength{\footskip}{-.2in}
 \addtolength{\voffset}{-.4in}
 \addtolength{\textheight}{.9in}
 \addtolength{\hoffset}{-.25in}
@@ -36,15 +37,13 @@
 \setul{0.13ex}{}
 
 % Choose font package
-\setmainfont[Mapping=tex-text,Ligatures=TeX]{Helvetica Neue} 
+\setmainfont[Mapping=tex-text,Ligatures=TeX]{Helvetica Neue LT Std} 
+
+% Section section* formatting
+\sectionfont{\large\color{hopkinsblue}\bfseries}
+\subsectionfont{\vspace{-1ex}\hspace{1ex}\color{hopkinsblue}\normalsize\bfseries}
 
 % Formatting macros
-\newcommand{\heading}[1]{
-  \bigskip{\large\color{hopkinsblue}\bfseries #1}
-}
-\newcommand{\subheading}[1]{
-  \medskip\hspace{0.05in}{\color{hopkinsblue}\bfseries #1}\\[0.1in]
-}
 \newcommand{\itemtitle}[1]{{\color{hopkinsblue}\ul{#1}}}
 \newcommand{\unpubtitle}[1]{{\color{hopkinsblue} #1}}
 \newcommand{\itemnote}[1]{
@@ -58,25 +57,26 @@
 \newcommand{\aurl}[1]{{\color{dimgray}\texttt{#1}}}
 \newcommand{\researchnote}[1]{
   \begin{description}
-    \item[] {\hspace{0.19in}\color{darkgray}\it #1}
+    \item[] {\hspace{2.2ex}\color{darkgray} #1}
   \end{description}
 }
 \newcommand{\researchactivity}[4]{
   \begin{minipage}[t]{\textwidth}
-    \begin{tabular}{@{\hspace{0.1in}}l>{\raggedright\arraybackslash}p{.8\textwidth}}
+    \begin{tabular}{@{\hspace{2ex}}l>{\raggedright\arraybackslash}p{.8\textwidth}}
       \makebox[1.2in][l]{#1} & \textbf{#2:}
       ``\unpubtitle{#3}.'' 
     \end{tabular}
-  \researchnote{\hspace{0.04in} #4}
+  \researchnote{\hspace{1ex} #4}
   \end{minipage}
   \medbreak
 }
-\newcommand{\lefttabline}[3]{\hspace{0.1in}\makebox[#1][l]{#2} #3\\}
+\newcommand{\lefttabline}[3]{\hspace{2ex}\makebox[#1][l]{#2} #3\\}
 
 \begin{document}
 \input{header}
+\thispagestyle{empty}
 
-\heading{Education}
+\section*{Education}
 \begin{itemize}
   \item
     \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
@@ -106,7 +106,7 @@
     \end{tabular*}
 \end{itemize}
 
-\heading{Positions}
+\section*{Positions}
 \begin{itemize}
 
   \item
@@ -139,7 +139,7 @@
 
 \end{itemize}
 
-\heading{Publications}
+\section*{Publications}
 
 \begin{description}
   \item \joehl{Monaco JD}, Hwang GM, Schultz KM, and Zhang K.
@@ -211,7 +211,7 @@
     \doi{10.1109/IJCNN.2003.1223655}}.
 \end{description}
 
-\heading{Preprints}
+\section*{Preprints}
 
 \begin{description}
   \item \href{https://arxiv.org/abs/1909.06711}
@@ -228,7 +228,7 @@
     phase codes}. \emph{bioRxiv}. \doi{10.1101/211458}}.
 \end{description}
 
-\heading{Thesis}
+\section*{Thesis}
 
 \begin{description}
   \item \href{http://search.proquest.com/docview/304862872/abstract}
@@ -238,19 +238,19 @@
 \end{description}
 
 \pagebreak
-\heading{White Papers}
+\section*{White Papers} \label{sec:whitepapers}
 
 \begin{description}
   \item \joehl{Monaco J}, Zhang K, and Schultz K. (August 15, 2019).
     \unpubtitle{SW2Mem: Graph Spectral Decoding of Hippocampal-Cortical Loops for
       Artificial Consolidation and Dreaming}. \emph{Response to ONR Special Notice
     N00014-19-S-SN08, Topic 5.1}.
-  \item Schultz K, Agarwala S, Zhang K, and \joehl{Monaco J}. (August 15, 2019).
+  \item Schultz K, Agarwala S, Zhang K, \joehl{Monaco J}. (August 15, 2019).
     \unpubtitle{Brain-like Distributed Surveillance using Heterogeneous Agents for
       integRated Perception, and Planning (BD-SHARPP)}. \emph{Response to ONR Special
     Notice N00014-18-R-SN05, Topic 3}.
   \item Zhang K, \joehl{Monaco JD}, Hwang GM, Schultz KM, Kobilarov M, Foster
-    DJ, Jacobs J, and Laurent Itti. (June 29, 2018). \unpubtitle{An Integrative
+    DJ, Jacobs J, Itii, L. (June 29, 2018). \unpubtitle{An Integrative
       Theoretical Framework of the Neural Self-Organization of Active Perception
       for Autonomous Spatial Navigation}. \emph{Response to ONR MURI Announcement
     N00014-18-S-F006, Topic 6}.
@@ -260,7 +260,7 @@
     (ONR) Special Notice N00014-18-R-SN05, Topic 3}.
 \end{description}
 
-\heading{Media Releases and Interviews}
+\section*{Media Releases and Interviews}
 
 \begin{description}
   \item \href{https://www.youtube.com/watch?v=ic4zEgVMSsA}
@@ -283,7 +283,7 @@
     \aurl{https://www.youtube.com/watch?v=Jm8OiLJqKJQ}}
 \end{description}
 
-\heading{Websites and Social Media}
+\section*{Websites and Social Media}
 
 \begin{description}
   \item \href{http://jdmonaco.com/}
@@ -299,9 +299,9 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
     {\itemtitle{Twitter Feed}. Social Media. \aurl{https://twitter.com/j\_d\_monaco}}
 \end{description}
 
-\heading{Media and Community Coverage of My Work}
+\section*{Media and Community Coverage of My Work}
 
-\subheading{News \& Views and Post-Publication Reviews}
+\subsection*{News \& Views and Post-Publication Reviews}
 
 \begin{itemize}
   \item \href{https://doi.org/10.1016/j.cell.2018.10.047}
@@ -325,7 +325,7 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
     robust remapping...}'' \emph{Faculty of 1000}.}
 \end{itemize}
 
-\subheading{Websites and Blogs}
+\subsection*{Websites and Blogs}
 
 \begin{itemize}
   \item \href{https://blogs.plos.org/biologue/2019/03/20/better-use-of-mouse-models-skin-infection-dynamics-and-phaser-cells-in-navigation/}
@@ -346,9 +346,9 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
     \aurl{https://www.medicaldaily.com/cognitive-map-can- show-real-time-when-memories-form-thanks-place-cells-brain-276790}}
 \end{itemize}
 
-\heading{Funding}
+\section*{Funding}
 
-\subheading{Current External Support}
+\subsection*{Current External Support} \label{sec:cursupport}
 
 \begin{itemize}
   \item \href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=false}
@@ -360,11 +360,11 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
       \item \textbf{Co-PIs, JHU/APL}: Grace Hwang, Robert W. Chalmers, Kevin
         Schultz, and M. Dwight Carr
       \item \textbf{Research Associate (Co-PI Pending): \joehl{Joseph D. Monaco}}
-      \itemnote{I co-developed this project and co-wrote the proposal with
-          a JHU/APL colleague (see \ul{Research Program Building} below). As a
-          Research Associate faculty at JHU as of FY20, my project role is currently
-        being changed to co-PI.}
     \end{itemize}
+  \itemnote{I co-developed this project and co-wrote the proposal
+      with a JHU/APL colleague (see \emph{\nameref{sec:resnsf}} on
+      p.\pageref{sec:resnsf}). As a Research Associate faculty at JHU as of
+    FY20, my project role is currently being changed to co-PI.}
 
   \item \href{https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&icde=42555668&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball=}
     {\itemtitle{Spiking network models of sharp-wave ripple sequences with\\
@@ -373,13 +373,13 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
       \item NIH/NINDS R03 Award No.~NS109923
       \item \textbf{PI:} Kechen Zhang
       \item \textbf{Research Associate:} \joehl{Joseph D. Monaco}
-      \itemnote{I conceived this project, generated preliminary data, and wrote
-          the proposal (see \ul{Research Program Building} below). As a Postdoctoral
-        Fellow, JHU policy precluded a PI role.}
     \end{itemize}
+  \itemnote{I conceived this project, generated preliminary data, and wrote the
+      proposal (see \emph{\nameref{sec:resnih}} on p.\pageref{sec:resnih}).
+    As a Postdoctoral Fellow, JHU policy precluded a PI role.}
 \end{itemize}
 
-\subheading{Previous Internal Support}
+\subsection*{Previous Internal Support} \label{sec:prevsupport}
 
 \begin{itemize}
   \item \href{http://scienceoflearning.jhu.edu/research/learning-to-explore-paths-through-space/}
@@ -389,16 +389,16 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
       \item \textbf{PI:} Kechen Zhang
       \item \textbf{Co-PI:} David J.~Foster (now at UC Berkeley)
       \item \textbf{Research Associate:} \joehl{Joseph D.~Monaco}
-      \itemnote{I conceived this project, initiated the collaboration between
-          the Zhang and Foster labs, and wrote the proposal (see \ul{Research
-          Program Building} below). As a Postdoctoral Fellow, JHU policy precluded a
-        PI role.}
     \end{itemize}
+  \itemnote{I conceived this project, initiated the collaboration
+      between the Zhang and Foster labs, and wrote the proposal (see
+      \emph{\nameref{sec:ressli}} on p.\pageref{sec:ressli}). As a
+    Postdoctoral Fellow, JHU policy precluded a PI role.}
 \end{itemize}
 
-\heading{Educational Activity}
+\section*{Educational Activity}
 
-\subheading{Classroom Instruction}
+\subsection*{Classroom Instruction}
 
 \begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
   Fall 2004 & Teaching Assistant for undergraduate ``Introduction to
@@ -408,8 +408,9 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
   Spring 2005 \hspace{.1in} & Teaching Assistant for undergraduate ``Biology
   Laboratory'' course, Brandeis University \\
 \end{tabular}
+\medskip
 
-\subheading{Workshops/Seminars -- Regional}
+\subsection*{Workshops/Seminars -- Regional}
 
 \begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
   10/2/2019 \hspace{0.1in} & ``\unpubtitle{Oscillations, attractors, and
@@ -446,33 +447,33 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
   \tabularnewline
 \end{tabular}
 
-\subheading{Workshops/Seminars -- National}
+\subsection*{Workshops/Seminars -- National}
 
 \begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  4/17/2019 \hspace{0.3in} & ``\unpubtitle{Emergent dynamics of hippocampal
-  circuitry as a basis for robust self-organized planning in mobile swarms}.''
-  \emph{Invited Lecture}. SPIE (International society for optics and photonics)
-  Defense \& Commercial Sensing 2019 conference, Baltimore, MD\\
-  \tabularnewline
-  4/10/2019 & NSF/Neural \& Cognitive Systems (NCS) PI
-  Workshop. \emph{Participant}. Marriott Wardman Park Hotel, Washington, D.C.\\
-  \tabularnewline
-  2/3--2/7/2019 & NSF/BRAIN Initiative Workshop: Present and Future Frameworks
-  of Theoretical Neuroscience. \emph{Invited Participant}. University of Texas,
-  San Antonio, TX.\\
-  \tabularnewline
-  1/3/2014 & ``\unpubtitle{Head scans drive the formation and potentiation
-  of place fields during exploration}.'' \emph{Data Blitz}. 38th Annual Winter
-  Conference on Neurobiology of Learning \& Memory, Park City, UT.\\
-  \tabularnewline
-  4/10/2009 & ``\unpubtitle{Rapid spatial map formation and remapping by
-  competing over grid cell inputs}.'' \emph{Thesis Seminar}. Dept. of Neurobiology
-  \& Behavior, Columbia University Medical Center, New York, NY.\\
-  \tabularnewline
+4/17/2019 \hspace{0.3in} & ``\unpubtitle{Emergent dynamics of hippocampal
+circuitry as a basis for robust self-organized planning in mobile swarms}.''
+\emph{Invited Lecture}. SPIE (International society for optics and photonics)
+Defense \& Commercial Sensing 2019 conference, Baltimore, MD\\
+\tabularnewline
+4/10/2019 & NSF/Neural \& Cognitive Systems (NCS) PI
+Workshop. \emph{Participant}. Marriott Wardman Park Hotel, Washington, D.C.\\
+\tabularnewline
+2/3--2/7/2019 & NSF/BRAIN Initiative Workshop: Present and Future Frameworks
+of Theoretical Neuroscience. \emph{Invited Participant}. University of Texas,
+San Antonio, TX.\\
+\tabularnewline
+1/3/2014 & ``\unpubtitle{Head scans drive the formation and potentiation
+of place fields during exploration}.'' \emph{Data Blitz}. 38th Annual Winter
+Conference on Neurobiology of Learning \& Memory, Park City, UT.\\
+\tabularnewline
+4/10/2009 & ``\unpubtitle{Rapid spatial map formation and remapping by
+competing over grid cell inputs}.'' \emph{Thesis Seminar}. Dept. of Neurobiology
+\& Behavior, Columbia University Medical Center, New York, NY.\\
+\tabularnewline
 \end{tabular}
 
 \pagebreak
-\subheading{Workshops/Seminars -- International}
+\subsection*{Workshops/Seminars -- International}
 
 \begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
   7/1/2010 \hspace{0.2in} & ``\unpubtitle{Medial versus lateral modes for
@@ -481,20 +482,22 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
   London, UK.\\
 \end{tabular}
 
-\subheading{Educational Program Building}
+\smallskip
+\subsection*{Educational Program Building}
 
 \begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  2018--present \hspace{0.1in} & The NSF project (see \ul{Current External
-  Support} above) was successfully funded with a substantial STEM component
-  for high-school students involving the development of both a 12-week course
-  and an intense 2-day seminar called ``Swarming Powered by Neuroscience.''
-  I am working with our STEM education collaborators at JHU/APL to develop
-  computational resources required for the curricula. Additionally, I have begun
-  mentoring a high-school student intern, Marc Burlina, at JHU/APL so that he
-  can help develop simulation components for this educational program.
+  2018--present \hspace{0.1in} & The NSF project (see
+  \emph{\nameref{sec:cursupport}} on p.\pageref{sec:cursupport}) was
+  successfully funded with a substantial STEM component for high-school students
+  involving the development of both a 12-week course and an intense 2-day
+  seminar called ``Swarming Powered by Neuroscience.'' I am working with our
+  STEM education collaborators at JHU/APL to develop computational resources
+  required for the curricula. Additionally, I have begun mentoring a high-school
+  student intern, Marc Burlina, at JHU/APL so that he can help develop
+  simulation components for this educational program.
 \end{tabular}
 
-\subheading{Mentoring}
+\subsection*{Mentoring}
 
 \begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
   2019--present \hspace{0.1in} & Sreelakshmi Rajendrakumar, graduate student in
@@ -516,82 +519,89 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
   resulting in a paper in revision for Current Biology.\\
 \end{tabular}
 
-\heading{Research Activity}
+\section*{Research Activity}
 
-\subheading{Research Program Building/Leadership (\emph{\ul{Chronological Order}})}
+\subsection*{Research Program Building/Leadership}
+\label{sec:resprogram}
 
 \researchactivity
 {Mar. 2016--2018}
 {Grant Proposal (JHU/SLI)}
 {Learning to explore paths through space}
-{This internal JHU award resulted from a collaboration with David J. Foster (now
-at UC Berkeley) that I initiated to conduct modeling studies informed by his
-lab’s hippocampal reactivation data. By integrating Prof.~Zhang’s mathematical
-theories of spatial cognitive maps, I wrote and submitted a proposal for a
-\$200K/2-year project to the JHU Science of Learning Institute. The proposal was
-awarded at the \$150K level and research outcomes included (1) novel theories of
-temporal synchronization coding that inspired the 2017 NSF proposal effort, and
-(2) preliminary dynamical models of sharp-wave reactivation that provided the
-foundation for the 2018 NIH R03 award.}
+{This internal JHU award (2016--2018; see \emph{\nameref{sec:prevsupport}} on
+  p.\pageref{sec:prevsupport}) resulted from a collaboration with David J. Foster
+  (now at UC Berkeley) that I initiated to conduct modeling studies informed
+  by his lab’s hippocampal reactivation data. By integrating Prof.~Zhang’s
+  mathematical theories of spatial cognitive maps, I wrote and submitted a
+  proposal for a \$200K/2-year project to the JHU Science of Learning Institute.
+  The proposal was awarded at the \$150K level and research outcomes included (1)
+  novel theories of temporal synchronization coding that inspired the 2017 NSF
+  proposal effort, and (2) preliminary dynamical models of sharp-wave reactivation
+that provided the foundation for the 2018 NIH R03 award.}
+\label{sec:ressli}
 
 \researchactivity
 {April--June 2016}
 {Grant Proposal (DARPA/BTO)}
 {Noninvasive Gastrovagal Stimulation for Enhanced Neuroplasticity of Cortical
-and Hippocampal Networks during Cognitive Training (GEN‐C)}
+and Hippocampal Networks during Cognitive Training (GEN-C)}
 {In response to DARPA announcement BAA-16-24 of the “Targeted Neuroplasticity
-Training (TNT)” program, I worked with colleagues from JHU/APL and JHU/SoM
-Center for Neurogastroenterology to develop a collaborative program involving 3
-PIs and 5 co-Is (8 labs) across divisions, departments, and fields. I recruited
-experimental labs from JHU/MBI and coordinated proposed contributions to
-optimize responsiveness to DARPA’s mission and maximize scientific impact with
-a total project cost of \$9.8M over 5 years. I was the main coordinator of
-the 40-page research narrative, including editing and integrating each lab’s
-contributions (and writing several), and worked with the primary JHU/SoM PI
-(Prof.~Pankaj Pasricha) and ORA to submit the proposal. While not successfully
-funded in total, DARPA/BTO PM Doug Weber funded select components, leading to
-JHU/APL Work Agreement No.~145563 “BCI (Brain Computer Interface) Technologies”
+  Training (TNT)” program, I worked with colleagues from JHU/APL and JHU/SoM
+  Center for Neurogastroenterology to develop a collaborative program involving 3
+  PIs and 5 co-Is (8 labs) across divisions, departments, and fields. I recruited
+  experimental labs from JHU/MBI and coordinated proposed contributions to
+  optimize responsiveness to DARPA’s mission and maximize scientific impact with
+  a total project cost of \$9.8M over 5 years. I was the main coordinator of
+  the 40-page research narrative, including editing and integrating each lab’s
+  contributions (and writing several), and worked with the primary JHU/SoM PI
+  (Prof.~Pankaj Pasricha) and ORA to submit the proposal. While not successfully
+  funded in total, DARPA/BTO PM Doug Weber funded select components, leading to
+  JHU/APL Work Agreement No.~145563 “BCI (Brain Computer Interface) Technologies”
 in 2018 for \$24,604 to the lab of Prof.~Pasricha.}
 
 \researchactivity
 {Nov. 2017-pres.}
 {Grant Proposal (NSF/NCS)}
 {NCS-FO: Spatial intelligence for swarms based on hippocampal dynamics}
-{This NSF-awarded project (2018--2020) was the result of 6 months of
-collaboration, brain-storming, and team-building between the Zhang lab at
-JHU/SoM and a group of JHU/APL engineers, mathematicians, and scientists.
-The project was initially inspired by results that I presented at my Society
-for Neuroscience 2017 meeting poster. I wrote Aim 1 and integrated the full
-research narrative with inputs from our collaborators for the proposal of
-this \$997K/2-year project to develop those initial ideas into technological
-applications (e.g., robotics, autonomous control, AI) that reciprocally inform
-neuroscience. The project has so far produced two posters, a conference talk
-\& proceedings publication, and a preprint \& research article submission.
-Continued progress will support development of a substantial STEM educational
-program based on our neuroscientific and artificial systems results.}
+{This NSF-awarded project (2018--2020; see \emph{\nameref{sec:cursupport}}
+  on p.\pageref{sec:cursupport}) was the result of 6 months of collaboration,
+  brain-storming, and team-building between the Zhang lab at JHU/SoM and a group
+  of JHU/APL engineers, mathematicians, and scientists. The project was initially
+  inspired by results that I presented at my Society for Neuroscience 2017
+  meeting poster. I wrote Aim 1 and integrated the full research narrative with
+  inputs from our collaborators for the proposal of this \$997K/2-year project to
+  develop those initial ideas into technological applications (e.g., robotics,
+  autonomous control, AI) that reciprocally inform neuroscience. The project has
+  so far produced two posters, a conference talk \& proceedings publication, and
+  a preprint \& research article submission. Additionally, this project will
+develop a substantial STEM educational program based on our findings.}
+\label{sec:resnsf}
 
 \researchactivity
 {Jan. 2018-pres.}
 {Grant Proposal (NIH/NINDS)}
 {Spiking network models of sharp-wave ripple sequences with gamma-locked
 attractor dynamics}
-{To continue with the collaboration that I initiated with David J. Foster (UC
-Berkeley) on the basis of the internal SLI award (2016-2018), I wrote a small
-modeling proposal that integrated preliminary results from the SLI project and
-recent research developments in the memory reactivation field. This proposal
-was awarded (2018--2020) through the NIH/NINDS R03 mechanism and I am currently
-utilizing this support to build a foundation for my planned future efforts along
+{To continue with the collaboration that I initiated with David J. Foster
+  (UC Berkeley) on the basis of the internal SLI award (see above), I wrote
+  a small modeling proposal that integrated preliminary results from the SLI
+  project and recent research developments in the memory reactivation field.
+  This proposal was awarded (2018--2020; see \emph{\nameref{sec:cursupport}}
+  on p.\pageref{sec:cursupport}) through the NIH/NINDS R03 mechanism and I am
+  currently utilizing this support to build a foundation for future efforts along
 this research track.}
+\label{sec:resnih}
 
 \researchactivity
 {Feb.--Mar. 2018}
 {White Paper (ONR)}
 {BrainSWARRMM: Brain-like Sharp-Waves for Autonomous Replanning \&
 Reconnaissance on Matrix Manifolds}
-{In response to ONR Special Notice N00014-18-R-SN05, I helped organize a series
-of collaborative meetings to design a \$2M/4-year project between JHU/APL
-and JHU/SoM. I co-authored the resulting white paper that was submitted for
-consideration to ONR (see \ul{White Papers} above).}
+{In response to ONR Special Notice N00014-18-R-SN05, I helped organize a
+  series of collaborative meetings to design a \$2M/4-year project between
+  JHU/APL and JHU/SoM. I co-authored the resulting white paper that was
+  submitted for consideration to ONR (see \emph{\nameref{sec:whitepapers}} on
+p.\pageref{sec:whitepapers}).}
 
 \researchactivity
 {May--June 2018}
@@ -599,14 +609,15 @@ consideration to ONR (see \ul{White Papers} above).}
 {An Integrative Theoretical Framework of the Neural Self-Organization of Active
 Perception for Autonomous Spatial Navigation}
 {In response to ONR MURI Announcement N00014-18-S-F006 and with the help of
-JHU/APL, I coordinated a series of meetings with 5 PIs across 4 universities
-(Columbia, UC Berkeley, USC, JHU) to design an innovative research program that
-targeted reciprocal advances in experimental \& theoretical neuroscience and
-robotics \& AI across species and scales. The resulting \$7.5M/5-year project
-that I outlined in the white paper (see \ul{White Papers} above) was not invited
-for a full submission. We debriefed with the sponsor, ONR PM Marc Steinberg, who
-revealed that ONR was impressed with the project but that they were seeking a
-different balance of elements with respect to neuroscience and AI.}
+  JHU/APL, I coordinated a series of meetings with 5 PIs across 4 universities
+  (Columbia, UC Berkeley, USC, JHU) to design an innovative research program that
+  targeted reciprocal advances in experimental \& theoretical neuroscience and
+  robotics \& AI across species and scales. The resulting \$7.5M/5-year project
+  that I outlined in the white paper (see \emph{\nameref{sec:whitepapers}} on
+  p.\pageref{sec:whitepapers}) was not invited for a full submission. We debriefed
+  with the sponsor, ONR PM Marc Steinberg, who revealed that ONR was impressed
+  with the project but that they were seeking a different balance of elements with
+respect to neuroscience and AI.}
 
 \researchactivity
 {August 2019}
@@ -614,10 +625,11 @@ different balance of elements with respect to neuroscience and AI.}
 {SW2Mem: Graph Spectral Decoding of Hippocampal-Cortical Loops for Artificial
 Consolidation and Dreaming}
 {In response to ONR Special Notice N00014-19-S-SN08, Topic 5.1 I conceived this
-project, created the preliminary model and datasets, guided the preliminary
-analyses with JHU/APL collaborators, and wrote \& submitted the white paper (see
-\ul{White Papers} above) to ONR outlining a potential \$1.05M/3-year project.
-ONR declined to invite us to submit a full proposal.}
+  project, created the preliminary model and datasets, guided the preliminary
+  analyses with JHU/APL collaborators, and wrote \& submitted the white paper
+  (see \emph{\nameref{sec:whitepapers}} on p.\pageref{sec:whitepapers}) to ONR
+  outlining a potential \$1.05M/3-year project. ONR declined to invite us to
+submit a full proposal.}
 
 \researchactivity
 {August 2019}
@@ -625,18 +637,19 @@ ONR declined to invite us to submit a full proposal.}
 {Brain-like Distributed Surveillance using Heterogeneous Agents for integRated
 Perception, and Planning (BD-SHARPP)}
 {In response to ONR Special Notice N00014-18-R-SN05, we submitted a revised
-version of the March 2018 white paper (see \ul{White Papers} above) that was
-specifically invited by ONR PM Tom McKenna.}
+  version of the March 2018 white paper (see \emph{\nameref{sec:whitepapers}}
+  on p.\pageref{sec:whitepapers}) that was specifically invited by ONR PM Tom
+McKenna.}
 
 \researchactivity
 {Sept. 11, 2019}
 {NSF Project Review}
 {Annual advisory board review symposium}
 {I delivered a seminar on Aim 1 progress at a JHU/APL-hosted symposium for our
-project’s yearly review, attended by DARPA/I2O PM Hava Siegelmann and other
+  project’s yearly review, attended by DARPA/I2O PM Hava Siegelmann and other
 outside experts.}
 
-\subheading{Conference Abstracts}
+\subsection*{Conference Abstracts}
 
 \begin{description}
   \item[\quad]
@@ -729,7 +742,7 @@ outside experts.}
     conformations}. \emph{NIH Poster Day}. Bethesda, MD. August~1997.
 \end{description}
 
-\subheading{Inventions \& Patents}
+\subsection*{Inventions \& Patents}
 
 \lefttabline{0.8in}{5/9/2019}{Inventor, Neuroinspired Algorithms for Swarming
 Applications, provisional patent 5012-5279}
@@ -737,9 +750,9 @@ Applications, provisional patent 5012-5279}
 Applications, provisional patent 5012-SPL}
 
 \pagebreak
-\heading{Organizational Activity}
+\section*{Professional Activity}
 
-\subheading{Journal Peer Review}
+\subsection*{Journal Peer Review}
 
 \lefttabline{0.8in}{2019}{eLife}
 \lefttabline{0.8in}{2019}{Hippocampus}
@@ -753,19 +766,19 @@ Applications, provisional patent 5012-SPL}
 \lefttabline{0.8in}{2012}{Neurocomputing}
 \lefttabline{0.8in}{2012}{Neuroscience}
 
-\subheading{Professional Societies}
+\subsection*{Scientific Societies}
 
 \lefttabline{0.8in}{2019}{Society for Neuroscience, Regular Member}
 \lefttabline{0.8in}{2011--2018}{Society for Neuroscience, Postdoc Member}
 
-\subheading{Conference Organization}
+\subsection*{Conference Organization}
 
 \lefttabline{0.8in}{2020}{Cosyne, Review committee member}
 \lefttabline{0.8in}{2016}{Cosyne, Review committee member}
 
-\heading{Recognition}
+\section*{Recognition}
 
-\subheading{Awards and Honors}
+\subsection*{Awards and Honors}
 
 \lefttabline{0.8in}{2003}{IJCNN Student Paper Competition, First Place}
 \lefttabline{0.8in}{2002}{U.Va. John A. Harrison III Undergraduate Research Award}
