@@ -14,7 +14,7 @@ Joseph Daniel Monaco, Ph.D.
 > LinkedIn: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  
 > Google Scholar: [gceOLZEAAAAJ](http://jdmonaco.com/google-scholar)  
 >
-> <a href="http://jdmonaco.com/jdmonaco_cv.pdf" class="cv">[Download the PDF]</a>
+> <a href="http://jdmonaco.com/cv-monaco.pdf" class="cv">[Download the PDF]</a>
 
 
 ### Education
@@ -23,21 +23,21 @@ Joseph Daniel Monaco, Ph.D.
 <blockquote>
 <p>Center for Theoretical Neuroscience, Columbia University, New York, NY<br />
 Degrees: M.A. (2006), M.Phil. (2008), Ph.D. (2009)<br />
-Advisor: L. F. Abbott, Ph.D.<br />
-Collaborators: Isabel Muzzio, Ph.D., Eric R. Kandel, Ph.D. (2006-2008)</p>
+Advisor: Laurence F. Abbott<br />
+Collaborators: Isabel Muzzio, Eric R. Kandel</p>
 </blockquote>
 <p>Brandeis University, 2003-2005</p>
 <blockquote>
 <p>Volen Center for Complex Systems, Brandeis University, Waltham, MA<br />
 Graduate Program in Neuroscience, <em>Continued at Columbia University</em><br />
-Advisor: L. F. Abbott, Ph.D. <br />
-Collaborator: Michael J. Kahana, Ph.D. (2004-2006)</p>
+Advisor: Laurence F. Abbott <br />
+Collaborator: Michael J. Kahana</p>
 </blockquote>
 <p>University of Virginia, 1999-2003</p>
 <blockquote>
 <p>Lab. of Computational Neurodynamics, University of Virginia, Charlottesville, VA<br />
-Degrees: B.A. Cognitive Science; B.A. Mathematics<br />
-Advisor: W. B Levy, Ph.D. <br />
+Degrees: B.A. Mathematics; B.A. Cognitive Science <br />
+Advisor: William 'Chip' Levy <br />
 Echols Scholar</p>
 </blockquote>
 
@@ -46,24 +46,24 @@ Echols Scholar</p>
 <p>Johns Hopkins University School of Medicine, 2019-present</p>
 <blockquote>
 <p>Research Associate<br />
-Biomedical Engineering Department<br />
-PI: Kechen Zhang, Ph.D. <br />
-Collaborators: Kathleen E. Cullen, Ph.D.; JHU/Applied Physics Laboratory</p>
+Department of Biomedical Engineering<br />
+PI: Kechen Zhang <br />
+Collaborators: Kathleen E. Cullen, JHU/Applied Physics Laboratory (JHU/APL)</p>
 </blockquote>
 <p>Johns Hopkins University School of Medicine, 2013-2019</p>
 <blockquote>
 <p>Postdoctoral Fellow<br />
-Biomedical Engineering Department<br />
+Department of Biomedical Engineering<br />
 PI: Kechen Zhang, Ph.D. <br />
-Collaborators: Hugh T. Blair, Ph.D.; David J. Foster, Ph.D.; Mark N. Wu, Ph.D.;
-Kathleen E. Cullen, Ph.D.; JHU/Applied Physics Laboratory</p>
+Collaborators: Hugh T. Blair, David J. Foster, Mark N. Wu,
+Kathleen E. Cullen, JHU/APL</p>
 </blockquote>
 <p>Johns Hopkins University, 2009-2013</p>
 <blockquote>
 <p>Postdoctoral Fellow<br />
 Zanvyl Krieger Mind/Brain Institute<br />
-PI: James J. Knierim, Ph.D. <br />
-Collaborator: Kechen Zhang, Ph.D.</p>
+PI: James J. Knierim <br />
+Collaborator: Kechen Zhang</p>
 </blockquote>
 
 ### Publications

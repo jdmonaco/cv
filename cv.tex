@@ -6,7 +6,7 @@
 
 \usepackage{fullpage}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,xetex]{hyperref}
 \usepackage{multirow}
 \usepackage{sectsty}
 \usepackage{tabu}
@@ -71,6 +71,20 @@
   \medbreak
 }
 \newcommand{\lefttabline}[3]{\hspace{2ex}\makebox[#1][l]{#2} #3\\}
+
+% PDF document info and setup
+\hypersetup{
+  baseurl=http://jdmonaco.com/cv-monaco.pdf,
+  pdftitle=Curriculum Vitae for Joseph D. Monaco,
+  pdfauthor=Joseph D. Monaco,
+  pdfdisplaydoctitle=true,
+  pdfpagemode=UseThumbs,
+  pdfstartview=FitV,
+  pdfpagelayout=TwoColumnLeft,
+  pdftoolbar=false,
+  pdfwindowui=false,
+  pdfcenterwindow=true,
+}
 
 \begin{document}
 \input{header}
@@ -293,7 +307,7 @@ of spatial memory}.” Website. \aurl{http://jdmonaco.com/}}
   \item \href{http://jdmonaco.com/google-scholar}
     {\itemtitle{Google Scholar}. Website. \aurl{https://scholar.google.com/citations?hl=en\& user=gceOLZEAAAAJ\&view\_op=list\_works\&sortby=pubdate}}
   \item \href{https://github.com/jdmonaco}
-    {\itemtitle{GitHub Repositories}. Website. \aurl{https://github.com/jdmonaco}}
+    {\itemtitle{GitHub Overview}. Website. \aurl{https://github.com/jdmonaco}}
   \item \href{https://twitter.com/j_d_monaco}
     {\itemtitle{Twitter Feed}. Social Media. \aurl{https://twitter.com/j\_d\_monaco}}
 \end{description}
