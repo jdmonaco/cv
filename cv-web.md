@@ -116,11 +116,11 @@ doi:&nbsp;10.1109/IJCNN.2003.1223655</a>
 ### Preprints
 
 - <a href="https://arxiv.org/abs/1909.06711" class="cv">**Monaco JD**, Hwang GM,
-Schultz KM, Zhang K. Cognitive swarming in complex environments with attractor
-dynamics and oscillatory computing. *arXiv*. abs:&nbsp;1909.06711</a>
+Schultz KM, Zhang K. (2019). Cognitive swarming in complex environments with
+attractor dynamics and oscillatory computing. *arXiv*. abs:&nbsp;1909.06711</a>
 - <a href="http://doi.org/10.1101/764282" class="cv">Wang CH, **Monaco JD**,
-Knierim JJ. Hippocampal place cells encode local surface texture boundaries.
-*bioRxiv*. doi:&nbsp;10.1101/764282</a>
+Knierim JJ. (2019). Hippocampal place cells encode local surface texture
+boundaries. *bioRxiv*. doi:&nbsp;10.1101/764282</a>
 - <a href="http://dx.doi.org/10.1101/211458" class="cv">**Monaco JD**,
 Blair HT, and Zhang K. (2017). Spatial theta cells in competitive burst
 synchronization networks: Reference frames from phase codes. *bioRxiv*.
