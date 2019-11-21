@@ -151,13 +151,6 @@ class="cv">NIH/NINDS R03 Award No. NS109923--01, 2018--2020</a>
 attractor dynamics*
     - **PI:** Kechen Zhang; **Research Associate:** Joseph D. Monaco
 * <a
-href="https://research.jhu.edu/major-initiatives/discovery-awards/2018-awardees/
-" class="cv">Johns Hopkins Discovery Award, 2018--2019</a>
-    - *A dynamical systems approach to understanding the neural computations
-underlying our sense of direction*
-    - **PIs:** Kathleen Cullen, James J. Knierim, and Kechen Zhang; **Research
-Associate:** Joseph D.&nbsp;Monaco
-* <a
 href="http://scienceoflearning.jhu.edu/research/learning-to-explore-paths-throug
 h-space/" class="cv">Johns Hopkins Science of Learning Institute Award,
 2016--2018</a>
