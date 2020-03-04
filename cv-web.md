@@ -68,7 +68,7 @@ Collaborator: Kechen Zhang</p>
 
 ### Publications
 
-- **Monaco JD**, Hwang GM, Schultz KM, and Zhang K. (Under review). Cognitive
+- **Monaco JD**, Hwang GM, Schultz KM, and Zhang K. (In press). Cognitive
     swarming in complex environments with attractor dynamics and oscillatory
     computing. *Biological Cybernetics*.
 - Wang CH, **Monaco JD**, and Knierim JJ. (In press). Hippocampal place cells
@@ -165,6 +165,9 @@ Collaborator: Kechen Zhang</p>
 
 ### Talks
 
+- “Computational Mechanisms of Memory: Linking Behavior, Space, & Time.“
+    *Invited Talk*. Department of Psychology, University of Nevada, Las Vegas, TX.
+    February 24, 2020
 - “Attractors, memory, and oscillations: Computational motifs of spatial
     learning.“ *Invited Talk*. Department of Biological Sciences, University of
     Texas at El Paso, El Paso, TX. January 31, 2020

@@ -29,6 +29,7 @@ edit)
 
 update)
     xelatex --output-directory=build cv >/dev/null && \
+        xelatex --output-directory=build cv >/dev/null && \
         cp build/cv.pdf ~/Sites/jdmonaco_com/files/ && \
         cp cv-web.md ~/Sites/jdmonaco_com-pages/cv/index.md && \
         cp ../publications/pubs-web.md ~/Sites/jdmonaco_com-pages/pubs/index.md && \
