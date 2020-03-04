@@ -166,7 +166,7 @@ Collaborator: Kechen Zhang</p>
 ### Talks
 
 - “Computational Mechanisms of Memory: Linking Behavior, Space, & Time.“
-    *Invited Talk*. Department of Psychology, University of Nevada, Las Vegas, TX.
+    *Invited Talk*. Department of Psychology, University of Nevada, Las Vegas, NV.
     February 24, 2020
 - “Attractors, memory, and oscillations: Computational motifs of spatial
     learning.“ *Invited Talk*. Department of Biological Sciences, University of
