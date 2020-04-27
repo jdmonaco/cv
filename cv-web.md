@@ -9,11 +9,12 @@ Joseph Daniel Monaco, Ph.D.
 > 
 > Email: jmonaco [at] jhu [dot] edu  
 > Web: [jdmonaco.com](http://jdmonaco.com)  
-> ORCID: [0000-0003-0792-8322](http://jdmonaco.com/orcid)  
 > GitHub: [jdmonaco](https://github.com/jdmonaco)  
-> LinkedIn: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  
+> PubMed: [monaco_jd](http://jdmonaco.com/pubmed)  
+<!-- LinkedIn: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  -->
 > Google Scholar: [gceOLZEAAAAJ](http://jdmonaco.com/google-scholar)  
->
+> <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-0792-8322" href="https://orcid.org/0000-0003-0792-8322" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-0792-8322</a></div>
+
 > <a href="http://jdmonaco.com/cv-monaco.pdf" class="cv">[Download the PDF]</a>
 
 
@@ -68,11 +69,14 @@ Collaborator: Kechen Zhang</p>
 
 ### Publications
 
-- **Monaco JD**, Hwang GM, Schultz KM, and Zhang K. (In press). Cognitive
-    swarming in complex environments with attractor dynamics and oscillatory
-    computing. *Biological Cybernetics*.
-- Wang CH, **Monaco JD**, and Knierim JJ. (In press). Hippocampal place cells
-    encode local surface texture boundaries. *Current Biology*.
+- <a href="https://rdcu.be/b3lem" class="cv">**Monaco JD**, Hwang GM, Schultz
+    KM, and Zhang K. (2020). Cognitive swarming in complex environments with
+    attractor dynamics and oscillatory computing. *Biological Cybernetics*, 114,
+    269-284. <nobr>doi:&nbsp;10.1007/s00422-020-00823-z.</nobr></a>
+- <a href="https://doi.org/10.1016/j.cub.2020.01.083" class="cv">Wang CH,
+    **Monaco JD**, and Knierim JJ. (2020). Hippocampal place cells encode
+    local surface texture boundaries. *Current Biology*, 30, 1-13.</a> <a
+    href="https://doi.org/10.6084/m9.figshare.11800392">[code]</a>
 - <a href="https://doi.org/10.1117/12.2518966" class="cv">**Monaco JD**,
     Hwang GM, Schultz KM, and Zhang K. (2019). Cognitive swarming: An approach
     from the theoretical neuroscience of hippocampal function. *Proceedings
@@ -120,11 +124,17 @@ Collaborator: Kechen Zhang</p>
 
 ### Preprints
 
+- <a href="https://arxiv.org/abs/2003.13825" class="cv">
+    Levenstein D, Alvarez VA, Amarasingham A, Azab H, Gerkin RC, Hasenstaub A,
+    Iyer R, Jolivet RB, Marzen S, **Monaco JD**, Prinz AA, Quraishi S, Santamaria F,
+    Shivkumar S, Singh MF, Stockton DB, Traub R, Rotstein HG, Nadim F, and Redish
+    AD. (2020). On the role of theory and modeling in neuroscience.
+    *arXiv*. abs:&nbsp;2003.13825</a>
 - <a href="https://arxiv.org/abs/1909.06711" class="cv">**Monaco JD**, Hwang GM,
-    Schultz KM, Zhang K. (2019). Cognitive swarming in complex environments with
+    Schultz KM, and Zhang K. (2019). Cognitive swarming in complex environments with
     attractor dynamics and oscillatory computing. *arXiv*. abs:&nbsp;1909.06711</a>
 - <a href="http://doi.org/10.1101/764282" class="cv">Wang CH, **Monaco JD**,
-    Knierim JJ. (2019). Hippocampal place cells encode local surface texture
+    and Knierim JJ. (2019). Hippocampal place cells encode local surface texture
     boundaries. *bioRxiv*. doi:&nbsp;10.1101/764282</a>
 - <a href="http://dx.doi.org/10.1101/211458" class="cv">**Monaco JD**,
     Blair HT, and Zhang K. (2017). Spatial theta cells in competitive burst
