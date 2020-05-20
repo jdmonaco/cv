@@ -175,6 +175,9 @@ Collaborator: Kechen Zhang</p>
 
 ### Talks
 
+- “Computational Approaches to the Neural Dynamics of Time, Memory, and
+    Behavior.“ *Invited Talk*. Department of Neuroscience, Medical Discovery Team
+    for Optical Imaging, University of Minnesota, Minneapolis, MN. May 18, 2020
 - “Computational Mechanisms of Memory: Linking Behavior, Space, & Time.“
     *Invited Talk*. Department of Psychology, University of Nevada, Las Vegas, NV.
     February 24, 2020
