@@ -175,9 +175,13 @@ Collaborator: Kechen Zhang</p>
 
 ### Talks
 
+- “Can Transitory Neurodynamics Unify Learning Theories for Brains and
+    Machines?“ *Invited Talk &amp; Panel Discussion*. Symposium on “How Can
+    Dynamical Systems Neuroscience Reciprocally Advance Machine Learning?“, 6th
+    Annual BRAIN Initiative Investigators Meeting, NIH, Online. June 1, 2020
 - “Computational Approaches to the Neural Dynamics of Time, Memory, and
     Behavior.“ *Invited Talk*. Department of Neuroscience, Medical Discovery Team
-    for Optical Imaging, University of Minnesota, Minneapolis, MN. May 18, 2020
+    for Optical Imaging, University of Minnesota, Online. May 18, 2020
 - “Computational Mechanisms of Memory: Linking Behavior, Space, & Time.“
     *Invited Talk*. Department of Psychology, University of Nevada, Las Vegas, NV.
     February 24, 2020
@@ -216,6 +220,12 @@ Collaborator: Kechen Zhang</p>
 
 ### Conference Abstracts
 
+- <a
+    href="http://www.cvent.com/events/6th-annual-brain-initiative-investigators-meeting/custom-116-4e2aadaa6cd549a3a4b53113cd172ad2.aspx" class="cv"> 
+    **Monaco JD**, Hwang GM, Schultz K, Zhang K. (2020). Cognitive swarming in
+    complex environments with attractor dynamics and oscillatory computing.
+    *6th Annual BRAIN Initiative Investigators Meeting*. Online, with audio
+    narration. June 2020.</a>
 - <a
     href="https://www.fens.org/Meetings/The-Brain-Conferences/Dynamics-of-the-brain/
     " class="cv">**Monaco JD**, Hwang GM, De Guzman RM, Blair HT, and
@@ -331,6 +341,7 @@ Collaborator: Kechen Zhang</p>
     * Neuron
     * Neural Computation
     * Hippocampus
+    * Scientific Reports
     * eLife
     * PeerJ
     * PLOS ONE
