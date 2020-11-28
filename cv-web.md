@@ -153,7 +153,7 @@ Collaborator: Kechen Zhang</p>
 * <a
     href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=
     false" class="cv">NSF/NCS FOUNDATIONS (BRAIN Initiative) Award No. 1835279,
-    2018--2020</a>
+    2018--2021</a>
     - *NCS-FO: Spatial intelligence for swarms based on hippocampal dynamics*
     - **PI:** Kechen Zhang, **Co-PIs**: Grace Hwang (JHU/APL); Robert W.
         Chalmers (JHU/APL), and Kevin Schultz (JHU/APL); **Research Associate:** Joseph
@@ -175,6 +175,12 @@ Collaborator: Kechen Zhang</p>
 
 ### Talks
 
+- “Spatial theta-phase coding in the lateral septum: a theory of allocentric
+    feedback during navigation.“ *Contributed Talk*. Neuromatch 3.0 Conference,
+    Online. *Upcoming*
+- “Computing path integration with oscillatory phase codes in biological and
+    artificial systems.“ *Data Blitz*. iNAV Symposium 2020, Online. October 7,
+    2020
 - “Can Transitory Neurodynamics Unify Learning Theories for Brains and
     Machines?“ *Invited Talk &amp; Panel Discussion*. Symposium on “How Can
     Dynamical Systems Neuroscience Reciprocally Advance Machine Learning?“, 6th
@@ -346,6 +352,7 @@ Collaborator: Kechen Zhang</p>
     * PeerJ
     * PLOS ONE
     * Neuroscience
+    * Neuroscience and Biobehavioral Reviews
     * Neurocomputing
     * Biological Cybernetics
     * IEEE Transactions in Biomedical Engineering
