@@ -9,6 +9,8 @@ set -ue
 
 USAGE="Usage: run -i|-e|pdf|edit|update"
 
+PDFOPEN="skimr"
+
 if [[ $# != 1 ]]
 then
     echo $USAGE
@@ -16,8 +18,6 @@ then
 fi
 
 case "$1" in
-
-pdf) xelatex cv >/dev/null && open cv.pdf ;;
 
 edit)
     if [[ -e Session.vim ]]; then
@@ -27,10 +27,16 @@ edit)
     fi
     ;;
 
+pdf)
+    xelatex --output-directory=build cv >/dev/null && \
+        $PDFOPEN cv.pdf
+    ;;
+
 update)
     xelatex --output-directory=build cv >/dev/null && \
         xelatex --output-directory=build cv >/dev/null && \
         cp build/cv.pdf ~/Sites/jdmonaco_com/files/ && \
+        cp build/cv.pdf ~/vitae/jobsearch/materials/cv.monaco.pdf && \
         cp cv-web.md ~/Sites/jdmonaco_com-pages/cv/index.md && \
         cp ../publications/pubs-web.md ~/Sites/jdmonaco_com-pages/pubs/index.md && \
         cd ~/Sites && run build_jdmonaco && run upload_jdmonaco && \

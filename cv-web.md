@@ -69,6 +69,9 @@ Collaborator: Kechen Zhang</p>
 
 ### Publications
 
+- **Monaco JD**, Rajan K, and Hwang GM. (*Invited Perspective; Submitted/under
+    consideration*). A brain basis of dynamical intelligence for AI and
+    computational neuroscience. *Nature Machine Intelligence*.
 - <a href="https://rdcu.be/b3lem" class="cv">**Monaco JD**, Hwang GM, Schultz
     KM, and Zhang K. (2020). Cognitive swarming in complex environments with
     attractor dynamics and oscillatory computing. *Biological Cybernetics*, 114,
@@ -124,21 +127,24 @@ Collaborator: Kechen Zhang</p>
 
 ### Preprints
 
+- <a href="https://arxiv.org/abs/2105.07284" class="cv">**Monaco JD**, Rajan K,
+    and Hwang GM. (2021). A brain basis of dynamical intelligence for AI and
+    computational neuroscience. *ArXiv Preprint*. arxiv:2105.07284.</a>
 - <a href="https://arxiv.org/abs/2003.13825" class="cv">
     Levenstein D, Alvarez VA, Amarasingham A, Azab H, Gerkin RC, Hasenstaub A,
     Iyer R, Jolivet RB, Marzen S, **Monaco JD**, Prinz AA, Quraishi S, Santamaria F,
     Shivkumar S, Singh MF, Stockton DB, Traub R, Rotstein HG, Nadim F, and Redish
     AD. (2020). On the role of theory and modeling in neuroscience.
-    *arXiv*. abs:&nbsp;2003.13825</a>
+    *ArXiv Preprint*. arxiv:2003.13825</a>
 - <a href="https://arxiv.org/abs/1909.06711" class="cv">**Monaco JD**, Hwang GM,
     Schultz KM, and Zhang K. (2019). Cognitive swarming in complex environments with
-    attractor dynamics and oscillatory computing. *arXiv*. abs:&nbsp;1909.06711</a>
+    attractor dynamics and oscillatory computing. *ArXiv Preprint*. arxiv:1909.06711</a>
 - <a href="http://doi.org/10.1101/764282" class="cv">Wang CH, **Monaco JD**,
     and Knierim JJ. (2019). Hippocampal place cells encode local surface texture
-    boundaries. *bioRxiv*. doi:&nbsp;10.1101/764282</a>
+    boundaries. *BioRxiv Preprint*. doi:&nbsp;10.1101/764282</a>
 - <a href="http://dx.doi.org/10.1101/211458" class="cv">**Monaco JD**,
     Blair HT, and Zhang K. (2017). Spatial theta cells in competitive burst
-    synchronization networks: Reference frames from phase codes. *bioRxiv*.
+    synchronization networks: Reference frames from phase codes. *BioRxiv Preprint*.
     doi:&nbsp;10.1101/211458.</a>
 
 ### Thesis
@@ -155,9 +161,9 @@ Collaborator: Kechen Zhang</p>
     false" class="cv">NSF/NCS FOUNDATIONS (BRAIN Initiative) Award No. 1835279,
     2018--2021</a>
     - *NCS-FO: Spatial intelligence for swarms based on hippocampal dynamics*
-    - **PI:** Kechen Zhang, **Co-PIs**: Grace Hwang (JHU/APL); Robert W.
-        Chalmers (JHU/APL), and Kevin Schultz (JHU/APL); **Research Associate:** Joseph
-        D. Monaco
+    - **PI:** Kechen Zhang, **Co-PIs**: Joseph D. Monaco, Robert W. Chalmers
+        (JHU/APL), and Kevin Schultz (JHU/APL); **Former Co-PIs:** Grace Hwang
+        (JHU/APL)
 * <a
     href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&i
     cde=42555668&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball="
@@ -175,9 +181,10 @@ Collaborator: Kechen Zhang</p>
 
 ### Talks
 
-- “Spatial theta-phase coding in the lateral septum: a theory of allocentric
-    feedback during navigation.“ *Contributed Talk*. Neuromatch 3.0 Conference,
-    Online. *Upcoming*
+- <a href="https://youtu.be/ZSpg-nhXjw0?t=24400" class="cv">“Spatial
+    theta-phase coding in the lateral septum: a theory of allocentric feedback
+    during navigation.“ *Contributed Talk*. Neuromatch 3.0 Conference, Online.
+    October 29, 2020</a>
 - “Computing path integration with oscillatory phase codes in biological and
     artificial systems.“ *Data Blitz*. iNAV Symposium 2020, Online. October 7,
     2020
@@ -341,11 +348,16 @@ Collaborator: Kechen Zhang</p>
     href="https://www.utsa.edu/SantamariaLab/Workshop/index.html" class="cv">Present
     and Future Frameworks of Theoretical Neuroscience</a>, UTSA, San Antonio, TX,
     Feb 3--7, 2019, *Postdoctoral participant*
-- Society for Neuroscience, *Postdoc Member (2011--present)*
+- Society for Neuroscience, *Postdoc Member (2011--2018)*
+- Society for Neuroscience, *Regular Member (2019)*
 - COSYNE 2016, *Review committee*
+- COSYNE 2020-2021, *Review committee*
 - Reviewer for journals including: 
     * Neuron
+    * Nature Machine Intelligence
     * Neural Computation
+    * Biological Cybernetics
+    * Neurocomputing
     * Hippocampus
     * Scientific Reports
     * eLife
@@ -353,13 +365,14 @@ Collaborator: Kechen Zhang</p>
     * PLOS ONE
     * Neuroscience
     * Neuroscience and Biobehavioral Reviews
-    * Neurocomputing
-    * Biological Cybernetics
     * IEEE Transactions in Biomedical Engineering
     * IEEE/INNS Neural Networks
 
 ### Mentoring/Teaching
 
+- Darius Carr, *Student intern*, *High-school scientific outreach program (2021)*
+- Armin Hadzic, *Engineer*, *Johns Hopkins University/Applied Physics Lab
+    (2020-present)*
 - Chia-Hsuan Wang, *Graduate student*, *Johns Hopkins University (2013-2015)*
 - Manning Zhang, *Undergraduate student*, *Shanghai Jiao Tong University (Summer
     2014)*
