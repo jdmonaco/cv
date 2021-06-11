@@ -69,9 +69,9 @@ Collaborator: Kechen Zhang</p>
 
 ### Publications
 
-- **Monaco JD**, Rajan K, and Hwang GM. (*Invited Perspective; Submitted/under
-    consideration*). A brain basis of dynamical intelligence for AI and
-    computational neuroscience. *Nature Machine Intelligence*.
+- **Monaco JD**, Rajan K, and Hwang GM. (Under review). A brain basis of
+    dynamical intelligence for AI and computational neuroscience. *Nature Machine
+    Intelligence*.
 - <a href="https://rdcu.be/b3lem" class="cv">**Monaco JD**, Hwang GM, Schultz
     KM, and Zhang K. (2020). Cognitive swarming in complex environments with
     attractor dynamics and oscillatory computing. *Biological Cybernetics*, 114,
