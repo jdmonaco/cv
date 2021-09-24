@@ -1,5 +1,9 @@
-Joseph Daniel Monaco, Ph.D.
----------------------------
+<div class="offset-by-two eight columns">
+<center>
+<h3><b>Joseph D. Monaco, Ph.D.</b></h3>
+<h5 style="margin-bottom: 1em;"><a href="http://jdmonaco.com/cv-monaco.pdf" class="cv"><b>Download CV (pdf)</b></a></h5>
+</center>
+
 
 > Johns Hopkins University School of Medicine  
 > Biomedical Engineering Department  
@@ -11,14 +15,11 @@ Joseph Daniel Monaco, Ph.D.
 > Web: [jdmonaco.com](http://jdmonaco.com)  
 > GitHub: [jdmonaco](https://github.com/jdmonaco)  
 > PubMed: [monaco_jd](http://jdmonaco.com/pubmed)  
-<!-- LinkedIn: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  -->
+> LinkedIn: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  
 > Google Scholar: [gceOLZEAAAAJ](http://jdmonaco.com/google-scholar)  
 > <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-0792-8322" href="https://orcid.org/0000-0003-0792-8322" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-0792-8322</a></div>
 
-> <a href="http://jdmonaco.com/cv-monaco.pdf" class="cv">[Download the PDF]</a>
-
-
-### Education
+<h5 style="text-align: center;">Education</h5>
 
 <p>Columbia University: Ph.D., Neurobiology &amp; Behavior, 2005-2009</p>
 <blockquote>
@@ -42,34 +43,34 @@ Advisor: William 'Chip' Levy <br />
 Echols Scholar</p>
 </blockquote>
 
-### Positions
+<h5 style="text-align: center;">Positions</h5>
 
 <p>Johns Hopkins University School of Medicine, 2019-present</p>
 <blockquote>
 <p>Research Associate<br />
-Department of Biomedical Engineering<br />
-PI: Kechen Zhang <br />
-Collaborators: Kathleen E. Cullen, JHU/Applied Physics Laboratory (JHU/APL)</p>
+Department of Biomedical Engineering<br /> </p>
+<!--PI: Kechen Zhang <br /> </p>-->
+<!--Collaborators: Kathleen E. Cullen, JHU/Applied Physics Laboratory (JHU/APL)</p>-->
 </blockquote>
 <p>Johns Hopkins University School of Medicine, 2013-2019</p>
 <blockquote>
 <p>Postdoctoral Fellow<br />
 Department of Biomedical Engineering<br />
-PI: Kechen Zhang, Ph.D. <br />
-Collaborators: Hugh T. Blair, David J. Foster, Mark N. Wu,
-Kathleen E. Cullen, JHU/APL</p>
+PI: Kechen Zhang, Ph.D. <br /> </p>
+<!--Collaborators: Hugh T. Blair, David J. Foster, Mark N. Wu,-->
+<!--Kathleen E. Cullen, JHU/APL</p>-->
 </blockquote>
 <p>Johns Hopkins University, 2009-2013</p>
 <blockquote>
 <p>Postdoctoral Fellow<br />
 Zanvyl Krieger Mind/Brain Institute<br />
-PI: James J. Knierim <br />
-Collaborator: Kechen Zhang</p>
+PI: James J. Knierim <br /></p>
+<!--Collaborator: Kechen Zhang</p>-->
 </blockquote>
 
-### Publications
+<h5 style="text-align: center;">Journal Publications</h5>
 
-- **Monaco JD**, Rajan K, and Hwang GM. (Under review). A brain basis of
+- **Monaco JD**, Rajan K, and Hwang GM. (In revision). A brain basis of
     dynamical intelligence for AI and computational neuroscience. *Nature Machine
     Intelligence*.
 - <a href="https://rdcu.be/b3lem" class="cv">**Monaco JD**, Hwang GM, Schultz
@@ -80,13 +81,6 @@ Collaborator: Kechen Zhang</p>
     **Monaco JD**, and Knierim JJ. (2020). Hippocampal place cells encode
     local surface texture boundaries. *Current Biology*, 30, 1-13.</a> <a
     href="https://doi.org/10.6084/m9.figshare.11800392">[code]</a>
-- <a href="https://doi.org/10.1117/12.2518966" class="cv">**Monaco JD**,
-    Hwang GM, Schultz KM, and Zhang K. (2019). Cognitive swarming: An approach
-    from the theoretical neuroscience of hippocampal function. *Proceedings
-    of SPIE (International society for optics and photonics) Defense \&
-    Commercial Sensing*. Micro- and Nanotechnology Sensors, Systems, and
-    Applications XI, 109822D, 1--10. doi:&nbsp;10.1117/12.2518966.</a> <a
-    href="http://jdmonaco.com/files/monaco-cognitive-swarming-2019.pdf">[pdf]</a>
 - <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco
     JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization
     codes from coupled rate-phase neurons. *PLOS Computational Biology*,
@@ -119,14 +113,33 @@ Collaborator: Kechen Zhang</p>
     Abbott LF, and Kahana MJ. (2007). Lexico-semantic structure and the
     recognition word-frequency effect. *Learning & Memory*, 14(3), 204–213.
     doi:&nbsp;10.1101/lm.363207</a>
+
+<h5 style="text-align: center;">Conference Papers</h5>
+
+- <a href="https://www.jhuapl.edu/Content/techdigest/pdf/V35-N04/35-04-Hwang.pdf"
+    class="cv">Hwang GM, Schultz KM, **Monaco JD**, and Zhang K. (2021).
+    Neuro-Inspired Dynamic Replanning in Swarms—Theoretical Neuroscience Extends
+    Swarming in Complex Environments. Johns Hopkins APL Technical Digest, 35,
+    443-447.</a>
+- <a href="https://doi.org/10.1117/12.2518966" class="cv">**Monaco JD**,
+    Hwang GM, Schultz KM, and Zhang K. (2019). Cognitive swarming: An approach
+    from the theoretical neuroscience of hippocampal function. *Proceedings
+    of SPIE (International society for optics and photonics) Defense \&
+    Commercial Sensing*. Micro- and Nanotechnology Sensors, Systems, and
+    Applications XI, 109822D, 1--10. doi:&nbsp;10.1117/12.2518966.</a> <a
+    href="http://jdmonaco.com/files/monaco-cognitive-swarming-2019.pdf">[pdf]</a>
 - <a href="http://dx.doi.org/10.1109/IJCNN.2003.1223655" class="cv">**Monaco
     JD** and Levy WB. (2003). T-maze training of a recurrent CA3 model reveals
     the necessity of novelty-based modulation of LTP in hippocampal region CA3.
     *Proceedings International Joint Conference on Neural Networks*, 1655–1660.
     doi:&nbsp;10.1109/IJCNN.2003.1223655</a>
 
-### Preprints
+<h5 style="text-align: center;">Preprints</h5>
 
+- <a href="https://arxiv.org/abs/2109.05545" class="cv">Buckley E, **Monaco
+    JD**, Schultz KM, Chalmers R, Hadzic A, Zhang K, Hwang GM, and Carr MD. (2021).
+    An interdisciplinary approach to high school curriculum development: Swarming
+    Powered by Neuroscience. *ArXiv Preprint*. arxiv:2109.05545.</a>
 - <a href="https://arxiv.org/abs/2105.07284" class="cv">**Monaco JD**, Rajan K,
     and Hwang GM. (2021). A brain basis of dynamical intelligence for AI and
     computational neuroscience. *ArXiv Preprint*. arxiv:2105.07284.</a>
@@ -147,14 +160,14 @@ Collaborator: Kechen Zhang</p>
     synchronization networks: Reference frames from phase codes. *BioRxiv Preprint*.
     doi:&nbsp;10.1101/211458.</a>
 
-### Thesis
+<h5 style="text-align: center;">Thesis</h5>
 
 - <a href="http://search.proquest.com/docview/304862872/abstract"
     class="cv">**Monaco JD**. (2009). Models and mechanisms for integrating cortical
     feature spaces. Ph.D. Dissertation, Columbia University. *ProQuest Publication
     No.&nbsp;AAT&nbsp;3393609*.</a>
 
-### Funding
+<h5 style="text-align: center;">Funding</h5>
 
 * <a
     href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=
@@ -179,7 +192,7 @@ Collaborator: Kechen Zhang</p>
     - **PI:** Kechen Zhang, **Co-PI:** David J. Foster, **Research Associate:**
         Joseph D. Monaco
 
-### Talks
+<h5 style="text-align: center;">Talks</h5>
 
 - <a href="https://youtu.be/ZSpg-nhXjw0?t=24400" class="cv">“Spatial
     theta-phase coding in the lateral septum: a theory of allocentric feedback
@@ -231,7 +244,7 @@ Collaborator: Kechen Zhang</p>
     spatial map formation and remapping by competing over grid cell inputs.” Thesis
     Seminar. Columbia University Medical Center, New York, NY. April 10, 2009.</a>
 
-### Conference Abstracts
+<h5 style="text-align: center;">Posters</h5>
 
 - <a
     href="http://www.cvent.com/events/6th-annual-brain-initiative-investigators-meeting/custom-116-4e2aadaa6cd549a3a4b53113cd172ad2.aspx" class="cv"> 
@@ -340,7 +353,7 @@ Collaborator: Kechen Zhang</p>
     synthase inhibitor ligand conformations. *NIH Poster Day*. Bethesda, MD. 
     August&nbsp;1997.
 
-### Professional
+<h5 style="text-align: center;">Professional</h5>
 
 - NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10,
     2019, *Participant*
@@ -368,7 +381,7 @@ Collaborator: Kechen Zhang</p>
     * IEEE Transactions in Biomedical Engineering
     * IEEE/INNS Neural Networks
 
-### Mentoring/Teaching
+<h5 style="text-align: center;">Mentoring/Teaching</h5>
 
 - Darius Carr, *Student intern*, *High-school scientific outreach program (2021)*
 - Armin Hadzic, *Engineer*, *Johns Hopkins University/Applied Physics Lab
@@ -380,7 +393,7 @@ Collaborator: Kechen Zhang</p>
 - Teaching Assistant (for Eve Marder), *Introduction to Neuroscience*, *Brandeis
     University (Fall 2004)*
 
-### Awards
+<h5 style="text-align: center;">Awards</h5>
 
 - IJCNN Student Paper Competition, First Place (2003)
 - John A. Harrison III Undergraduate Research Award (U.Va., 2002)
@@ -390,3 +403,5 @@ Collaborator: Kechen Zhang</p>
     Mathematics Competition (2nd Place Individual Calculus, 1999) &ndash; National
     Merit Scholarship Commended Student &ndash; AP Scholar with Distinction &ndash;
     State of Maryland Merit Scholastic Award</p></blockquote>
+
+</div>
