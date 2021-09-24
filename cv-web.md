@@ -1,9 +1,10 @@
 <div class="offset-by-two eight columns">
 <center>
 <h3><b>Joseph D. Monaco, Ph.D.</b></h3>
-<h5 style="margin-bottom: 1em;"><a href="http://jdmonaco.com/cv-monaco.pdf" class="cv"><b>Download CV (pdf)</b></a></h5>
+<h5 style="margin-bottom: 1em;">
+<a href="http://jdmonaco.com/cv-monaco.pdf" class="cv"><b>Download CV (pdf)</b></a>
+</h5>
 </center>
-
 
 > Johns Hopkins University School of Medicine  
 > Biomedical Engineering Department  
@@ -25,21 +26,21 @@
 <blockquote>
 <p>Center for Theoretical Neuroscience, Columbia University, New York, NY<br />
 Degrees: M.A. (2006), M.Phil. (2008), Ph.D. (2009)<br />
-Advisor: Laurence F. Abbott<br />
-Collaborators: Isabel Muzzio, Eric R. Kandel</p>
+Advisor: Larry Abbott<br /></p>
+<!--Collaborators: Isabel Muzzio, Eric R. Kandel</p>-->
 </blockquote>
 <p>Brandeis University, 2003-2005</p>
 <blockquote>
 <p>Volen Center for Complex Systems, Brandeis University, Waltham, MA<br />
 Graduate Program in Neuroscience, <em>Continued at Columbia University</em><br />
-Advisor: Laurence F. Abbott <br />
-Collaborator: Michael J. Kahana</p>
+Advisor: Larry Abbott <br /></p>
+<!--Collaborator: Michael J. Kahana</p>-->
 </blockquote>
 <p>University of Virginia, 1999-2003</p>
 <blockquote>
 <p>Lab. of Computational Neurodynamics, University of Virginia, Charlottesville, VA<br />
 Degrees: B.A. Mathematics; B.A. Cognitive Science <br />
-Advisor: William 'Chip' Levy <br />
+Advisor: William (Chip) Levy <br />
 Echols Scholar</p>
 </blockquote>
 
