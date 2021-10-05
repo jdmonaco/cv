@@ -38,8 +38,7 @@ update)
         cp build/cv.pdf ~/Sites/jdmonaco_com/files/ && \
         cp build/cv.pdf ~/vitae/jobsearch/materials/cv.monaco.pdf && \
         cp cv-web.md ~/Sites/jdmonaco_com-pages/cv/index.md && \
-        cp ../publications/pubs-web.md ~/Sites/jdmonaco_com-pages/pubs/index.md && \
-        cd ~/Sites && run build_jdmonaco && run upload_jdmonaco && \
+        cd ../publications && run update && \
         open http://jdmonaco.com/cv/
     ;;
 

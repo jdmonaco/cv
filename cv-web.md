@@ -71,16 +71,21 @@ PI: James J. Knierim <br /></p>
 
 <h5 style="text-align: center;">Journal Publications</h5>
 
+- Buckley E, **Monaco JD**, Schultz KM, Chalmers R, Hadzic A, Zhang K, Hwang
+    GM, and Carr MD. (Under review). An interdisciplinary approach to high school
+    curriculum development: Swarming Powered by Neuroscience. *Frontiers in
+    Education*.
 - **Monaco JD**, Rajan K, and Hwang GM. (In revision). A brain basis of
     dynamical intelligence for AI and computational neuroscience. *Nature Machine
     Intelligence*.
 - <a href="https://rdcu.be/b3lem" class="cv">**Monaco JD**, Hwang GM, Schultz
     KM, and Zhang K. (2020). Cognitive swarming in complex environments with
-    attractor dynamics and oscillatory computing. *Biological Cybernetics*, 114,
-    269-284. <nobr>doi:&nbsp;10.1007/s00422-020-00823-z.</nobr></a>
+    attractor dynamics and oscillatory computing. *Biological Cybernetics*,
+    114, 269--284. <nobr>doi:&nbsp;10.1007/s00422-020-00823-z</nobr></a> <a
+    href="https://github.com/jdmonaco/neuroswarms">[code]</a>
 - <a href="https://doi.org/10.1016/j.cub.2020.01.083" class="cv">Wang CH,
     **Monaco JD**, and Knierim JJ. (2020). Hippocampal place cells encode
-    local surface texture boundaries. *Current Biology*, 30, 1-13.</a> <a
+    local surface texture boundaries. *Current Biology*, 30, 1--13.</a> <a
     href="https://doi.org/10.6084/m9.figshare.11800392">[code]</a>
 - <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco
     JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization
@@ -91,20 +96,22 @@ PI: James J. Knierim <br /></p>
 - <a href="https://www.cell.com/cell/fulltext/S0092-8674(18)31228-5"
     class="cv">Tabuchi M, **Monaco JD**, Duan G, Bell BJ, Liu S, Zhang K, and Wu MN.
     (2018). Clock-generated temporal codes determine synaptic plasticity to control
-    sleep. *Cell*, 175(5), 1213-27. doi:&nbsp;10.1016/j.cell.2018.09.016.</a>
+    sleep. *Cell*, 175(5), 1213--27. doi:&nbsp;10.1016/j.cell.2018.09.016</a>
 - <a href="http://dx.doi.org/10.1038/nn.3687" class="cv">**Monaco JD**,
     Rao G, Roth ED, and Knierim JJ. (2014). Attentive scanning behavior
     drives one-trial potentiation of hippocampal place fields. *Nature
-    Neuroscience*, 17(5), 725–731. doi:&nbsp;10.1038/nn.3687.</a> <a
+    Neuroscience*, 17(5), 725--731. doi:&nbsp;10.1038/nn.3687</a> <a
     href="https://github.com/jdmonaco/scanning-paper">[code]</a>
 - <a href="http://dx.doi.org/10.3389/fncom.2011.00039" class="cv">**Monaco
     JD**, Knierim JJ, and Zhang K. (2011). Sensory feedback, error correction, and
     remapping in a multiple oscillator model of place cell activity. *Frontiers in
-    Computational Neuroscience*, 5:39. doi:&nbsp;10.3389/fncom.2011.00039.</a>
+    Computational Neuroscience*, 5:39. doi:&nbsp;10.3389/fncom.2011.00039</a> <a
+    href="https://senselab.med.yale.edu/ModelDB/showmodel?model=137676">[code]</a>
 - <a href="http://dx.doi.org/10.1523/JNEUROSCI.1433-11.2011" class="cv">**Monaco
     JD** and Abbott LF. (2011). Modular realignment of entorhinal grid cell activity
     as a basis for hippocampal remapping. *Journal of Neuroscience*, 31(25),
-    9414–25. doi:&nbsp;10.1523/JNEUROSCI.1433-11.2011</a>
+    9414--25. doi:&nbsp;10.1523/JNEUROSCI.1433-11.2011</a> <a 
+    href="http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=138951">[code]</a>
 - <a href="http://dx.doi.org/10.1371/journal.pbio.1000140" class="cv">Muzzio IA,
     Levita L, Kulkarni J, **Monaco J**, Kentros CG, Stead M, Abbott LF, and Kandel
     ER. (2009). Attention enhances the retrieval and stability of visuospatial and
@@ -112,27 +119,27 @@ PI: James J. Knierim <br /></p>
     e1000140. doi:&nbsp;10.1371/journal.pbio.1000140</a>
 - <a href="http://dx.doi.org/10.1101/lm.363207" class="cv">**Monaco JD**,
     Abbott LF, and Kahana MJ. (2007). Lexico-semantic structure and the
-    recognition word-frequency effect. *Learning & Memory*, 14(3), 204–213.
+    recognition word-frequency effect. *Learning & Memory*, 14(3), 204--213.
     doi:&nbsp;10.1101/lm.363207</a>
 
 <h5 style="text-align: center;">Conference Papers</h5>
 
 - <a href="https://www.jhuapl.edu/Content/techdigest/pdf/V35-N04/35-04-Hwang.pdf"
     class="cv">Hwang GM, Schultz KM, **Monaco JD**, and Zhang K. (2021).
-    Neuro-Inspired Dynamic Replanning in Swarms—Theoretical Neuroscience Extends
-    Swarming in Complex Environments. Johns Hopkins APL Technical Digest, 35,
-    443-447.</a>
+    Neuro-Inspired Dynamic Replanning in <nobr>Swarms---Theoretical</nobr>
+    Neuroscience Extends Swarming in Complex Environments. Johns Hopkins APL
+    Technical Digest, 35, 443--447.</a>
 - <a href="https://doi.org/10.1117/12.2518966" class="cv">**Monaco JD**,
     Hwang GM, Schultz KM, and Zhang K. (2019). Cognitive swarming: An approach
     from the theoretical neuroscience of hippocampal function. *Proceedings
     of SPIE (International society for optics and photonics) Defense \&
     Commercial Sensing*. Micro- and Nanotechnology Sensors, Systems, and
-    Applications XI, 109822D, 1--10. doi:&nbsp;10.1117/12.2518966.</a> <a
+    Applications XI, 109822D, 1--10. doi:&nbsp;10.1117/12.2518966</a> <a
     href="http://jdmonaco.com/files/monaco-cognitive-swarming-2019.pdf">[pdf]</a>
 - <a href="http://dx.doi.org/10.1109/IJCNN.2003.1223655" class="cv">**Monaco
     JD** and Levy WB. (2003). T-maze training of a recurrent CA3 model reveals
     the necessity of novelty-based modulation of LTP in hippocampal region CA3.
-    *Proceedings International Joint Conference on Neural Networks*, 1655–1660.
+    *Proceedings International Joint Conference on Neural Networks*, 1655--1660.
     doi:&nbsp;10.1109/IJCNN.2003.1223655</a>
 
 <h5 style="text-align: center;">Preprints</h5>
@@ -140,10 +147,10 @@ PI: James J. Knierim <br /></p>
 - <a href="https://arxiv.org/abs/2109.05545" class="cv">Buckley E, **Monaco
     JD**, Schultz KM, Chalmers R, Hadzic A, Zhang K, Hwang GM, and Carr MD. (2021).
     An interdisciplinary approach to high school curriculum development: Swarming
-    Powered by Neuroscience. *ArXiv Preprint*. arxiv:2109.05545.</a>
+    Powered by Neuroscience. *ArXiv Preprint*. arxiv:2109.05545</a>
 - <a href="https://arxiv.org/abs/2105.07284" class="cv">**Monaco JD**, Rajan K,
     and Hwang GM. (2021). A brain basis of dynamical intelligence for AI and
-    computational neuroscience. *ArXiv Preprint*. arxiv:2105.07284.</a>
+    computational neuroscience. *ArXiv Preprint*. arxiv:2105.07284</a>
 - <a href="https://arxiv.org/abs/2003.13825" class="cv">
     Levenstein D, Alvarez VA, Amarasingham A, Azab H, Gerkin RC, Hasenstaub A,
     Iyer R, Jolivet RB, Marzen S, **Monaco JD**, Prinz AA, Quraishi S, Santamaria F,
@@ -159,34 +166,32 @@ PI: James J. Knierim <br /></p>
 - <a href="http://dx.doi.org/10.1101/211458" class="cv">**Monaco JD**,
     Blair HT, and Zhang K. (2017). Spatial theta cells in competitive burst
     synchronization networks: Reference frames from phase codes. *BioRxiv Preprint*.
-    doi:&nbsp;10.1101/211458.</a>
+    doi:&nbsp;10.1101/211458</a>
 
 <h5 style="text-align: center;">Thesis</h5>
 
 - <a href="http://search.proquest.com/docview/304862872/abstract"
     class="cv">**Monaco JD**. (2009). Models and mechanisms for integrating cortical
     feature spaces. Ph.D. Dissertation, Columbia University. *ProQuest Publication
-    No.&nbsp;AAT&nbsp;3393609*.</a>
+    No.&nbsp;AAT&nbsp;3393609*.</a> <a 
+    href="https://jdmonaco.com/files/monaco-phdthesis-2009.pdf">[original]</a>
 
-<h5 style="text-align: center;">Funding</h5>
+<h5 style="text-align: center;">Funding History</h5>
 
-* <a
-    href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=
+* <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=
     false" class="cv">NSF/NCS FOUNDATIONS (BRAIN Initiative) Award No. 1835279,
     2018--2021</a>
     - *NCS-FO: Spatial intelligence for swarms based on hippocampal dynamics*
     - **PI:** Kechen Zhang, **Co-PIs**: Joseph D. Monaco, Robert W. Chalmers
         (JHU/APL), and Kevin Schultz (JHU/APL); **Former Co-PIs:** Grace Hwang
         (JHU/APL)
-* <a
-    href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&i
+* <a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&i
     cde=42555668&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball="
     class="cv">NIH/NINDS R03 Award No. NS109923--01, 2018--2020</a>
     - *Spiking network models of sharp-wave ripple sequences with gamma-locked
         attractor dynamics*
     - **PI:** Kechen Zhang; **Research Associate:** Joseph D. Monaco
-* <a
-    href="http://scienceoflearning.jhu.edu/research/learning-to-explore-paths-throug
+* <a href="http://scienceoflearning.jhu.edu/research/learning-to-explore-paths-throug
     h-space/" class="cv">Johns Hopkins Science of Learning Institute Award,
     2016--2018</a>
     - *Learning to explore paths through space*
@@ -215,8 +220,10 @@ PI: James J. Knierim <br /></p>
 - “Attractors, memory, and oscillations: Computational motifs of spatial
     learning.“ *Invited Talk*. Department of Biological Sciences, University of
     Texas at El Paso, El Paso, TX. January 31, 2020
-- <a
-    href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems
+- “Oscillations, attractors, and sequences: Extending hippocampal computations
+    to artificial systems.“ *Invited Lecture*. Kavli Neuroscience Discovery
+    Institute, Johns Hopkins University, Baltimore, MD. October 2, 2019
+- <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems
     -applications?SSO=1#session-15" class="cv">“Emergent dynamics of hippocampal
     circuitry as a basis for robust self-organized planning in mobile swarms.“
     *Invited Talk*. SPIE (International society for optics and photonics) 2019,
@@ -247,8 +254,7 @@ PI: James J. Knierim <br /></p>
 
 <h5 style="text-align: center;">Posters</h5>
 
-- <a
-    href="http://www.cvent.com/events/6th-annual-brain-initiative-investigators-meeting/custom-116-4e2aadaa6cd549a3a4b53113cd172ad2.aspx" class="cv"> 
+- <a href="http://www.cvent.com/events/6th-annual-brain-initiative-investigators-meeting/custom-116-4e2aadaa6cd549a3a4b53113cd172ad2.aspx" class="cv"> 
     **Monaco JD**, Hwang GM, Schultz K, Zhang K. (2020). Cognitive swarming in
     complex environments with attractor dynamics and oscillatory computing.
     *6th Annual BRAIN Initiative Investigators Meeting*. Online, with audio
