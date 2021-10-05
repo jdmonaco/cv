@@ -2,7 +2,7 @@
 <center>
 <h3><b>Joseph D. Monaco, Ph.D.</b></h3>
 <h5 style="margin-bottom: 1em;">
-<a href="http://jdmonaco.com/cv-monaco.pdf" class="cv"><b>Download CV (pdf)</b></a>
+<a href="https://jdmonaco.com/cv-monaco.pdf" class="cv"><b>Download CV (pdf)</b></a>
 </h5>
 </center>
 
