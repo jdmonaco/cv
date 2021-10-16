@@ -204,10 +204,11 @@
 - “Computing path integration with oscillatory phase codes in biological and
     artificial systems.“ *Data Blitz*. iNAV Symposium 2020, Online. October 7,
     2020
-- “Can Transitory Neurodynamics Unify Learning Theories for Brains and
-    Machines?“ *Invited Talk &amp; Panel Discussion*. Symposium on “How Can
-    Dynamical Systems Neuroscience Reciprocally Advance Machine Learning?“, 6th
-    Annual BRAIN Initiative Investigators Meeting, NIH, Online. June 1, 2020
+- <a href="https://youtu.be/2jy1ENYHRAw?t=901" class="cv">“Can Transitory
+    Neurodynamics Unify Learning Theories for Brains and Machines?“ *Invited
+    Talk &amp; Panel Discussion*. Symposium on “How Can Dynamical Systems
+    Neuroscience Reciprocally Advance Machine Learning?“, 6th Annual BRAIN
+    Initiative Investigators Meeting, NIH, Online. June 1, 2020</a>
 - “Computational Approaches to the Neural Dynamics of Time, Memory, and
     Behavior.“ *Invited Talk*. Department of Neuroscience, Medical Discovery Team
     for Optical Imaging, University of Minnesota, Online. May 18, 2020
