@@ -77,11 +77,11 @@
     attractor dynamics and oscillatory computing. *Biological Cybernetics*,
     114, 269--284. <nobr>doi:&nbsp;10.1007/s00422-020-00823-z</nobr></a> 
     <a href="https://github.com/jdmonaco/neuroswarms">[code]</a>
-- <a href="https://doi.org/10.1016/j.cub.2020.01.083" class="cv">Wang CH,
+- <a href="https://dx.doi.org/10.1016/j.cub.2020.01.083" class="cv">Wang CH,
     **Monaco JD**, and Knierim JJ. (2020). Hippocampal place cells encode
     local surface texture boundaries. *Current Biology*, 30, 1--13.</a> 
-    <a href="https://doi.org/10.6084/m9.figshare.11800392">[code]</a>
-- <a href="https://doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco
+    <a href="https://dx.doi.org/10.6084/m9.figshare.11800392">[code]</a>
+- <a href="https://dx.doi.org/10.1371/journal.pcbi.1006741" class="cv">**Monaco
     JD**, De Guzman RM, Blair HT, and Zhang K. (2019). Spatial synchronization
     codes from coupled rate-phase neurons. *PLOS Computational Biology*,
     15(1), e1006741. doi:&nbsp;10.1371/journal.pcbi.1006741</a> 
@@ -125,7 +125,7 @@
     Neuro-Inspired Dynamic Replanning in <nobr>Swarms---Theoretical</nobr>
     Neuroscience Extends Swarming in Complex Environments. Johns Hopkins APL
     Technical Digest, 35, 443--447.</a>
-- <a href="https://doi.org/10.1117/12.2518966" class="cv">**Monaco JD**,
+- <a href="https://dx.doi.org/10.1117/12.2518966" class="cv">**Monaco JD**,
     Hwang GM, Schultz KM, and Zhang K. (2019). Cognitive swarming: An approach
     from the theoretical neuroscience of hippocampal function. *Proceedings
     of SPIE (International society for optics and photonics) Defense \&
@@ -157,7 +157,7 @@
 - <a href="https://arxiv.org/abs/1909.06711" class="cv">**Monaco JD**, Hwang GM,
     Schultz KM, and Zhang K. (2019). Cognitive swarming in complex environments with
     attractor dynamics and oscillatory computing. *ArXiv Preprint*. arxiv:1909.06711</a>
-- <a href="https://doi.org/10.1101/764282" class="cv">Wang CH, **Monaco JD**,
+- <a href="https://dx.doi.org/10.1101/764282" class="cv">Wang CH, **Monaco JD**,
     and Knierim JJ. (2019). Hippocampal place cells encode local surface texture
     boundaries. *BioRxiv Preprint*. doi:&nbsp;10.1101/764282</a>
 - <a href="https://dx.doi.org/10.1101/211458" class="cv">**Monaco JD**,
