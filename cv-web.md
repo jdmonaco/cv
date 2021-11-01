@@ -141,6 +141,10 @@
 
 <h5 style="text-align: center;">Preprints</h5>
 
+- <a href="https://jdmonaco.com/files/hadzic-2021-arxiv-submission4006134.pdf"
+    class="cv">Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**.
+    (2021/Submitted). Bayesian optimization of distributed neurodynamical controller
+    models for spatial navigation. *ArXiv Preprint*. arxiv:submit/4006134</a>
 - <a href="https://arxiv.org/abs/2109.05545" class="cv">Buckley E, **Monaco
     JD**, Schultz KM, Chalmers R, Hadzic A, Zhang K, Hwang GM, and Carr MD. (2021).
     An interdisciplinary approach to high school curriculum development: Swarming
