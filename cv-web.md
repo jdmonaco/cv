@@ -17,6 +17,7 @@
 > <span>&#8594;</span> <b>GitHub</b>: [jdmonaco](https://github.com/jdmonaco)  
 > <span>&#8594;</span> <b>PubMed</b>: [monaco_jd](https://jdmonaco.com/pubmed)  
 > <span>&#8594;</span> <b>LinkedIn</b>: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  
+> <span>&#8594;</span> <b>Twitter</b>: [j_d_monaco](https://www.twitter.com/j_d_monaco)  
 > <span>&#8594;</span> <b>Google Scholar</b>: [gceOLZEAAAAJ](https://jdmonaco.com/google-scholar)  
 > <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-0792-8322" href="https://orcid.org/0000-0003-0792-8322" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-0792-8322</a></div>
 
@@ -141,10 +142,10 @@
 
 <h5 style="text-align: center;">Preprints</h5>
 
-- <a href="https://jdmonaco.com/files/hadzic-2021-arxiv-submission4006134.pdf"
-    class="cv">Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**.
-    (2021/Submitted). Bayesian optimization of distributed neurodynamical controller
-    models for spatial navigation. *ArXiv Preprint*. arxiv:submit/4006134</a>
+- <a href="https://arxiv.org/abs/2111.00599" class="cv">Hadzic A, Hwang GM,
+    Zhang K, Schultz KM, and **Monaco JD**. (2021). Bayesian optimization
+    of distributed neurodynamical controller models for spatial navigation. *ArXiv
+    Preprint*. arxiv:2111.00599</a>
 - <a href="https://arxiv.org/abs/2109.05545" class="cv">Buckley E, **Monaco
     JD**, Schultz KM, Chalmers R, Hadzic A, Zhang K, Hwang GM, and Carr MD. (2021).
     An interdisciplinary approach to high school curriculum development: Swarming
