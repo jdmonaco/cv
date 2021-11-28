@@ -66,10 +66,9 @@
 
 <h5 style="text-align: center;">Journal Publications</h5>
 
-- Buckley E, **Monaco JD**, Schultz KM, Chalmers R, Hadzic A, Zhang K, Hwang
-    GM, and Carr MD. (Under review). An interdisciplinary approach to high school
-    curriculum development: Swarming Powered by Neuroscience. *Frontiers in
-    Education*.
+- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (Submitted).
+    Bayesian optimization of distributed neurodynamical controller models for
+    spatial navigation. *Neurocomputing*.
 - **Monaco JD**, Rajan K, and Hwang GM. (In revision). A brain basis of
     dynamical intelligence for AI and computational neuroscience. *Nature Machine
     Intelligence*.
@@ -202,6 +201,10 @@
 
 <h5 style="text-align: center;">Talks</h5>
 
+- <a href="https://youtu.be/3mKkLksOyfk" class="cv">“Learning as swarming:
+      Cognitive flexibility from the neural dynamics of phase-coupled attractor
+    maps.“ *Contributed Talk*. Neuromatch 4.0 Conference, Online.
+    December 1, 2021</a>
 - <a href="https://youtu.be/ZSpg-nhXjw0?t=24400" class="cv">“Spatial
     theta-phase coding in the lateral septum: a theory of allocentric feedback
     during navigation.“ *Contributed Talk*. Neuromatch 3.0 Conference, Online.
