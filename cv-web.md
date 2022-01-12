@@ -368,6 +368,7 @@
 
 <h5 style="text-align: center;">Professional</h5>
 
+- NSF EFRI Review Panel, 2022, *Panelist*
 - NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10,
     2019, *Participant*
 - NSF/BRAIN Initiative Workshop: <a
@@ -380,6 +381,7 @@
 - COSYNE 2020-2021, *Review committee*
 - Reviewer for journals including: 
     * Neuron
+    * PLOS Computational Biology
     * Nature Machine Intelligence
     * Neural Computation
     * Biological Cybernetics
