@@ -66,9 +66,9 @@
 
 <h5 style="text-align: center;">Journal Publications</h5>
 
-- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (Submitted).
-    Bayesian optimization of distributed neurodynamical controller models for
-    spatial navigation. *Neurocomputing*.
+- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (In revision). Bayesian
+    optimization of distributed neurodynamical controller models for spatial
+    navigation. *Array*.</a>
 - **Monaco JD**, Rajan K, and Hwang GM. (In revision). A brain basis of
     dynamical intelligence for AI and computational neuroscience. *Nature Machine
     Intelligence*.
@@ -120,6 +120,10 @@
 
 <h5 style="text-align: center;">Conference Papers</h5>
 
+- <a href="" class="cv">Buckley E, **Monaco JD**, Schultz KM, Chalmers R, Hadzic
+    A, Zhang K, Hwang GM, and Carr MD. (2021). An interdisciplinary approach to high
+    school curriculum development: Swarming Powered by Neuroscience. Proceedings of
+    the 12th IEEE Integrated STEM Education Conference (ISEC).</a>
 - <a href="https://www.jhuapl.edu/Content/techdigest/pdf/V35-N04/35-04-Hwang.pdf"
     class="cv">Hwang GM, Schultz KM, **Monaco JD**, and Zhang K. (2021).
     Neuro-Inspired Dynamic Replanning in <nobr>Swarms---Theoretical</nobr>
@@ -201,6 +205,9 @@
 
 <h5 style="text-align: center;">Talks</h5>
 
+- “Theory-Driven Data Science to Understand the Neural Dynamics of Memory
+    and Behavior.“ *Invited Talk*. Department of Cell &amp; Systems Biology,
+    University of Toronto, Canada, Online. February 1, 2022
 - <a href="https://youtu.be/3mKkLksOyfk" class="cv">“Learning as swarming:
       Cognitive flexibility from the neural dynamics of phase-coupled attractor
     maps.“ *Contributed Talk*. Neuromatch 4.0 Conference, Online.
@@ -368,7 +375,7 @@
 
 <h5 style="text-align: center;">Professional</h5>
 
-- NSF EFRI Review Panel, 2022, *Panelist*
+- NSF EFRI Advisory Panel, 2022, *Panelist*
 - NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10,
     2019, *Participant*
 - NSF/BRAIN Initiative Workshop: <a
