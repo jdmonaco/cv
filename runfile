@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 set -ue
 
 #
@@ -7,23 +7,39 @@ set -ue
 # Add commands as test cases below.
 #
 
-USAGE="Usage: run -i|-e|pdf|edit|update"
+USAGE="Usage: run (-e | <command>) ..."
 
 PDFOPEN="skimr"
+VITAE="$HOME/Documents/Vitae"
+CVPATH="$VITAE/jobsearch/materials/cv-monaco.pdf"
+HLPATH="$VITAE/jobsearch/materials/cv-highlights.pdf"
 
-if [[ $# != 1 ]]
-then
-    echo $USAGE
+CMDHELP=$(
+    grep -Eo '^[[:alnum:]\|]+\s*).*' runfile | sed 's/)[# ]*/\\\\/' | column -s '\\' -t
+)
+
+if (( $# )); then
+    runcmd="$1"
+    shift
+else
+    echo -e "$USAGE\n\n$CMDHELP"
     exit 1
 fi
 
-case "$1" in
+
+# Add run commands as switch cases below. Do not make edits
+# outside of case blocks. Note: Optional args are available
+# as "${@}". If used, consider the first line in the block
+# as a usage statement.
+
+
+case "$runcmd" in
 
 edit)
     if [[ -e Session.vim ]]; then
         mvim -S Session.vim
     else
-        mvim --servername VIM -O cv.tex cv-web.md
+        mvim +Obsession --servername VIM -O cv.tex cv-web.md
     fi
     ;;
 
@@ -36,7 +52,7 @@ update)
     xelatex --output-directory=build cv >/dev/null && \
         xelatex --output-directory=build cv >/dev/null && \
         cp build/cv.pdf ~/Sites/jdmonaco_com/files/ && \
-        cp build/cv.pdf ~/vitae/jobsearch/materials/cv-monaco.pdf && \
+        cp build/cv.pdf "$CVPATH" && \
         cp cv-web.md ~/Sites/jdmonaco_com-pages/cv/index.md && \
         cd ../publications && run update && \
         open http://jdmonaco.com/cv/
@@ -45,11 +61,11 @@ update)
 highlights)
     xelatex --output-directory=build cv-highlights >/dev/null && \
       xelatex --output-directory=build cv-highlights >/dev/null && \
-      cp build/cv-highlights.pdf ~/vitae/jobsearch/materials/cv-highlights.pdf
+      cp build/cv-highlights.pdf "$HLPATH"
     ;;
 
 *)
-    echo $USAGE
+    echo -e "Error: unrecognized command: $runcmd\n$USAGE\n\n$CMDHELP"
     exit 1
     ;;
 

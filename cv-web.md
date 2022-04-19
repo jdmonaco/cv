@@ -46,7 +46,7 @@
 
 <h5 style="text-align: center;">Positions</h5>
 
-<b>Johns Hopkins University School of Medicine</b>, Baltimore, MD, 2019--present
+<b>Johns Hopkins University School of Medicine</b>, Baltimore, MD, 2019--2022
 <blockquote>
 • Research Associate (Faculty) <br />
 • Department of Biomedical Engineering <br />
@@ -66,9 +66,9 @@
 
 <h5 style="text-align: center;">Journal Publications</h5>
 
-- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (In revision). Bayesian
-    optimization of distributed neurodynamical controller models for spatial
-    navigation. *Array*.</a>
+- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (In revision).
+    Bayesian optimization of distributed neurodynamical controller models for
+    spatial navigation. *Array*.
 - **Monaco JD**, Rajan K, and Hwang GM. (In revision). A brain basis of
     dynamical intelligence for AI and computational neuroscience. *Nature Machine
     Intelligence*.
@@ -120,10 +120,15 @@
 
 <h5 style="text-align: center;">Conference Papers</h5>
 
-- <a href="" class="cv">Buckley E, **Monaco JD**, Schultz KM, Chalmers R, Hadzic
-    A, Zhang K, Hwang GM, and Carr MD. (2021). An interdisciplinary approach to high
-    school curriculum development: Swarming Powered by Neuroscience. Proceedings of
-    the 12th IEEE Integrated STEM Education Conference (ISEC).</a>
+- <a href="https://ieeexplore.ieee.org/browse/conferences/title"
+    class="cv">Buckley E, **Monaco JD**, Schultz KM, Chalmers R, Hadzic A, Zhang
+    K, Hwang GM, and Carr MD. (2022). An interdisciplinary approach to high school
+    curriculum development: Swarming Powered by Neuroscience. *Proceedings 2022
+    IEEE Integrated STEM Education Conference (ISEC'22)*.</a>
+    <a href="/files/buckley-2022-ISEC-author.pdf">[pdf]</a>
+    <a href="https://johnsam2.github.io/DayThree/index.html">[webdemo]</a>
+  - **First Place, Best Paper Award** 
+    <a href="/files/buckley-2022-ISEC-bestpaper.pdf">[pdf]</a>
 - <a href="https://www.jhuapl.edu/Content/techdigest/pdf/V35-N04/35-04-Hwang.pdf"
     class="cv">Hwang GM, Schultz KM, **Monaco JD**, and Zhang K. (2021).
     Neuro-Inspired Dynamic Replanning in <nobr>Swarms---Theoretical</nobr>
@@ -142,6 +147,7 @@
     region CA3. *Proceedings International Joint Conference on Neural
     Networks*, 1655--1660. doi:&nbsp;10.1109/IJCNN.2003.1223655</a> 
     <a href="/files/monaco-2003-tmaze.pdf">[pdf]</a>
+  - **First Place, Student Paper Award** 
 
 <h5 style="text-align: center;">Preprints</h5>
 
