@@ -66,6 +66,13 @@
 
 <h5 style="text-align: center;">Journal Publications</h5>
 
+- Levenstein D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin RC,
+    Hasenstaub A, Iyer R, Jolivet RB, Marzen~S, **Monaco JD**, Prinz AA, Quraishi
+    SA, Santamaria F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and
+    Redish AD. (Under review). On the role of theory and modeling in neuroscience.
+    *Journal of Neuroscience*.
+- **Monaco JD** and Hwang GM. (Under review). Neurodynamical computing at the
+    information boundaries of intelligent systems. *Cognitive Computation*.
 - Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (In revision).
     Bayesian optimization of distributed neurodynamical controller models for
     spatial navigation. *Array*.
@@ -391,7 +398,7 @@
 - Society for Neuroscience, *Postdoc Member (2011--2018)*
 - Society for Neuroscience, *Regular Member (2019)*
 - COSYNE 2016, *Review committee*
-- COSYNE 2020-2021, *Review committee*
+- COSYNE 2020--2021, *Review committee*
 - Reviewer for journals including: 
     * Neuron
     * PLOS Computational Biology
@@ -423,7 +430,8 @@
 
 <h5 style="text-align: center;">Awards</h5>
 
-- IJCNN Student Paper Competition, First Place (2003)
+- IEEE/ISEC Best Paper Competition, First Place (2022)
+- IEEE/IJCNN Student Paper Competition, First Place (2003)
 - John A. Harrison III Undergraduate Research Award (U.Va., 2002)
 - Echols Scholar at the University of Virginia (1999–2003)
 - Pre-university awards include:
