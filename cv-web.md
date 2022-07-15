@@ -69,16 +69,16 @@
 - Levenstein D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin RC,
     Hasenstaub A, Iyer R, Jolivet RB, Marzen~S, **Monaco JD**, Prinz AA, Quraishi
     SA, Santamaria F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and
-    Redish AD. (Under review). On the role of theory and modeling in neuroscience.
+    Redish AD. (*Under review*). On the role of theory and modeling in neuroscience.
     *Journal of Neuroscience*.
-- **Monaco JD** and Hwang GM. (Under review). Neurodynamical computing at the
+- **Monaco JD** and Hwang GM. (*In revision*). Neurodynamical computing at the
     information boundaries of intelligent systems. *Cognitive Computation*.
-- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (In revision).
+- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (*In press*).
     Bayesian optimization of distributed neurodynamical controller models for
     spatial navigation. *Array*.
-- **Monaco JD**, Rajan K, and Hwang GM. (In revision). A brain basis of
-    dynamical intelligence for AI and computational neuroscience. *Nature Machine
-    Intelligence*.
+<!--- **Monaco JD**, Rajan K, and Hwang GM. (*In revision*). A brain basis of-->
+    <!--dynamical intelligence for AI and computational neuroscience. *Nature Machine-->
+    <!--Intelligence*.-->
 - <a href="https://rdcu.be/b3lem" class="cv">**Monaco JD**, Hwang GM, Schultz
     KM, and Zhang K. (2020). Cognitive swarming in complex environments with
     attractor dynamics and oscillatory computing. *Biological Cybernetics*,
