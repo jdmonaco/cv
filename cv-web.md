@@ -6,20 +6,15 @@
 </h5>
 </center>
 
-> Johns Hopkins University School of Medicine  
-> Biomedical Engineering Department  
-> 720 Rutland Ave  
-> Traylor 407  
-> Baltimore, MD 21205-2109  
-> 
-> <span>&#8594;</span> <b>Email</b>: jmonaco [at] jhu [dot] edu  
+> <span>&#8594;</span> <b>Email</b>: joe [at] selfmotion [dot] net  
 > <span>&#8594;</span> <b>Web</b>: [jdmonaco.com](https://jdmonaco.com)  
 > <span>&#8594;</span> <b>GitHub</b>: [jdmonaco](https://github.com/jdmonaco)  
 > <span>&#8594;</span> <b>PubMed</b>: [monaco_jd](https://jdmonaco.com/pubmed)  
-> <span>&#8594;</span> <b>LinkedIn</b>: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  
 > <span>&#8594;</span> <b>Twitter</b>: [j_d_monaco](https://www.twitter.com/j_d_monaco)  
 > <span>&#8594;</span> <b>Google Scholar</b>: [gceOLZEAAAAJ](https://jdmonaco.com/google-scholar)  
 > <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-0792-8322" href="https://orcid.org/0000-0003-0792-8322" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-0792-8322</a></div>
+
+<!--<span>&#8594;</span> <b>LinkedIn</b>: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  -->
 
 <h5 style="text-align: center;">Education</h5>
 
@@ -73,9 +68,10 @@
     *Journal of Neuroscience*.
 - **Monaco JD** and Hwang GM. (*In revision*). Neurodynamical computing at the
     information boundaries of intelligent systems. *Cognitive Computation*.
-- Hadzic A, Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (*In press*).
-    Bayesian optimization of distributed neurodynamical controller models for
-    spatial navigation. *Array*.
+- <a href="https://doi.org/10.1016/j.array.2022.100218" class="cv">Hadzic A,
+    Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (2022). Bayesian optimization
+    of distributed neurodynamical controller models for spatial navigation. *Array*,
+    15, 100218. <nobr>doi:&nbsp;10.1016/j.array.2022.100218</nobr></a>
 <!--- **Monaco JD**, Rajan K, and Hwang GM. (*In revision*). A brain basis of-->
     <!--dynamical intelligence for AI and computational neuroscience. *Nature Machine-->
     <!--Intelligence*.-->
@@ -365,9 +361,8 @@
     head-scanning behavior linked to enhanced entorhinal activity. *Society
     for Neuroscience*. Washington, D.C. November 2011.</a>
     [[poster]](/files/rao_monaco_knierim_sfn11.pdf)
-- <a
-    href="https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00192/event_abstract
-    " class="cv">**Monaco JD**, Zhang K, Blair HT and Knierim JJ. (2010).
+- <a href="https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00192/event_abstract" 
+    class="cv">**Monaco JD**, Zhang K, Blair HT and Knierim JJ. (2010).
     Cue-based feedback enables remapping in a multiple oscillator model of
     place cell activity. *Cosyne*. Salt Lake City, UT. February 2010.</a>
     [[poster]](/files/oscillator_poster_cosyne10.pdf)
@@ -385,6 +380,12 @@
 - **Monaco JD** and Perlstein RP. (1997). Monte-Carlo analysis of deoxyhypusine
     synthase inhibitor ligand conformations. *NIH Poster Day*. Bethesda, MD. 
     August&nbsp;1997.
+
+<h5 style="text-align: center;">Patents</h5>
+
+- <a href="https://www.freepatentsonline.com/11378975.html" class="cv">Hwang
+    GM, Schultz KM, Chalmers RW, **Monaco JD**, Zhang K. Autonomous navigation
+    technology. US Patent 11,378,975 issued July 5, 2022. </a>
 
 <h5 style="text-align: center;">Professional</h5>
 
@@ -419,9 +420,9 @@
 <h5 style="text-align: center;">Mentoring/Teaching</h5>
 
 - Darius Carr, *Student intern*, *High-school scientific outreach program (2021)*
-- Armin Hadzic, *Engineer*, *Johns Hopkins University/Applied Physics Lab
-    (2020-present)*
-- Chia-Hsuan Wang, *Graduate student*, *Johns Hopkins University (2013-2015)*
+- Armin Hadzic, *ML Engineer*, *Johns Hopkins University Applied Physics Laboratory
+    (2020--2022)*
+- Chia-Hsuan Wang, *Graduate student*, *Johns Hopkins University (2013--2015)*
 - Manning Zhang, *Undergraduate student*, *Shanghai Jiao Tong University (Summer
     2014)*
 - Teaching Assistant, *Biology Laboratory*, *Brandeis University (Spring 2005)*
