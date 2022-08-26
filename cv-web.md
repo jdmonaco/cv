@@ -214,64 +214,69 @@
 
 <h5 style="text-align: center;">Talks</h5>
 
-- “Theory-Driven Data Science to Understand the Neural Dynamics of Memory
-    and Behavior.“ *Invited Talk*. Department of Cell &amp; Systems Biology,
+- <a href="/files/monaco-2022-afrl-quest-slides.pdf" class="cv">&ldquo;Brain
+    oscillations: From cortical computing to the existential nonduality of conscious
+    agents.&rdquo; *Invited Public Seminar*. Qualia Exploitation for Sensor Technology
+    (QuEST), Air Force Research Lab/Autonomous Capabilities Team 3 (AFRL/ACT3),
+    Online. August 26, 2022</a>
+- &ldquo;Theory-Driven Data Science to Understand the Neural Dynamics of Memory
+    and Behavior.&rdquo; *Invited Talk*. Department of Cell &amp; Systems Biology,
     University of Toronto, Canada, Online. February 1, 2022
-- <a href="https://youtu.be/3mKkLksOyfk" class="cv">“Learning as swarming:
+- <a href="https://youtu.be/3mKkLksOyfk" class="cv">&ldquo;Learning as swarming:
       Cognitive flexibility from the neural dynamics of phase-coupled attractor
-    maps.“ *Contributed Talk*. Neuromatch 4.0 Conference, Online.
+    maps.&rdquo; *Contributed Talk*. Neuromatch 4.0 Conference, Online.
     December 1, 2021</a>
-- <a href="https://youtu.be/ZSpg-nhXjw0?t=24400" class="cv">“Spatial
+- <a href="https://youtu.be/ZSpg-nhXjw0?t=24400" class="cv">&ldquo;Spatial
     theta-phase coding in the lateral septum: a theory of allocentric feedback
-    during navigation.“ *Contributed Talk*. Neuromatch 3.0 Conference, Online.
+    during navigation.&rdquo; *Contributed Talk*. Neuromatch 3.0 Conference, Online.
     October 29, 2020</a>
-- “Computing path integration with oscillatory phase codes in biological and
-    artificial systems.“ *Data Blitz*. iNAV Symposium 2020, Online. October 7,
+- &ldquo;Computing path integration with oscillatory phase codes in biological and
+    artificial systems.&rdquo; *Data Blitz*. iNAV Symposium 2020, Online. October 7,
     2020
-- <a href="https://youtu.be/2jy1ENYHRAw?t=901" class="cv">“Can Transitory
-    Neurodynamics Unify Learning Theories for Brains and Machines?“ *Invited
-    Talk &amp; Panel Discussion*. Symposium on “How Can Dynamical Systems
-    Neuroscience Reciprocally Advance Machine Learning?“, 6th Annual BRAIN
+- <a href="https://youtu.be/2jy1ENYHRAw?t=901" class="cv">&ldquo;Can Transitory
+    Neurodynamics Unify Learning Theories for Brains and Machines?&rdquo; *Invited
+    Talk &amp; Panel Discussion*. Symposium on &ldquo;How Can Dynamical Systems
+    Neuroscience Reciprocally Advance Machine Learning?&rdquo;, 6th Annual BRAIN
     Initiative Investigators Meeting, NIH, Online. June 1, 2020</a>
-- “Computational Approaches to the Neural Dynamics of Time, Memory, and
-    Behavior.“ *Invited Talk*. Department of Neuroscience, Medical Discovery Team
+- &ldquo;Computational Approaches to the Neural Dynamics of Time, Memory, and
+    Behavior.&rdquo; *Invited Talk*. Department of Neuroscience, Medical Discovery Team
     for Optical Imaging, University of Minnesota, Online. May 18, 2020
-- “Computational Mechanisms of Memory: Linking Behavior, Space, & Time.“
+- &ldquo;Computational Mechanisms of Memory: Linking Behavior, Space, & Time.&rdquo;
     *Invited Talk*. Department of Psychology, University of Nevada, Las Vegas, NV.
     February 24, 2020
-- “Attractors, memory, and oscillations: Computational motifs of spatial
-    learning.“ *Invited Talk*. Department of Biological Sciences, University of
+- &ldquo;Attractors, memory, and oscillations: Computational motifs of spatial
+    learning.&rdquo; *Invited Talk*. Department of Biological Sciences, University of
     Texas at El Paso, El Paso, TX. January 31, 2020
-- “Oscillations, attractors, and sequences: Extending hippocampal computations
-    to artificial systems.“ *Invited Lecture*. Kavli Neuroscience Discovery
+- &ldquo;Oscillations, attractors, and sequences: Extending hippocampal computations
+    to artificial systems.&rdquo; *Invited Lecture*. Kavli Neuroscience Discovery
     Institute, Johns Hopkins University, Baltimore, MD. October 2, 2019
 - <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems
-    -applications?SSO=1#session-15" class="cv">“Emergent dynamics of hippocampal
-    circuitry as a basis for robust self-organized planning in mobile swarms.“
+    -applications?SSO=1#session-15" class="cv">&ldquo;Emergent dynamics of hippocampal
+    circuitry as a basis for robust self-organized planning in mobile swarms.&rdquo;
     *Invited Talk*. SPIE (International society for optics and photonics) 2019,
     *Brain-Inspired Self-Organized Control of Multi-Agent Systems*, Baltimore, MD.
     April 17, 2019.</a>
-- “Hippocampal circuits for space, memory, and navigation: From minimal models
-    to biologically inferred networks.“ *Invited Talk*. Department of Pharmacology,
+- &ldquo;Hippocampal circuits for space, memory, and navigation: From minimal models
+    to biologically inferred networks.&rdquo; *Invited Talk*. Department of Pharmacology,
     University of Maryland, Baltimore, MD. January 22, 2016.
-- “Stopping to look: How attentive scanning behavior reveals the formation of
-    new memories.” *Retreat Research Talk*. Neuroscience Department, Johns Hopkins
+- &ldquo;Stopping to look: How attentive scanning behavior reveals the formation of
+    new memories.&rdquo; *Retreat Research Talk*. Neuroscience Department, Johns Hopkins
     University, St. Michaels, MD. September 6, 2014.
 - <a href="/files/mbi-seminar-abstract.pdf"
-    class="cv">“Landmark influence: How attention to sensory cues stabilizes and
-    updates the hippocampal cognitive representation of space.” *Advanced Researcher
+    class="cv">&ldquo;Landmark influence: How attention to sensory cues stabilizes and
+    updates the hippocampal cognitive representation of space.&rdquo; *Advanced Researcher
     Seminar*. Krieger Mind/Brain Institute, Johns Hopkins University, Baltimore, MD.
     April 21, 2014.</a>
-- <a href="/files/ScanningSlide.pdf" class="cv">“Head scans
-    drive the formation and potentiation of place fields during exploration.” 38th
+- <a href="/files/ScanningSlide.pdf" class="cv">&ldquo;Head scans
+    drive the formation and potentiation of place fields during exploration.&rdquo; 38th
     Annual Winter Conference on Neurobiology of Learning & Memory, Park City, UT.
     January 3, 2014.</a>
 - <a href="https://www.gatsby.ucl.ac.uk/workshopjune2010/abstractmonaco.htm"
-    class="cv">“Medial versus lateral modes for reconfiguring hippocampal
-    representations.” Grid Cells: Formation and Function. Gatsby Computational
+    class="cv">&ldquo;Medial versus lateral modes for reconfiguring hippocampal
+    representations.&rdquo; Grid Cells: Formation and Function. Gatsby Computational
     Neuroscience Unit, UCL, UK. July 1, 2010.</a>
-- <a href="https://dx.doi.org/10.6084/m9.figshare.693750" class="cv">“Rapid
-    spatial map formation and remapping by competing over grid cell inputs.” Thesis
+- <a href="https://dx.doi.org/10.6084/m9.figshare.693750" class="cv">&ldquo;Rapid
+    spatial map formation and remapping by competing over grid cell inputs.&rdquo; Thesis
     Seminar. Columbia University Medical Center, New York, NY. April 10, 2009.</a>
 
 <h5 style="text-align: center;">Posters</h5>
