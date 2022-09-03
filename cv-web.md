@@ -216,9 +216,9 @@
 
 - <a href="/files/monaco-2022-afrl-quest-slides.pdf" class="cv">&ldquo;Brain
     oscillations: From cortical computing to the existential nonduality of conscious
-    agents.&rdquo; *Invited Public Seminar*. Qualia Exploitation for Sensor Technology
-    (QuEST), Air Force Research Lab/Autonomous Capabilities Team 3 (AFRL/ACT3),
-    Online. August 26, 2022</a>
+    agents.&rdquo; *Invited Public Seminar*. Qualia Exploitation for Sensor
+    Technology (QuEST), Air Force Research Lab/Autonomous Capabilities Team 3
+    (AFRL/ACT3), Online. August 26, 2022</a>
 - &ldquo;Theory-Driven Data Science to Understand the Neural Dynamics of Memory
     and Behavior.&rdquo; *Invited Talk*. Department of Cell &amp; Systems Biology,
     University of Toronto, Canada, Online. February 1, 2022
