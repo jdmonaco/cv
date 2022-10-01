@@ -1,0 +1,1609 @@
+%! TEX program = xelatex
+%
+% Curriculum vitae for Joseph D. Monaco
+%
+\documentclass[10pt]{article}
+
+\usepackage{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[hidelinks,xetex]{hyperref}
+\usepackage{multirow}
+\usepackage{sectsty}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{soul}
+\usepackage{fontspec}
+
+% Page geometry formatting
+\raggedbottom
+\raggedright
+\textheight=9in
+\setlength{\tabcolsep}{0in}
+\addtolength{\footskip}{.3in}
+\addtolength{\voffset}{-.4in}
+\addtolength{\textheight}{.4in}
+\addtolength{\hoffset}{-.25in}
+\addtolength{\textwidth}{.2in}
+
+% Define colors
+\definecolor{hopkinsblue}{RGB}{0,48,130}
+\definecolor{lightblue}{rgb}{.88,.92,.97}
+\definecolor{lightgold}{rgb}{1,.80,0}
+\definecolor{lightred}{rgb}{1,.3,.2}
+\definecolor{lightgray}{rgb}{.80,.80,.80}
+\definecolor{dimgray}{rgb}{.50,.50,.50}
+\definecolor{darkgray}{rgb}{.30,.30,.30}
+
+% Set up highlighting and underlining
+\sethlcolor{lightblue}
+\setul{0.13ex}{}
+
+% Choose font package
+\setmainfont[Ligatures=TeX]{Helvetica Neue LT Std} 
+
+% Section section* formatting
+\sectionfont{\large\color{hopkinsblue}\bfseries}
+\subsectionfont{\vspace{-1ex}\color{hopkinsblue}\normalsize\bfseries}
+
+% Formatting macros
+\newcommand{\itemtitle}[1]{{\color{hopkinsblue}\ul{#1}}}
+\newcommand{\unpubtitle}[1]{{\color{hopkinsblue} #1}}
+\newcommand{\itemnote}[1]{
+  \begin{description}
+    \item[$\rightarrow$] \hspace{.09in}{\color{darkgray}\it #1}
+  \end{description}
+}
+\newcommand{\joehl}[1]{\hl{\textbf{#1}}}
+\newcommand{\doi}[1]{{\color{darkgray}doi:}~{\color{dimgray}\texttt{#1}}}
+\newcommand{\arxiv}[1]{\emph{ArXiv Preprint}.
+  {\color{darkgray}arxiv:}{\color{dimgray}\texttt{#1}}}
+\newcommand{\aurl}[1]{{\color{dimgray}\texttt{#1}}}
+\newcommand{\researchnote}[1]{
+  \begin{description}
+    \item[] {\hspace{2.2ex}\color{darkgray} #1}
+  \end{description}
+}
+\newcommand{\researchactivity}[4]{
+  \begin{minipage}[t]{\textwidth}
+    \begin{tabular}{@{\hspace{2ex}}l>{\raggedright\arraybackslash}p{.8\textwidth}}
+      \makebox[1.2in][l]{#1} & \textbf{#2:}
+      ``\unpubtitle{#3}'' 
+    \end{tabular}
+  \researchnote{\hspace{1ex} #4}
+  \end{minipage}
+  \medbreak
+}
+\newcommand{\whitepaper}[4]{
+  \begin{minipage}[t]{\textwidth}
+    \begin{tabular}{@{\hspace{2ex}}l>{\raggedright\arraybackslash}p{.8\textwidth}}
+      \makebox[1.2in][l]{#1} & \textbf{White Paper:} #2.
+      ``\unpubtitle{#3}'' 
+    \end{tabular}
+  \researchnote{\hspace{1ex} #4}
+  \end{minipage}
+  \medbreak
+}
+\newcommand{\lefttabline}[3]{\hspace{2ex}\makebox[#1][l]{#2} #3\\}
+
+% PDF document info and setup
+\hypersetup{
+  baseurl=https://jdmonaco.com/cv-monaco.pdf,
+  pdftitle=Curriculum Vitae for Joseph D. Monaco,
+  pdfauthor=Joseph D. Monaco,
+  pdfdisplaydoctitle=true,
+  pdfpagemode=UseThumbs,
+  pdfstartview=FitV,
+  pdfpagelayout=TwoColumnLeft,
+  pdftoolbar=false,
+  pdfwindowui=false,
+  pdfcenterwindow=true,
+}
+
+% "See section ..." macro
+\newcommand{\see}[1]{[\textcolor{hopkinsblue}{p.\pageref{sec:#1}}]}
+\newcommand{\cfonly}[1]{\textcolor{hopkinsblue}{\emph{\nameref{sec:#1}} on p.\pageref{sec:#1}}}
+\newcommand{\cf}[1]{\textcolor{hopkinsblue}{See \emph{\nameref{sec:#1}} on p.\pageref{sec:#1}}}
+\newcommand{\cfcf}[2]{\textcolor{hopkinsblue}{See \emph{\nameref{sec:#1}} on
+  p.\pageref{sec:#1} and \emph{\nameref{sec:#2}} on p.\pageref{sec:#2}}}
+
+% Typesetting
+\setlength{\parskip}{0.8em}
+
+
+\begin{document}
+
+\begin{center}
+  \textbf{\LARGE\color{hopkinsblue} Joseph D. Monaco, Ph.D.} \\[0.1in]
+  1028 Pier Pointe Ldng \\
+  Baltimore, Maryland 21230 United States \\
+  \textsc{Mobile:} \href{tel:16172725668}{\color{hopkinsblue}\texttt{617.272.5668}} \\
+  \textsc{Email:} \href{mailto:joe@selfmotion.net}{\color{hopkinsblue}\texttt{joe@selfmotion.net}}
+  \vspace{.1in}
+\end{center}
+%\thispagestyle{empty}
+
+\vspace{-.2in}
+\section*{Duties \& Requirements}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
+
+\subsection*{Duties --- HSA/Program Officer}
+\label{sec:duties}
+
+\begin{itemize}
+  \item[-] \emph{Perform scientific and administrative reviews and analyses of
+    applications/proposals from a programmatic viewpoint.}
+\end{itemize}
+
+In 2021, I contributed to the programmatic development of a competitive NSF EFRI
+program topic. In 2022, I served on the preliminary and final review panels
+for that EFRI topic and as an ad-hoc reviewer for the NSF CAREER program. From
+2016--2021, I served three times on the Review Committee for the Computational
+Systems Neuroscience (Cosyne) conference. \cf{service}.
+
+\begin{itemize}
+  \item[-] \emph{Consult with and advise grantees/contractors during preparation
+    of applications/proposals and provide guidance on program issues.}
+\end{itemize}
+
+From 2018--2022, I met with various program directors from the Navy (ONR) and
+the NSF to receive advice on the preparation of applications and discussed in
+detail how to maximize program relevance. Based on this experience, I wrote or
+co-wrote and submitted a number of whitepapers and grant applications at various
+levels of project size and budget. Through these discussions and the subsequent
+development and programmatic review of my submitted applications, I gained
+substantial knowledge of the role of program officers in guiding investigators
+as they develop applications so as to align with mission criteria and funding
+priorities of the agency. \cf{resprogram}.
+
+\begin{itemize}
+  \item[-] \emph{Develop, coordinate and administer grants, cooperative
+      agreements, and contracts established to fulfill the mission of the Branch and
+    Division.}
+\end{itemize}
+
+In 2014, I worked with program directors and technical staff at IARPA as an
+outside consultant and contributed intellectually to the development of RFIs and
+solicitations at that agency. \cf{service}
+
+\begin{itemize}
+  \item[-] \emph{Visit universities, research institutions, commercial
+      organizations, other government agencies, entrepreneur/innovation centers, and
+      public and private organizations to promote and explain the objectives of the
+    program.}
+\end{itemize}
+
+Since 2009, I have delivered numerous seminars and invited lectures at various
+top research universities---e.g., the University of Minnesota in 2020 and
+the University of Toronto in 2022---and public organizations---e.g., the
+Neuromatch Conference series from 2020--2021 and the US Air Force Research
+Laboratory (AFRL) in 2022---at the national and international levels to promote
+and explain the objectives and findings of my research program. \cf{talks}.
+
+Furthermore, I have visited extensively with private commercial innovation
+centers including the Johns Hopkins University Applied Physics Laboratory
+(JHUAPL)~\see{press} for collaborative efforts to develop federal funding
+applications and manage the resulting cross-divisional research, outreach, and
+educational projects. \cfcf{resprogram}{eduprogram}. My extensive experience
+in persuasive presentation of scientific concepts, objectives, and findings
+to varied academic, commercial, and learner groups will directly translate to
+communication and outreach of extramural program objectives.
+
+\subsection*{Basic Experience Requirements}
+\label{sec:basicreqs}
+
+\begin{itemize}
+  \item[-] \emph{Demonstrated independence in planning, organizing, and
+conducting biomedical behavioral health-related research.}
+  \item[-] \emph{Served effectively, in research program administration and
+acquired an understanding of the history, interests, internal dynamics, and
+relationships of organizations in which health research is conducted.}
+\end{itemize}
+
+%This experience may be gained as a principal investigator of a grant or
+%contract, or may otherwise be gained through active involvement in initiating
+%research projects, developing protocols, conducting studies, documenting
+%findings, interpreting results in a published report (journal), supervising
+%staff, and managing the budget.
+
+From 2019--2022, as Research Associate faculty in the Johns Hopkins University
+School of Medicine (JHU/SOM)~\see{job1}, I served as principal investigator
+(or co-PI) of multiple federal grant-awarded projects that I initiated
+independently, including a NIH/NINDS R03 award and a NSF/NCS FOUNDATIONS
+award, which is part of the US BRAIN Initiative. These projects investigated,
+respectively, physiological mechanisms underlying cognitive mapping and episodic
+memory formation, and theoretical advances in the understanding of neural
+oscillations as a basis of self-organizing spatiotemporal activity patterns
+in brains. \cf{funding}. During that time, I also independently initiated new
+collaborations and planned and developed several other research projects,
+leading to a cross-disciplinary NSF application in 2020 and an internal JHU
+application in 2022. \cf{resprogram}.
+
+To manage these projects, I developed protocols including reference
+computational models, conducted data analyses, supervised and mentored graduate
+students and junior staff~\see{mentoring}, and administered the grants by
+coordinating with JHU administrators, integrating and writing progress reports
+for the agencies, applying for no-cost extensions, and depositing published
+papers in agency-hosted archives such as the NSF Public Access Repository. The
+following peer-reviewed publications resulted from these projects:
+%
+\begin{quote}
+  • Hadzic, Hwang, Zhang, Schultz, Monaco (2022) \emph{Array}. \\
+  • Buckley, Monaco, Schultz, Chalmers, Hadzic, Zhang (2022) In: IEEE
+  Integrated STEM Education Conference (ISEC'22). \\
+  • Schultz, Villafañe-Delgado, Reilly, Saksena, Hwang (2022) In: Emergent
+  Behavior in System of Systems Engineering. \\
+  • Hwang, Schultz, Monaco, Zhang (2021) \emph{JHUAPL Technical Digest}. \\ 
+  • Monaco, Hwang, Schultz, Zhang (2020) \emph{Biological Cybernetics}. \\ 
+  • Monaco, Hwang, Schultz, Zhang (2019) In: International Society for
+  Photonics (SPIE'19). \\
+\end{quote}
+%
+\cf{pubs} for complete publication details, including two additional
+pending publications in review or revision stages. The first author
+(Hadzic) of the first paper above was a JHUAPL junior staff member whom I
+mentored~\see{mentoring}.
+
+From 2016--2018, as a JHU/SOM Postdoctoral Fellow~\see{job2}, I independently
+initiated collaborations and research projects resulting in an internal
+JHU Science of Learning Institute award~\see{previnternalsupport} and the
+development and submission of two external (NIH and NSF) applications that
+were awarded starting FY19. \cfcf{funding}{resprogram}. In that time, I
+additionally conceived and coordinated a large collaborative project proposal
+among 8 labs across JHU that was selectively funded by DARPA/BTO and targeted
+noninvasive stimulation of neuroplasticity for health-related interventions and
+augmentation~\see{genc}.
+
+From 2014--2016, I conducted a computational modeling and neural data analysis
+study in which I developed neural coding protocols, documented my findings, and
+interpreted the results in a substantial original research article integrating
+multiple convergent methodological approaches that I carried from preprint to
+high-impact publication:
+
+\begin{quote}
+  • Monaco, De Guzman, Blair, Zhang (2019) \emph{PLOS Computational Biology}. \\ 
+  • Monaco, Blair, Zhang (2017) \emph{bioRxiv}. \\ 
+\end{quote}
+%
+\cf{pubs} for complete publication details. This 2019 publication laid the
+theoretical and experimental groundwork for establishing my collaboration with
+JHUAPL, the resultant NSF-awarded project~\see{funding}, my co-organization
+of and participation in a well-attended NIH BRAIN Investigators symposium in
+2020~\see{symposium}, and my interactions with NSF program directors that led
+to my extramural contributions to the programmatic development and review of a
+competitively funded NSF EFRI topic from 2020--2022~\see{programsvc}.
+
+From 2009--2014, as a JHU Mind/Brain Institute (JHU/MBI) Postdoctoral
+Fellow~\see{job3}, I conducted a statistical modeling study of neurobehavioral
+datasets and developed protocols for behavioral quantification of rats
+performing spatial navigation experiments. My study provided the first evidence
+for mammalian long-term memory formation tied to individual behaviors (i.e.,
+lateral head-scanning movements). In collaboration with my postdoctoral lab, I
+interpreted and published my findings in high-impact journals:
+
+\begin{quote}
+  • Monaco, Rao, Roth, Knierim (2014) \emph{Nature Neuroscience}. \\ 
+  • Wang, Monaco, Knierim (2020) \emph{Current Biology}. \\ 
+\end{quote}
+%
+\cf{pubs} for complete publication details. The first author (Wang) of the
+second paper above was a graduate student whom I mentored~\see{mentoring}.
+My head-scanning study provided the basis for my 2010 application and 2011
+resubmission of a NIH NRSA Postdoctoral Fellowship (F32)~\see{nrsa}, as guided
+by discussions that I initiated with NINDS PO Jim Gnadt.
+
+In summary, from 2010 to the present, I have developed, executed, and
+administered an independent, growing program in health-related preclinical
+neuroscience and neural data science research. This programmatic evolution
+relied on manifold extended interactions with program officers at various
+federal funding agencies. Through this experience, I have gained a substantial
+understanding of the history, interests, internal dynamics, and relationships
+within and between funding organizations, and of the public service performed by
+program officers.
+
+
+\subsection*{Requirements for the GS-12 Level}
+
+\begin{itemize}
+  \item[-] \emph{One year of independent health research beyond the doctoral
+degree and one year of health research program administration.}
+\end{itemize}
+ 
+As described above under \textcolor{hopkinsblue}{\emph{\nameref{sec:basicreqs}}}
+and below under \textcolor{hopkinsblue}{\emph{\nameref{sec:resprogram}}},
+I have three years of Research Associate faculty experience developing
+and administering an independent cross-divisional and interdisciplinary
+research program~\see{job1}, five years of postdoctoral experience performing
+preclinical health-related neuroscience research~\see{job2}, and five years of
+postdoctoral experience in statistical neurobehavioral modeling and neural data
+science~\see{job3}. 
+
+In particular, I have$\ldots$
+%
+\begin{itemize}
+  \item[•] Served as principal investigator or equivalent on competitively
+    awarded grants from 2016--2021: \cf{funding};
+  \item[•] Independently developed research projects, and demonstrated
+    primary authorship of five original peer-reviewed research publications
+    from 2011--present, including in top journals like Nature Neuroscience:
+    \cfcf{resprogram}{pubs}; and
+  \item[•] Held a faculty research position in Biomedical Engineering from
+    2019--2022: \cf{job1}.
+\end{itemize}
+
+
+\subsection*{Requirements for the GS-13 Level}
+
+\begin{itemize}
+  \item[-] \emph{Managed significant independent research projects}.
+    \itemnote{\cfcf{basicreqs}{resprogram}.}
+  \item[-] \emph{Supervised graduate researchers and junior technical staff}.
+    \itemnote{\cf{mentoring}.}
+  \item[-] \emph{Published in refereed journals}. \itemnote{\cf{pubs}.}
+  \item[-] \emph{Presented published work to scientific organizations}.
+    \itemnote{\cfcf{talks}{presentations}.}
+  \item[-] \emph{Served as a reviewer on peer-review panels and journals}.
+    \itemnote{\cfcf{service}{programsvc}.}
+  \item[-] \emph{Held the position of Assistant or Associate Professor or
+      equivalent}. \itemnote{\cf{cv} and the above-linked sections to assess the
+        depth and breadth of my academic credentials. Note that, as of 2019, the
+        JHU/SOM Provost for Postdoctoral Affairs evaluated my C.V. as being equivalent
+        to a mid-tenure-track Assistant Professor, i.e., approximately 3 years from
+        tenure and promotion to Associate Professor rank. Given my experience accrued
+        in the three years since that evaluation, I would estimate that my position as
+        of 2022 should be fairly judged as equivalent to a recently tenured Associate
+      Professor.}
+  \end{itemize}
+
+My professional experience in the academic environment of the JHU/SOM Department
+of Biomedical Engineering has involved each of the listed requirements
+above, particularly with respect to the Research Asssociate faculty position
+that I held from 2019--2022~\see{job1}. The summaries above starting with
+\cfonly{basicreqs} provide additional context, and the linked sections indicated
+next to the arrows under each requirement provide further supporting details.
+
+
+\subsection*{Requirements for the GS-14 Level}
+
+\begin{itemize}
+  \item[-] \emph{At least one year of professional experience that demonstrates
+      extensive scientific expertise incorporating research experience with
+      varied responsibilities for providing leadership in a scientific area, and
+      functioning as a leader for a variety of efforts, such as directing research
+      and coordinating committee and teaching activities, and organizing and
+    chairing sessions at national scientific meetings.}
+  \item[-] \emph{Served as an appointed member of a scientific peer-review panel
+    or editorial board.} \itemnote{\cf{programsvc}.}
+  \item[-] \emph{Held the position of Associate Professor, Professor or
+      equivalent.} \itemnote{\cf{cv} and also my note under the last listed
+      requirement for the GS-13 level above.}
+\end{itemize}
+
+I have three years of professional experience as a Research Associate~\see{job1}
+and five years of experience as a Postdoctoral Fellow~\see{job2} in which
+I employed my extensive research experience-based scientific expertise to
+undertake responsibilities for my independently developed portfolio of
+leadership efforts in computational and theoretical neuroscience and related
+subfields of control theory, autonomous systems, embodied cognition, and
+artificial intelligence. While these leadership efforts have been
+described above in response to other duties and requirements, they are also
+detailed in \cfonly{resprogram}, \cfonly{service}, \cfonly{presentations}, and
+\cfonly{eduprogram}. Recognition of some of these efforts---including \emph{Fast
+Company} magazine ranking JHUAPL as the \#3 ``Most Innovative Workplace''
+based on my NSF-funded project---is detailed under \cfonly{recognition}.
+
+Selected examples of my research-based scientific leadership efforts include the
+following:
+%
+\begin{itemize}
+  \item Directed research conducted by my student mentees~\see{mentoring}
+    and key personnel or co-investigators on my funded research
+    projects~\see{resprogram}.
+  \item Delivered invited research-based talks at national and international
+    scientific meetings and organizations~\see{natltalks}, e.g., AFRL (Sept 2022),
+    University of Toronto (Feb 2022), NIH BRAIN Investigators Meeting (June 2020),
+    JHU Kavli Neuroscience Discovery Institute (Oct 2019).
+  \item Contributed talks presenting novel theoretical integration of scientific
+    findings to international scientific/educational meetings~\see{intltalks}, e.g.,
+    Neuromatch Conference 3.0 (Oct 2020) and 4.0 (Dec 2021).
+  \item Served on the Review Committee for the Cosyne conference (2016, 2020,
+    2021)~\see{confsvc}.
+  \item Provided scientific peer-review for top computational neuroscience,
+    biology, and artificial intelligence journals including Neuron, eLife, PLOS
+    Computational Biology, Nature Machine Intelligence, and Neural Computation
+    (with the honorific of `Communicator', reserved for highly impactful peer
+    reviewers)~\see{service}.
+  \item Invited to provide inputs to guide programmatic development of DARPA/MTO
+    MEC (Jan 2022)
+  \item Invited and served as a reviewer on multiple NSF panels and as an ad-hoc
+    reviewer to evaluate funding applications according to scientific merit and
+    programmatic criteria (2021--2022)~\see{programsvc}.
+  \item Provided feedback to the NSF to help establish criteria and standards
+    for logistical discussion plans for panels with difficult multidisciplinary,
+    multiday workloads (April 2022).
+  \item Invited and participated in the NSF Workshop on Present and Future
+    Frameworks for Theoretical Neuroscience (Feb 2019)~\see{natltalks} and
+    contributed to a working-group preprint on the role of theory in neuroscience
+    (Levenstein, et al. 2020)~\see{preprints} that is currently under review at
+    the Journal of Neuroscience~\see{pubs}.
+  \item Proposed and co-organized national scientific and educational symposia,
+    e.g., at the NIH BRAIN Investigators Meeting (June 2020)~\see{natltalks}
+    and as part of the JHUAPL STEM Academy Program funded by my NSF-funded
+    collaborative project (Jan 2021)~\see{eduprogram}.
+  \item Across the foregoing efforts, I have sought to convey overarching
+    guidance on emerging directions and caveats regarding methods, approaches, and
+    questions for neuroscience and related subfields.
+\end{itemize}
+
+
+%\pagebreak
+\section*{Self-Assessment Questionnaire}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
+
+\begin{enumerate}
+  \item I qualify for this position because I have completed all requirements
+    for and successfully obtained a Ph.D. in Neurobiology \& Behavior from Columbia
+    University in 2009.
+  \item I confirm that I meet the basic experience requirements for all grades.
+  \item Qualifying experience is described above under \cfonly{basicreqs}.
+  \item I obtained a Ph.D. in Neurobiology \& Behavior from Columbia University
+    in 2009.
+  \item My qualifying experience occurred in an Academic Environment,
+    as described above under \cfonly{basicreqs} and detailed below under
+    \cfonly{workexp} with respect to my roles as a Research Associate,
+    Postdoctoral Fellow, and Graduate Research Assistant at R1 research
+    universities including Brandeis, Columbia, and Johns Hopkins.
+  \item \emph{ibid.}
+  \item \emph{ibid.}
+  \item Job duties, related skills, and responsibilities for the listed
+    qualifying positions are listed in detail within the corresponding
+    position-related sections starting under \cfonly{workexp}.
+  \item Listed areas of scientific expertise span my training, publications, and
+    awarded grants as described above under \cfonly{basicreqs} and detailed below
+    under \cfonly{workexp} and \cfonly{pubs}.
+  \item My Ph.D. was granted by the Department of Neurobiology \& Behavior at
+    Columbia University, where I conducted my doctoral studies as a Graduate
+    Research Assistant in the Center for Theoretical Neuroscience as described
+    under \cfonly{education}.
+\end{enumerate}
+
+For assessment items 11--37, supporting details for each skill or capability are
+provided in the notes below the corresponding item.
+
+\begin{enumerate}
+  \setcounter{enumi}{10}
+  \item Analyze the scientific merit of current and projected research programs. 
+    \itemnote{Extramural contributor to development of funding programs at IARPA
+    and the NSF~\see{programsvc}.}
+  \item Analyze trends and new scientific fields to assess the adequacy of
+    research being conducted and proposed in a given area.
+    \itemnote{My education was grounded in mathematics and
+      philosophy~\see{education}, which has allowed me to build methods that I use
+      in my research from scratch and to assess their inferential utility, e.g.,
+      with respect to statistical validity, etc. As I developed my independent
+      research program~\see{resprogram}, I gained substantial experience
+      evaluating current trends in methods, approaches, and scientific questions
+    in current and emerging fields.}
+  \item Identify and recommend the program direction of new research.
+    \itemnote{In nearly 23 years of experience in neuroscience
+      research~\see{education}~\see{pubs}~\see{resprogram}, I have developed deep
+      intuitions and agility in recognizing and evaluating new lines of research.
+      My interdisciplinary projects have allowed me to make distinctions between
+      approaches make good-faith recommendations on the potential strengths of new
+    research.}
+  \item Identify gaps in scientific research.
+    \itemnote{As described for the previous two items, my interdisciplinary
+      research and long history in neuroscience~\see{education}~\see{pubs} and
+      related fields has informed my ability to assess the current state of the
+      science. In particular, my theoretical interests inform how I survey for
+    epistemic gaps based on processes of inductive reasoning.}
+  \item Manage the development of organizational or research group policies in
+    response to changes in levels of funding or legislative/program changes.
+    \itemnote{Based on my extended history of interactions with program officers
+      as described above in \cfonly{duties} and \cfonly{basicreqs}, I have extensive
+      familiarity with organizational policies and requirements at funding agencies in
+    response to funding level changes due to legislation or other factors.}
+  \item Monitor scientific progress of research or clinical programs to assure
+    that objectives are met.
+    \itemnote{Given my experience, particularly as JHU/SOM Research
+      Associate~\see{job1}, I have had to continually monitor scientific progress in
+      internally and externally funded research projects at varied levels of budget
+      and scope, e.g., for small team projects like my JHU/SLI award~\see{sli} and larger
+    projects like my NSF award~\see{nsf}.}
+  \item Provide guidance or interpret regulations and funding policies regarding
+    biomedical, behavioral health, or health-related research.
+    \itemnote{As described above under \cfonly{duties}, my extensive
+      interactions with program officers and federal funding agencies has deeply
+      informed my ability to assess and interpret policy effects for health-releated
+    research.}
+  \item To verify your level of experience for the previous seven (7) questions,
+    please list the name, email address, and phone number of someone who we can
+    contact to get more information.
+    \itemnote{Prof. Knierim was my postdoctoral supervisor from
+      2009--2014~\see{job3}, and he is familiar and up-to-date with my current
+    levels of experience and expertise.}
+  \item Administer unsolicited grant/contract proposals and provide support
+    regarding funding options and areas of program emphasis.
+    \itemnote{As described above under \cfonly{duties} and below under
+      \cfonly{programsvc}, my extensive interactions with program officers and my
+      service on merit-review panels has given me substantial knowledge about the
+      processes involved in unsolicited proposals and has informed my ability to
+    support funding options aligned with program priorities.}
+  \item Appoint and manage grants, contracts, or cooperative agreements review
+    panels.
+    \itemnote{My participation on multiple federal merit-review
+      panels~\see{programsvc}---in addition to observing the processes that my spouse
+      (see note for item \#27 below) goes through to do these tasks as a federal
+      funding agency program officer---has given me substantive exposure to grants
+      administration processes related to the logistics of appointing panels for
+      these purposes. This exposure has provided me knowledge that will
+    translate to performance of these tasks.}
+  \item Evaluate the technical and scientific merit of funding applications and
+    proposals being submitted for approval.
+    \itemnote{My extensive background in health-related research and scientific
+      review based in the highly contentious and multidisciplinary field of
+      neuroscience~\see{education}~\see{resprogram}~\see{service} has provided me
+      world-class preparation for evaluating the technical and scientific merit of
+    funding applications.}
+  \item Review applications for funding created by others to ensure they have
+    been prepared properly.
+    \itemnote{I have prepared numerous funding applications and grant proposals
+      intended for various funding agencies~\see{funding}~\see{resprogram}, which has
+      given me substantial real-world experience and knowledge regarding the proper
+    preparation of funding applications.}
+  \item Recommend and distribute research funding for new research
+    initiatives/efforts.
+    \itemnote{My knowledge and familiarity with the processes of recommending
+      and distributing research funding derive from my interactions with program
+      officers as recommendations are being finalized~\see{funding} and from
+      observing my spouse (see note for item \#27 below) perform this role at the
+    level of federal funding agencies.}
+  \item Manage research fund distribution amongst competing interests within an
+    organization.
+    \itemnote{\emph{ibid.}}
+  \item Obtain independent grant funding for research from either the private or
+    public sector.
+    \itemnote{I have successfully obtained independent research funding from
+      public sector agencies~\see{funding} and have submitted several applications to
+    private foundations.}
+  \item Write or co-write research grants.
+    \itemnote{I have extensive experience writing varied forms of grant
+    proposals and funding applications. \cf{resprogram}.}
+  \item Have you ever served as a Program/Project Officer responsible for
+    developing, coordinating, and administering grants, cooperative agreements and
+    contracts?
+    \itemnote{I have only served in academic environments. Though I should note
+      that my spouse is a program officer at another agency, so some of my familiarity
+    with the role comes through that relationship.}
+  \item Deliver presentations to senior medical/health practitioners,
+    professional societies, and academia on pertinent matters relating to
+    biomedical, behavioral health, or clinical health-related research.
+    \itemnote{As described above under \cfonly{duties} and \cfonly{basicreqs},
+      I have extensive experience in scientific communication in many settings to
+      varied audiences including professional, academic, and educational groups.
+    \cfcf{talks}{presentations}.}
+  \item Prepare major components of position papers or reviews on policy or
+    critical scientific issues related to biomedical, behavioral health, or clinical
+    health-related research.
+    \itemnote{I have written original research articles across the extent of my
+      career, and I have more recently taken to writing higher-level perspective-style
+      review papers that give broader views of critical scientific problems and
+      questions. My extensive writing experience will translate to preparation of
+      position papers, policy reviews, etc., related to scientific or health-related
+    issues. \cfcf{pubs}{preprints}.}
+  \item Present briefings on research to high level officials providing multiple
+    alternatives and advice on the best course of action.
+    \itemnote{See notes for items \#17, \#19, \#28, and \#29 above.}
+  \item Write reports, evaluations, summary statements, or correspondences as a
+    part of a review process.
+    \itemnote{As described in the notes for items \#21, \#22, and \#29 and
+      my experience writing summary statements on review panels~\see{programsvc},
+      I have extensive knowledge, experience, and skill in evaluating proposals
+      within a review process and in writing clearly about scientific, technical, and
+      health-related topics. These skills will translate to the writing of reports and
+    summary statements.}
+  \item Coach and mentor staff engaged in biomedical, behavioral health, or
+    clinical health-related research.
+    \itemnote{\cf{mentoring}.}
+  \item Create project plans, including project scope, goals, tasks, resources,
+    schedules, costs, contingencies, and communications.
+    \itemnote{\cf{resprogram}.}
+  \item Manage and direct multiple research or project teams concurrently.
+    \itemnote{In the narrative summaries provided above under \cfonly{duties}
+      and \cfonly{basicreqs}, most of the activities that I described occurred
+    concurrently or overlapping in time to some extent.}
+  \item Manage research or project execution to ensure adherence to budget,
+    schedule, and scope.
+    \itemnote{I have extensive experience managing and co-managing projects of
+      varied scale, from small teams to large cross-divisional collaborations,
+    including scheduling, budget, and scope of work. \cf{resprogram}.}
+  \item Monitor the performance of research or project team members, providing,
+    and documenting technical feedback.
+    \itemnote{As noted for item \#35, my experience in research project
+      management also extends to interacting usefully with team members by listening
+      to them, monitoring their progress, and providing constructive and helpful
+    feedback at appropriate times.}
+  \item Resolve conflicts, differences, or problems among colleagues,
+    subordinates, or team members.
+    \itemnote{I have worked to resolve conflicts and differences in approach
+      between team members in research projects of various size and scope.
+    \cfcf{resprogram}{mentoring}.}
+\end{enumerate}
+
+ 
+\pagebreak
+\section*{Work Experience}
+\label{sec:workexp}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
+
+\section{JHU/SOM Research Associate }
+\label{sec:job1}
+
+\begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+  \textbf{Research Associate (Faculty)} & 733 North Broadway \\
+  \textbf{Johns Hopkins University School of Medicine} & Edward D. Miller Research Building \\
+  Department of Biomedical Engineering & Baltimore, MD \\
+\end{tabular*}
+\\[.1in]
+\textbf{7/2019 -- 6/2022 \\ Full-Time Equivalent, 40--80 Hours/Week} \\
+
+
+\subsection*{Job Duties, Related Skills, and Responsibilities}
+
+\begin{itemize}
+  \item[-] Initiated research collaborations and continued grant application efforts
+  \item[-] Developed computational models of autonomous neural control
+  \item[-] Presented research findings in conference presentations, invited talks, and published articles
+  \item[-] Delivered invited talks at NIH BRAIN Investigators Meeting symposium and the Air Force Research Lab
+  \item[-] Interpreted research about artificial intelligence, swarm cognition, and neuroethology
+  \item[-] Supervised high-school and masters students in computational methods
+  \item[-] Directed research conduct, budget, and administration as co-PI of NSF-awarded project
+  \item[-] Primary and senior authorships on peer-reviewed papers on neural control systems
+  \item[-] Responsible for most operational aspects of my sponsor lab (3 years)
+  \item[-] Responsible for multiple scientific projects and grant application efforts
+  \item[-] Served as reviewer for top journals, conferences, and funding panels
+  \item[-] Demonstrated extensive scientific expertise and leadership in funding panels, invited talks, and grants 
+  \item[-] Coordinated teaching activities to support STEM component of NSF project
+\end{itemize}
+
+
+
+\vspace{.2in}
+\hrule
+\section{JHU/SOM Postdoctoral Fellow}
+\label{sec:job2}
+
+\begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+  \textbf{Postdoctoral Fellow} & 733 North Broadway \\
+  \textbf{Johns Hopkins University School of Medicine} & Edward D. Miller Research Building \\
+  Department of Biomedical Engineering & Baltimore, MD \\
+\end{tabular*}
+\\[.1in]
+\textbf{8/2014 -- 6/2019 \\ Full-Time Equivalent, 40--80 Hours/Week} \\
+
+
+\subsection*{Job Duties, Related Skills, and Responsibilities}
+
+\begin{itemize}
+  \item[-] Independently developed research collaborations and organized grant efforts 
+  \item[-] Developed analysis protocols and conducted computational modeling studies 
+  \item[-] Presented scientific research findings at conferences and in published papers 
+  \item[-] Supervised an exchange student in masters program
+  \item[-] Principal investigator for my internal JHU project
+  \item[-] First and second authorships on peer-reviewed research articles
+  \item[-] Responsible for operating aspects of my sponsor lab by conducting multiple projects and grant efforts 
+  \item[-] Demonstrated research-driven leadership to coordinate collaborations
+  \item[-] Served as peer reviewer for research journals
+  \item[-] Directed research activities to coordinate preliminary work for proposals
+\end{itemize}
+
+
+
+\vspace{.2in}
+\hrule
+\section{JHU/MBI Postdoctoral Fellow}
+\label{sec:job3}
+
+\begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+  \textbf{Postdoctoral Fellow} & 3400 N. Charles Street \\
+  \textbf{Johns Hopkins University} & Krieger Hall \\
+  Zanvyl Krieger Mind/Brain Institute & Baltimore, MD \\
+\end{tabular*}
+\\[.1in]
+\textbf{7/2009 -- 7/2014 \\ Full-Time Equivalent, 40--80 Hours/Week} \\
+
+\subsection*{Job Duties, Related Skills, and Responsibilities}
+
+\begin{itemize}
+  \item[-] Initiated computational neuroscience research projects to investigate the oscillatory interference theory of temporal coding for path integration
+  \item[-] Developed protocols and analysis pipelines for quantifying a particular investigatory behavior in rats during spatial navigation tasks
+  \item[-] Conducted research studies using neuroinformatics and neurobehavioral data analysis to discover abehavioral basis of memory formation
+  \item[-] Documented analysis and modeling findings in my lab notebooks, lab meeting presentations, scientific conferences, and published research articles
+  \item[-] Interpreted published research results in the fields of neural coding, pulse-coupled networks, behavioral ethology, and place cell physiology
+  \item[-] Independently developed distinct research projects based on detailed quantification of behavior in experiments and abstract theoretical models of neural coding
+  \item[-] Primary authorship of two peer-reviewed journal articles
+  \item[-] Responsible for conducting nonoverlapping modeling and analysis projects over the same timeframe
+  \item[-] Supervised a graduate student research assistant who learned to use my analysis protocols and pipelines for their thesis work
+  \item[-] Presented results from my thesis work at a scientific conference
+  \item[-] Served as a peer reviewer for several research journals
+  \item[-] Directed the research activities of my student mentee for their thesis work
+\end{itemize}
+
+
+
+\pagebreak
+%\vspace{.2in}
+\hrule
+\section{Columbia Graduate Research Assistant}
+\label{sec:job4}
+
+\begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+  \textbf{Graduate Research Assistant} & 3227 Broadway \\
+  \textbf{Columbia University} & Jerome L. Greene Science Center \\
+  Center for Theoretical Neuroscience & New York, NY \\
+\end{tabular*}
+\\[.1in]
+\textbf{8/2005 -- 6/2009 \\ Full-Time Equivalent, 40--80 Hours/Week} \\
+
+
+\subsection*{Job Duties, Related Skills, and Responsibilities}
+
+\begin{itemize}
+  \item[-] Initiated multiple interrelated subprojects contributing to my doctoral thesis
+  \item[-] Developed a series of protocols for quantifying hippocampal remapping in random foraging experiments to support and strengthen computational modeling results
+  \item[-] Conducted computational modeling studies of spatial navigation and the neural coding of space in the hippocampus and entorhinal cortex of rodents
+  \item[-] Documented modeling and data analysis findings in lab notebook, lab meeting presentations, presentation materials, and published papers
+  \item[-] Interpreted research literatures of experimental, theoretical, and computational approaches to investigating spatial memory and hippocampal function
+  \item[-] Independently developed theoretical and computational modeling research projects toward the completion of my doctoral studies
+  \item[-] Primary authorship of an original research article describing the main results of my thesis work that was published in a peer-reviewed journal
+\end{itemize}
+
+
+
+\vspace{.2in}
+\hrule
+\section{Brandeis Graduate Research Assistant}
+\label{sec:job5}
+
+\begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+  \textbf{Graduate Research Assistant} & 415 South Street \\
+  \textbf{Brandeis University} & Volen National Center for Complex Systems \\
+  Department of Biology & Waltham, MA \\
+\end{tabular*}
+\\[.1in]
+\textbf{8/2003 -- 7/2005 \\ Full-Time Equivalent, 40--80 Hours/Week} \\
+
+
+\subsection*{Job Duties, Related Skills, and Responsibilities}
+
+\begin{itemize}
+  \item[-] Initiated rotation research projects in three different labs based on distinct questions and methodological (computational) approaches
+  \item[-] Developed protocols for a rotation lab to facilitate data analysis with the statistical inference programs that I developed for their data
+  \item[-] Conducted modeling and data analysis studies in neuroscience and cognitive psychology
+  \item[-] Documented my findings in lab notebooks, lab meeting presentations, and similar venues throughout my rotations
+  \item[-] Interpreted published research literature in many subfields of neuroscience, computational methods, and statistical and machine learning
+  \item[-] Independently developed projects including a doctoral qualifying proposal, several rotation projects, and modeling projects in my graduate lab
+  \item[-] Primary authorship of a peer-reviewed research paper based on modeling results from a rotation project
+  \item[-] Responsible for multiple projects including rotation projects, qualifying proposal, and new seedling project after joining my graduate lab
+  \item[-] Coordinated teaching activities, including extra review sessions, for an introductory neuroscience course and a biology laboratory course with professors and other teaching assistants
+\end{itemize}
+
+
+\vspace{.2in}
+\hrule
+\section{U.Va. Undergraduate Research Assistant}
+\label{sec:job6}
+
+\begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+  \textbf{Undergraduate Research Assistant} & 2028 Cobb Hall \\
+  \textbf{University of Virginia} & Laboratory of Computational Neurodynamics \\
+  Department of Neurosurgery & Charlottesville, VA \\
+\end{tabular*}
+\\[.1in]
+\textbf{6/2000 -- 7/2003 \\ Part-Time, 20 Hours/Week} \\
+
+
+\subsection*{Job Duties, Related Skills, and Responsibilities}
+
+\begin{itemize}
+  \item[-] Initiated computational modeling projects based on the lab’s existing simulation software to investigate new questions about hippocampal sequence learning
+  \item[-] Conducted modeling studies examining limitations of goal-directed sequence learning and recall in a detailed spiking network model of CA3 hippocampus
+  \item[-] Documented extensive findings in code, lab meeting presentations, and my research notebooks
+  \item[-] Interpreted published literature in the fields of hippocampal physiology and anatomy, spatial navigation and place cells, and episodic memory
+  \item[-] Presented the findings of my modeling study as a conference poster and paper at a major internationalconference for neural networks
+\end{itemize}
+
+
+\vspace{.2in}
+\hrule
+\section{NIH Research Intern (This is a federal job)}
+\label{sec:job7}
+
+\begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+  \textbf{High-School Research Intern} & 6555 Rock Spring Drive \\
+  \textbf{NIH/CIT} & Building 12A \\
+  Center for Molecular Modeling & Bethesda, MD \\
+\end{tabular*}
+\\[.1in]
+\textbf{Summers 1996 -- 1997 \\ Part-Time, 20 Hours/Week \\ Grade: GS-1} \\
+
+
+\subsection*{Job Duties, Related Skills, and Responsibilities}
+
+\begin{itemize}
+  \item[-] Initiated two computational research projects (under supervision) in biochemistry, biophysics, and molecular dynamics
+  \item[-] Conducted simulation studies using beowulf high-performance clusters for molecular dynamics models and ligand binding quantification
+  \item[-] Documented findings for my projects in lab notebooks and presentation materials
+  \item[-] Interpreted published results about deoxyhypusine synthase and hyperthermophilic proteins to guide my computational modeling approaches
+  \item[-] Presented results from modeling studies at NIH Poster Day
+\end{itemize}
+
+
+
+\section*{Education}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
+\label{sec:education}
+
+\begin{itemize}
+  \item
+    \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+      \textbf{Columbia University} & New York, NY \\
+      Department of Neurobiology \& Behavior & 2005--2009 \\
+      Center for Theoretical Neuroscience\\
+      Degrees: Ph.D. (2009); M.Phil. (2008); M.A. (2006) \\
+      Advisor: Larry~Abbott\\
+    \end{tabular*}
+  \item
+    \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+      \textbf{Brandeis University} & Waltham, MA \\
+      Department of Biology & 2003--2005\\
+      Volen Center for Complex Systems\\
+      Graduate Program in Neuroscience, \textit{\ul{Continued at Columbia University}} \\
+      Advisor: Larry~Abbott\\
+    \end{tabular*}
+  \item
+    \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
+      \textbf{University of Virginia} & Charlottesville, VA \\
+      Laboratory of Computational Neurodynamics & 1999--2003\\
+      Degrees: B.A.~Mathematics; B.A.~Cognitive Science; Minor in Philosophy \\
+      Advisor: William (Chip) Levy\\
+      Echols Scholar \\
+    \end{tabular*}
+\end{itemize}
+
+
+
+\section*{Professional Publications}
+\label{sec:pubs}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
+
+\renewcommand{\itemnote}[1]{}
+
+% Insert the text for all the publication lists:
+\input{pubs}
+
+\renewcommand{\itemnote}[1]{
+  \begin{description}
+    \item[$\rightarrow$] \hspace{.09in}{\color{darkgray}\it #1}
+  \end{description}
+}
+
+
+\section*{References}
+\label{sec:references}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
+
+% Insert the text for all the publication lists:
+\input{../../jobsearch/package/refcontacts/references_nih}
+
+
+\pagebreak
+
+\section*{Additional Information (Curriculum Vitae)} 
+\label{sec:cv}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
+
+\section*{Joseph D. Monaco, Ph.D.}
+{
+  \fontspec{Verdana}\small
+  \begin{tabular*}{3.0in}{c@{\extracolsep{\fill}}rlc@{\extracolsep{\fill}}}
+    %\hline\\
+    & \textsc{Email} & \href{mailto:joe@selfmotion.net}{\color{hopkinsblue}\texttt{joe@selfmotion.net}} & \\
+    & \textsc{Web}   & \href{https://jdmonaco.com/}{\color{hopkinsblue}\texttt{jdmonaco.com}} & \\
+    & \textsc{ORCID} & \href{https://jdmonaco.com/orcid}{\color{hopkinsblue}\texttt{0000-0003-0792-8322}} & \\
+    & \textsc{GitHub} & \href{https://jdmonaco.com/github}{\color{hopkinsblue}\texttt{github.com/jdmonaco}} & \\
+    & \textsc{Google Scholar} & \href{https://jdmonaco.com/google-scholar}{\color{hopkinsblue}\texttt{gceOLZEAAAAJ}} & \\
+  \end{tabular*}
+  \vspace{.15in}
+  %\hrule
+}
+
+\section*{Funding Awards} 
+\label{sec:funding}
+
+\begin{itemize}
+  \item \href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=false}
+    {\itemtitle{NCS-FO: Spatial intelligence for swarms based on hippocampal
+    dynamics}}\hspace{\stretch{1}}2018--2021
+    \begin{itemize}
+      \item NSF\slash NCS FOUNDATIONS (BRAIN Initiative) Award No.~1835279: \$862K/\$997K (Direct/Total)
+      \item \textbf{Lead PI:} Kechen Zhang
+      \item \textbf{Co-PIs, JHUAPL}: Grace Hwang, Robert W. Chalmers, Kevin
+        Schultz, and M. Dwight Carr
+      \item \textbf{Research Associate (FY19)/Co-PI (FY20--FY21): \joehl{Joseph D. Monaco}}
+    \end{itemize}
+  \itemnote{I co-developed this project and co-wrote the proposal
+      with a JHUAPL colleague (see \emph{\nameref{sec:nsf}} on
+      p.\pageref{sec:nsf}). As a Research Associate faculty at JHU as of
+    FY20, my project role was promoted to co-PI.}
+\end{itemize}
+
+\begin{itemize}
+  \item \href{https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&icde=42555668&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball=}
+    {\itemtitle{Spiking network models of sharp-wave ripple sequences with\\
+    gamma-locked attractor dynamics}}\hspace{\stretch{1}}2018--2020
+    \begin{itemize}
+      \item NIH/NINDS R03 Award No.~NS109923: \$50K/\$82K (Direct/Total)
+      \item \textbf{PI:} Kechen Zhang
+      \item \textbf{Research Associate:} \joehl{Joseph D. Monaco}
+    \end{itemize}
+  \itemnote{I conceived this project, generated preliminary data, and wrote the
+      proposal (see \emph{\nameref{sec:nih}} on p.\pageref{sec:nih}).
+    As a Postdoctoral Fellow, JHU policy precluded a PI role.}
+\end{itemize}
+
+%\subsection*{Previous Internal Support} 
+
+\begin{itemize}
+  \item \href{https://scienceoflearning.jhu.edu/research/learning-to-explore-paths-through-space/}
+    {\itemtitle{Learning to explore paths through space}}\hspace{\stretch{1}}2016--2018
+    \begin{itemize}
+      \item JHU/Science of Learning Institute (SLI) Award: \$150K
+      \item \textbf{PI:} Kechen Zhang
+      \item \textbf{Co-PI:} David J.~Foster (now at UC Berkeley)
+      \item \textbf{Research Associate:} \joehl{Joseph D.~Monaco}
+    \end{itemize}
+  \itemnote{I conceived this project, initiated the collaboration
+      between the Zhang and Foster labs, and wrote the proposal (see
+      \emph{\nameref{sec:sli}} on p.\pageref{sec:sli}). As a
+    Postdoctoral Fellow, JHU policy precluded a PI role.}
+  \label{sec:previnternalsupport}
+\end{itemize}
+
+\section*{Research Program --- Development \& Administration}
+
+\subsection*{Inventions \& Patents}
+\label{sec:patents}
+
+\lefttabline{0.8in}{7/5/2022}{Inventor, 
+  \href{https://www.freepatentsonline.com/11378975.html}{\itemtitle{Autonomous
+  Navigation Technology, US patent issued, 11,378,975}}}
+\lefttabline{0.8in}{1/3/2020}{Inventor, Autonomous Navigation Technology, US
+  patent application, 16,734,294}
+\lefttabline{0.8in}{5/10/2019}{Inventor, Neuroinspired Algorithms for Swarming
+  Applications, provisional patent, 62/845,957}
+\lefttabline{0.8in}{1/3/2019}{Inventor, Neuroinspired Algorithms for Swarming
+  Applications, provisional patent, 62/787,891}
+
+\subsection*{Research Program Building \& Leadership}
+\label{sec:resprogram}
+
+\researchactivity
+{April 2010/2011}
+{Fellowship Proposal (NIH/NINDS F32 NRSA)}
+{Behavioral Coordination of Entorhinal-Hippocampal Activity for Real-Time
+Sensory Updating of Spatial Memory}
+{In collaboration with my posdoctoral sponsor Jim Knierim, I conceived and
+  developed a postdoctoral fellowship training proposal as a NIH F32 NRSA
+  application. The proposal integrated computational modeling with spatial
+  navigation experiments based on behavioral data from position-tracking sensors
+  and neural data from multiregional hippocampal--entorhinal single-unit ensemble
+  recordings. The application received a 21st percentile rank; I followed up the
+  2010 application with a 2011 resubmission following discussions with NINDS PO
+Jim Gnadt.}
+\label{sec:nrsa}
+
+\researchactivity
+{Mar. 2016--2018}
+{Grant Award (JHU/SLI)}
+{Learning to explore paths through space}
+{This internal JHU award (2016--2018; see
+  \emph{\nameref{sec:previnternalsupport}} on p.\pageref{sec:previnternalsupport})
+  resulted from a collaboration with David J. Foster (now at UC Berkeley) that
+  I initiated to conduct modeling studies informed by his lab’s hippocampal
+  reactivation data. By integrating Prof.~Zhang’s mathematical theories of
+  spatial cognitive maps, I wrote and submitted a proposal for a \$200K/2-year
+  project to the JHU Science of Learning Institute. The proposal was awarded at
+  the \$150K level and research outcomes included (1) novel theories of temporal
+  synchronization coding that inspired the 2017 NSF proposal effort, and (2)
+  preliminary dynamical models of sharp-wave reactivation that provided the
+foundation for the 2018 NIH R03 award.}
+\label{sec:sli}
+
+\researchactivity
+{April--June 2016}
+{Grant Proposal (DARPA/BTO)}
+{Noninvasive Gastrovagal Stimulation for Enhanced Neuroplasticity of Cortical
+and Hippocampal Networks during Cognitive Training (GEN-C)}
+{In response to DARPA announcement BAA-16-24 of the “Targeted Neuroplasticity
+  Training (TNT)” program, I worked with colleagues from JHUAPL and JHU/SOM
+  Center for Neurogastroenterology to develop a collaborative program involving 3
+  PIs and 5 co-Is (8 labs) across divisions, departments, and fields. I recruited
+  experimental labs from JHU/MBI and coordinated proposed contributions to
+  maximize scientific impact with a budget of \$9.8M/5 years. I coordinated the
+  40-page research narrative, including writing, editing, and/or integrating
+  each lab’s contributions and worked with ORA to submit the proposal. While
+  not funded in total, DARPA/BTO PM Doug Weber funded select components, leading
+  to JHUAPL Work Agreement No.~145563 “BCI (Brain Computer Interface)
+Technologies” in 2018.}
+\label{sec:genc}
+%Technologies” in 2018 for \$24,604 to the lab of Prof.~Pasricha.}
+
+\researchactivity
+{Nov. 2017--2021}
+{Grant Award (NSF/NCS)}
+{NCS-FO: Spatial intelligence for swarms based on hippocampal dynamics}
+{This NSF-awarded project (2018--2021; see \emph{\nameref{sec:funding}}
+  on p.\pageref{sec:funding}) was the result of 6 months of collaboration,
+  brain-storming, and team-building between the Zhang lab at JHU/SOM and a group
+  of JHUAPL engineers, mathematicians, and scientists. The project was initially
+  inspired by results that I presented at my Society for Neuroscience 2017 meeting
+  poster. I wrote Aim 1 and integrated the full research narrative with inputs
+  from our collaborators for the proposal of this \$997K/2-year project to develop
+  those initial ideas into technological applications (e.g., robotics, autonomous
+  control, AI) that reciprocally inform neuroscience. The project has so far
+  produced three posters, a conference talk \& proceedings publication, three
+  patent applications, a preprint, a research article in Biological Cybernetics, a
+  NIH BRAIN Investigators Meeting symposium talk, and a substantial STEM program.
+  We received a no-cost extension through FY21 to complete the final phase of the
+project.}
+\label{sec:nsf}
+
+\researchactivity
+{Jan. 2018--2020}
+{Grant Award (NIH/NINDS)}
+{Spiking network models of sharp-wave ripple sequences with gamma-locked
+attractor dynamics}
+{To continue with the collaboration that I initiated with David J. Foster
+  (UC Berkeley) on the basis of the internal SLI award (see above), I wrote
+  a small modeling proposal that integrated preliminary results from the SLI
+  project and recent research developments in the memory reactivation field.
+  This proposal was awarded (2018--2020; see \emph{\nameref{sec:funding}}
+  on p.\pageref{sec:funding}) through the NIH/NINDS R03 mechanism and I am
+  currently utilizing this support to build a foundation for future efforts along
+this research track.}
+\label{sec:nih}
+
+\whitepaper
+{Feb.--Mar. 2018}
+{Schultz K, Zhang K, and \joehl{Monaco J}}
+{BrainSWARRMM: Brain-like Sharp-Waves for Autonomous Replanning \&
+Reconnaissance on Matrix Manifolds}
+{In response to the Office of Naval Research (ONR) Special Notice
+  N00014-18-R-SN05, Topic 3, I helped organize a series of collaborative meetings
+  to design a \$2M/4-year project between JHUAPL and JHU/SOM. I co-authored the
+resulting white paper that was submitted for consideration to ONR.}
+
+\whitepaper
+{May--June 2018}
+{Zhang K, \joehl{Monaco JD}, Hwang GM, Schultz KM, Kobilarov M, Foster DJ,
+Jacobs J, and Itti L}
+{An Integrative Theoretical Framework of the Neural Self-Organization of Active
+Perception for Autonomous Spatial Navigation}
+{In response to ONR MURI Announcement N00014-18-S-F006 and with the help of
+  JHUAPL, I coordinated a series of meetings with 5 PIs across 4 universities
+  (Columbia, UC Berkeley, USC, JHU) to design an innovative research program that
+  targeted reciprocal advances in experimental \& theoretical neuroscience and
+  robotics \& AI across species and scales. The resulting \$7.5M/5-year project
+  that I outlined in the white paper was not invited for a full submission. We
+  debriefed with the sponsor, ONR PM Marc Steinberg, who revealed that ONR was
+  impressed with the project but that they were seeking a different balance of
+elements with respect to neuroscience and AI.}
+
+\whitepaper
+{August 2019}
+{\joehl{Monaco J}, Zhang K, and Schultz K.}
+{SW2Mem: Graph Spectral Decoding of Hippocampal-Cortical Loops for Artificial
+Consolidation and Dreaming}
+{In response to ONR Special Notice N00014-19-S-SN08, Topic 5.1 I conceived this
+  project, created the preliminary model and datasets, guided the preliminary
+  analyses with JHUAPL collaborators, and wrote \& submitted the white paper to
+  ONR outlining a potential \$1.05M/3-year project. ONR declined to invite us to
+submit a full proposal.}
+
+\whitepaper
+{August 2019}
+{Schultz K, Agarwala S, Zhang K, and \joehl{Monaco J}}
+{Brain-like Distributed Surveillance using Heterogeneous Agents for integRated
+Perception, and Planning (BD-SHARPP)}
+{In response to ONR Special Notice N00014-18-R-SN05, Topic 3, we submitted a
+  revised version of the March 2018 white paper that was specifically invited by
+ONR PM Tom McKenna.}
+
+\researchactivity
+{Sept. 11, 2019}
+{NSF Project Review}
+{Annual advisory board review symposium}
+{I delivered a seminar on Aim 1 progress at a JHUAPL-hosted symposium for our
+  project’s yearly review, attended by DARPA/I2O PM Hava Siegelmann and other
+outside experts.}
+
+\researchactivity
+{Feb. 26, 2020}
+{Grant Proposal (NSF/NCS) }
+{NCS-FO: Neuroeconomics as a biomimetic control theory for mobile robotic
+decision making}
+{This FY21 proposal was submitted to the NSF/NCS FOUNDATIONS program; while
+  it was discussed and received high scores, the application was declined. I
+  co-developed this project in collaboration with colleagues at the University of
+  Pittsburgh Medical Center (UPMC), JHU Whiting School of Engineering (JHU/WSE),
+  and JHUAPL. Our interdisciplinary project brought together multiscale human
+  electrophysiological recordings (UPMC), latent state-space models (JHU/WSE),
+  control- and game-theoretic analysis (JHUAPL), and mechanistic neural models
+  (JHU/BME, for which I would have been co-PI). We proposed to investigate and
+  characterize the neural bases of metacognitive brain states that influence
+  decision-making during social \& economic games. As a high-risk/high-reward
+  element, we proposed to algorithmicize our results to advance human-robot
+interaction.}
+
+\researchactivity
+{Jan. 14, 2022}
+{Grant Proposal (JHU/Discovery Award) }
+{Algorithms of flexible navigation in mice and robots}
+{This intramural FY23 proposal for a JHU Discovery Award resulted from a new
+  collaboration with Patricia Janak (PI; JHU/PBS) and Céline Drieu (postdoctoral
+  fellow), in which we seek to integrate advanced large-scale neural recording
+  technologies with my theoretical modeling of neural systems as a distributed
+  control problem. Fundamental questions of neural systems communication will
+  be addressed using convergent data-driven and theory-driven approaches
+  to understanding the cognitive dynamics that enable mice to perform spatial
+goal-directed memory tasks.}
+
+\section*{Professional Service --- Scientific Peer Review}
+\label{sec:service}
+
+\subsection*{Journals}
+
+\lefttabline{0.8in}{2021}{PLOS Computational Biology}
+\lefttabline{0.8in}{2021}{Nature Machine Intelligence}
+\lefttabline{0.8in}{2020}{Neuroscience and Biobehavioral Reviews}
+\lefttabline{0.8in}{2020}{Scientific Reports}
+\lefttabline{0.8in}{2019}{eLife}
+\lefttabline{0.8in}{2019}{Hippocampus}
+\lefttabline{0.8in}{2018--2019}{Neuron}
+\lefttabline{0.8in}{2018}{Neural Computation (including as `Communicator')}
+\lefttabline{0.8in}{2018}{PLOS ONE}
+\lefttabline{0.8in}{2017}{PeerJ}
+\lefttabline{0.8in}{2015}{IEEE Transactions in Biomedical Engineering}
+\lefttabline{0.8in}{2012--2020}{IEEE Neural Networks}
+\lefttabline{0.8in}{2012}{Biological Cybernetics}
+\lefttabline{0.8in}{2012}{Neurocomputing}
+\lefttabline{0.8in}{2012}{Neuroscience}
+
+\subsection*{Funding Agencies}
+\label{sec:programsvc}
+
+\lefttabline{0.8in}{2022}{NSF CAREER Ad-Hoc Reviewer}
+\lefttabline{0.8in}{2022}{NSF EFRI Preliminary Review Panel}
+\lefttabline{0.8in}{2022}{NSF EFRI Final Review Panel}
+\lefttabline{0.8in}{2020--2022}{NSF EFRI Program Development, Extramural Contributor}
+\lefttabline{0.8in}{2014}{IARPA Program Development, Extramural Contributor}
+
+\subsection*{Conferences}
+\label{sec:confsvc}
+
+\lefttabline{0.8in}{2020--2021}{Cosyne, Review committee member}
+\lefttabline{0.8in}{2016}{Cosyne, Review committee member}
+
+\section*{Scientific Presentations}
+\label{sec:talks}
+
+\subsection*{Workshops, Seminars, and Invited Talks --- Regional}
+
+\begin{longtable}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  10/2/2019 \hspace{0.1in} & ``\unpubtitle{Oscillations, attractors, and
+  sequences: Extending hippocampal computations to artificial systems}.''
+  \emph{Invited Lecture}. Kavli Neuroscience Discovery Institute, Johns Hopkins
+  University, Baltimore, MD\\
+  \tabularnewline
+  9/25/2019 & ``\unpubtitle{Decoding septohippocampal theta cells during
+  exploration reveals unbiased environmental cues in firing phase}.''
+  \emph{Poster Session}. Kavli Neuroscience Discovery Institute, Johns Hopkins
+  University, Baltimore, MD\\
+  \tabularnewline
+  12/7/2016 & ``\unpubtitle{Spatial rate/phase correlations in theta cells
+  can stabilize randomly drifting path integrators}.'' \emph{Poster Session}.
+  Greater Baltimore SfN Meeting, Baltimore, MD\\
+  \tabularnewline
+  1/22/2016 & ``\unpubtitle{Hippocampal circuits for space, memory, and
+  navigation: From minimal models to biologically inferred networks}.''
+  \emph{Invited Lecture}. Department of Pharmacology, University of Maryland,
+  Baltimore, MD\\
+  \tabularnewline
+  9/6/2014 & ``\unpubtitle{Stopping to look: How attentive scanning behavior
+  reveals the formation of new memories}.'' \emph{Department Retreat Seminar}.
+  Department of Neuroscience, Johns Hopkins University, Baltimore, MD\\
+  \tabularnewline
+  4/21/2014 & ``\unpubtitle{Landmark influence: How attention to sensory cues
+  stabilizes and updates the hippocampal cognitive representation of space}.''
+  \emph{Advanced Researcher Seminar}. Zanvyl Krieger Mind/Brain Institute, Johns
+  Hopkins University, Baltimore, MD\\
+  \tabularnewline
+  4/1/2014 & ``\unpubtitle{Hippocampus and declarative memory:
+  Head scanning}.'' \emph{Department `Lab Lunch' Seminar}. Department of
+  Neuroscience, Johns Hopkins University, Baltimore, MD\\
+\end{longtable}
+
+\subsection*{Workshops, Seminars, and Invited Talks --- National}
+\label{sec:natltalks}
+
+\begin{longtable}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  8/26/2022 \hspace{0.3in} &
+  \href{https://jdmonaco.com/files/monaco-2022-afrl-quest-slides.pdf}
+  {``\unpubtitle{Brain oscillations: From cortical computing to the existential
+    nonduality of conscious agents}.'' \emph{Invited Public Seminar}. Qualia
+    Exploitation for Sensor Technology (QuEST), Air Force Research Lab/Autonomous
+  Capabilities Team 3 (AFRL/ACT3), Online. \itemtitle{[PDF]}}\\
+  \tabularnewline
+  6/1/2020 \hspace{0.3in} & \label{sec:symposium}
+  \href{https://youtu.be/2jy1ENYHRAw?t=902}{``\unpubtitle{Can Transitory
+    Neurodynamics Unify Learning Theories for Brains and Machines?}''
+    \emph{Invited Lecture \& Panel Discussion}. Symposium on ``How Can Dynamical
+    Systems Neuroscience Reciprocally Advance Machine Learning?'', 6th Annual
+  BRAIN Initiative Investigators Meeting, NIH, Online. \itemtitle{[YouTube]}}\\
+  \tabularnewline
+  5/18/2020 \hspace{0.3in} & ``\unpubtitle{Computational Approaches to the
+  Neural Dynamics of Time, Memory, and Behavior}.'' \emph{Invited Lecture}.
+  Department of Neuroscience, Medical Discovery Team for Optical Imaging,
+  University of Minnesota, Online\\
+  \tabularnewline
+  2/24/2020 \hspace{0.3in} & ``\unpubtitle{Computational Mechanisms of Memory:
+  Linking Behavior, Space, \& Time}.'' \emph{Invited Lecture}. Department of
+  Psychology, University of Nevada, Las Vegas, NV\\
+  \tabularnewline
+  1/31/2020 \hspace{0.3in} & ``\unpubtitle{Attractors, memory, and oscillations:
+  Computational motifs of spatial learning}.'' \emph{Invited Lecture}.
+  Department of Biological Sciences, University of Texas at El Paso, El Paso, TX\\
+  \tabularnewline
+  4/17/2019 \hspace{0.3in} & ``\unpubtitle{Emergent dynamics of hippocampal
+  circuitry as a basis for robust self-organized planning in mobile swarms}.''
+  \emph{Invited Lecture}. SPIE (International society for optics and photonics)
+  Defense \& Commercial Sensing 2019 conference, Baltimore, MD\\
+  \tabularnewline
+  4/10/2019 & NSF/Neural \& Cognitive Systems (NCS) PI
+  Workshop. \emph{Participant}. Marriott Wardman Park Hotel, Washington, D.C.\\
+  \tabularnewline
+  2/3--2/7/2019 & NSF/BRAIN Initiative Workshop: Present and Future Frameworks
+  of Theoretical Neuroscience. \emph{Invited Participant}. University of Texas,
+  San Antonio, TX\\
+  \tabularnewline
+  1/3/2014 & ``\unpubtitle{Head scans drive the formation and potentiation
+  of place fields during exploration}.'' \emph{Data Blitz}. 38th Annual Winter
+  Conference on Neurobiology of Learning \& Memory, Park City, UT\\
+  \tabularnewline
+  4/10/2009 & ``\unpubtitle{Rapid spatial map formation and remapping by
+  competing over grid cell inputs}.'' \emph{Thesis Seminar}. Department of
+  Neurobiology \& Behavior, Columbia University Medical Center, New York, NY\\
+\end{longtable}
+
+\subsection*{Workshops, Seminars, and Invited Talks --- International}
+\label{sec:intltalks}
+
+\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  2/01/2022 \hspace{0.2in} & ``\unpubtitle{Theory-Driven Data Science to
+    Understand the Neural Dynamics of Memory and Behavior}.'' \emph{Invited Talk}.
+    Department of Cell \& Systems Biology, University of Toronto, Canada, Online \\
+  \tabularnewline
+  12/01/2021 \hspace{0.2in} &
+  \href{https://youtu.be/3mKkLksOyfk}{``\unpubtitle{Learning as swarming:
+      Cognitive flexibility from the neural dynamics of phase-coupled attractor
+    maps}.'' \emph{Contributed Talk}. Neuromatch 4.0 Conference, Online.
+  \itemtitle{[YouTube]}}\\
+  \tabularnewline
+  10/29/2020 \hspace{0.2in} &
+  \href{https://www.youtube.com/watch?v=WwYDMpD7j4Q}{``\unpubtitle{Spatial
+      theta-phase coding in the lateral septum: a theory of allocentric feedback
+    during navigation}.'' \emph{Contributed Talk}. Neuromatch 3.0 Conference,
+  Online. \itemtitle{[YouTube]}}\\
+  \tabularnewline
+  10/7/2020 \hspace{0.2in} & ``\unpubtitle{Computing path integration with
+  oscillatory phase codes in biological and artificial systems}.'' \emph{Data
+  Blitz}. iNAV Symposium 2020, Online\\
+  \tabularnewline
+  7/1/2010 \hspace{0.2in} & ``\unpubtitle{Medial versus lateral modes for
+  reconfiguring hippocampal representations}.'' \emph{Invited Lecture}. Grid
+  Cell Meeting, Gatsby Computational Neuroscience Unit, University College
+  London, UK\\
+\end{tabular}
+
+\subsection*{Conference Presentations}
+\label{sec:presentations}
+
+\begin{description}
+  \item[\quad]
+    \href{https://www.cvent.com/events/6th-annual-brain-initiative-investigators-meeting/custom-116-4e2aadaa6cd549a3a4b53113cd172ad2.aspx}
+    {\joehl{Monaco JD}, Hwang GM, Schultz K, Zhang K. (2020).
+    \itemtitle{Cognitive swarming in complex environments with attractor
+        dynamics and oscillatory computing}. \emph{6th Annual BRAIN Initiative
+    Investigators Meeting}. Online, with audio narration. June~2020.}
+  \item[\quad]
+    \href{https://www.fens.org/Meetings/The-Brain-Conferences/Dynamics-of-the-brain/}
+    {\joehl{Monaco JD}, Hwang GM, De Guzman RM, Blair HT, Zhang K. (2019).
+    \itemtitle{Spatial rate-phase coding in lateral septal ‘phaser cells’:
+        single-unit data and theta-bursting models}. \emph{FENS (Federation of
+        European Neuroscience Societies) Dynamics of the brain: Temporal aspects of
+    computation}. North Copenhagen, Denmark. June~2019.}
+  \item[\quad]
+    \href{https://www.cvent.com/events/5th-annual-brain-initiative-investigators-meeting/event-summary-de9c0d8f934b46eb8d80b55bcfbfe96a.aspx}
+    {\joehl{Monaco JD}, Hwang GM, Schultz K, Zhang K. (2019).
+    \itemtitle{Self-organized swarm control using neural principles of spatial
+      phase coding}. \emph{5th Annual BRAIN Initiative Investigators Meeting}.
+    Washington, D.C. April~2019.} 
+  \item[\quad]
+    \href{https://abstractsonline.com/pp8/#!/4649/presentation/10884}
+    {Hwang GM, Schultz K, \joehl{Monaco JD}, Chalmers RW, Lau SW, Yeh BY,
+      Zhang K. (2018). \itemtitle{Self-organized swarm control using neural
+      principles of spatial phase coding}. \emph{Society for Neuroscience}.
+    San Diego, CA. November~2018.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/pp8/#!/4376/presentation/6085}
+    {\joehl{Monaco J}, Blair HT, Zhang K. (2017). \itemtitle{Decoding
+        septohippocampal theta cells during exploration reveals unbiased
+      environmental cues in firing phase}. \emph{Society for Neuroscience}.
+    Washington, D.C. November~2017.}
+  \item[\quad]
+    \href{https://jdmonaco.com/files/monaco-paper-cosyne15.pdf}
+    {\joehl{Monaco JD}, Blair HT, Zhang K. (2015). \itemtitle{Spatial
+        rate/phase correlations in theta cells can stabilize randomly drifting path
+    integrators}. \emph{Cosyne}. Salt Lake City, UT. March~2015.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=973d2662-ba7a-4ad2-aff9-fe0d4b77c262&cKey=9917ffaf-9e31-4213-acb9-4aab498ab4cd&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7}
+    {\joehl{Monaco J}, Blair HT, Zhang K. (2014). \itemtitle{Spatial rate/phase
+        codes provide landmark-based error correction in a temporal model of theta
+    cells}. \emph{Society for Neuroscience}. Washington, D.C.  November~2014.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=bfb59866-8deb-44a6-9515-a7aab630507b&cKey=d201b3aa-7725-452e-b0dd-c41d204b5b54&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7}
+    {Wang CH, Rao G, \joehl{Monaco JD}, Deshmukh SS, Knierim JJ. (2014).
+    \itemtitle{Potentiation of place fields along the CA1 transverse axis by
+      investigatory head-scanning behavior}. \emph{Society for Neuroscience}. 
+    Washington, D.C. November~2014.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=32eccac1-4e1d-4e81-bf5c-f39bcb605757&cKey=4710dece-cc8e-4b48-8764-49ea174b91ef&mKey=8d2a5bec-4825-4cd6-9439-b42bb151d1cf}
+    {\joehl{Monaco J}, Rao G, Knierim JJ. (2013). \itemtitle{Scanning behavior
+        in novel environments promotes \emph{de novo} formation of hippocampal place
+    fields in rats}. \emph{Society for Neuroscience}. San Diego, CA. November~2013.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=f5b9fa94-7d15-48c7-9d67-b89cd2883025&cKey=a53349ca-41b1-4664-b022-85d0d1fe59b8&mKey=70007181-01C9-4DE9-A0A2-EEBFA14CD9F1}
+    {\joehl{Monaco J}, Rao G, Knierim JJ. (2012). \itemtitle{Hippocampal LFP
+      during rodent head-scanning behavior: Theta and sharp-wave ripples}.
+    \emph{Society for Neuroscience}. New Orleans, LA. October~2012.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=c48e9f5f-1274-4486-85bf-38ee591629e1&cKey=190bd951-c183-428d-a4c5-01eb61556d79&mKey=8334BE29-8911-4991-8C31-32B32DD5E6C8}
+    {\joehl{Monaco J}, Rao G, Knierim JJ. (2011). \itemtitle{Hippocampal place
+        cell firing during head-scanning movements is associated with the formation
+    of new place fields}. \emph{Society for Neuroscience}. Washington, D.C. November~2011.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=c48e9f5f-1274-4486-85bf-38ee591629e1&cKey=3ec26e6f-8c59-4be2-bad3-e1572d75e07e&mKey=8334BE29-8911-4991-8C31-32B32DD5E6C8}
+    {Rao G, \joehl{Monaco J}, Knierim JJ. (2011). \itemtitle{Environmental
+        novelty promotes rodent head-scanning behavior linked to enhanced entorhinal
+      activity}. \emph{Society for Neuroscience}. Washington,
+    D.C. November~2011.}
+  \item[\quad]
+    \href{https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00192/event_abstract}
+    {\joehl{Monaco JD}, Zhang K, Blair HT, Knierim JJ. (2010).
+    \itemtitle{Cue-based feedback enables remapping in a multiple oscillator
+      model of place cell activity}. \emph{Cosyne}. Salt Lake City, UT.
+    February~2010.}
+  \item[\quad] \joehl{Monaco JD}, Abbott LF. (2009). \unpubtitle{Dynamic
+      hippocampal remapping using recurrent inhibition on realigning grid cell
+    inputs}. \emph{Cosyne}. Salt Lake City, UT. February~2009.
+  \item[\quad] \joehl{Monaco JD}, Muzzio IA, Levita L, Abbott LF. (2006).
+    \unpubtitle{Entorhinal input and global remapping of hippocampal place
+    fields}. \emph{CNS}. Edinburgh, UK. July~2006.
+  \item[\quad] \joehl{Monaco JD}, Abbott LF. (2006). \unpubtitle{Entorhinal
+    input and the remapping of hippocampal place fields}. \emph{Cosyne}. Salt Lake
+    City, UT. March~2006.
+  \item[\quad] \joehl{Monaco JD}, Levy WB. (2003). \unpubtitle{T-maze training
+      of a recurrent CA3 model reveals the necessity of novelty-based modulation of
+    LTP in hippocampal region CA3}. \emph{IJCNN}. Portland, OR. July~2003.
+  \item[\quad] \joehl{Monaco JD}, Perlstein RP. (1997). \unpubtitle{Monte-Carlo
+      analysis of deoxyhypusine synthase inhibitor ligand conformations}. \emph{NIH
+    Poster Day}. Bethesda, MD. August~1997.
+\end{description}
+
+\section*{Educational Activities}
+%\medskip
+%\smallskip
+\subsection*{Educational Program Building}
+\label{sec:eduprogram}
+
+\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  2018--2021 \hspace{0.1in} & The NSF project (see
+  \emph{\nameref{sec:funding}} on p.\pageref{sec:funding}) was
+  successfully funded with a substantial STEM component for high-school students
+  involving the development of both a 12-week course and an intense 2-day
+  seminar called ``Swarming Powered by Neuroscience.'' I worked with our STEM
+  education collaborators at JHUAPL to develop computational resources required
+  for the curricula. Additionally, I participated in and delivered two zoom
+  lectures about our research for the virtual 4-day STEM workshop (developed due
+  to Covid requirements) with 40+ students that was held in January 2021.
+\end{tabular}
+
+\subsection*{Mentoring \& Supervision}
+\label{sec:mentoring}
+
+\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  Spring 2021 & Darius Carr, STEM high school student; I mentored
+  Darius as part of a local high school program that facilitates research
+  internships for underrepresented students. I developed a computational
+  research project with him that deepened his current interests in neuroscience,
+  python programming, and scientific research. \\
+  \tabularnewline
+  2020--2022 \hspace{0.1in} & Armin Hadzic, machine learning engineer at JHUAPL; I
+  am supervising Armin in translating computational neuroscience models into
+  the domain of reinforcement learning and Bayesian optimization to investigate
+  autonomous swarming with neural control. \\
+  \tabularnewline
+  2019--2020 & Sreelakshmi Rajendrakumar, masters student in
+  JHU/Biomedical Engineering (BME); I mentored Sreelakshmi in hippocampal
+  physiology and single-unit data analysis.\\
+  \tabularnewline
+  2014 & Manning Zhang, M.S., graduate student in JHU/BME; I mentored Manning
+  through an exchange program with Shanghai Jiao Tong University and
+  subsequently submitted a letter of recommendation as part of her (successful)
+  application to the JHU/BME graduate program.\\
+  \tabularnewline
+  2013--2015 & Chia-Hsuan Wang, Ph.D., graduate student at the JHU/MBI; I worked
+  extensively with Chia-Hsuan to take over my previous studies of behavior
+  and place cells in the Knierim lab, leading to a Society for Neuroscience
+  conference poster in 2014. I supported her subsequent thesis research based
+  on my analytics and informatics software, resulting in a paper in Current
+  Biology.\\
+\end{tabular}
+
+\subsection*{Classroom Instruction}
+\label{sec:classroom}
+
+\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  Fall 2004 & Teaching Assistant for undergraduate ``Introduction to
+  Neuroscience'' course, Brandeis University; I assisted Prof. Eve Marder by
+  supervising classes, grading examinations, and giving review lectures.\\
+  \tabularnewline
+  Spring 2005 \hspace{.1in} & Teaching Assistant for undergraduate ``Biology
+  Laboratory'' course, Brandeis University \\
+\end{tabular}
+
+\section*{Websites}
+
+\begin{description}
+  \item \href{https://jdmonaco.com/}
+    {``\itemtitle{Briefly Balanced: Theoretical neuroscience of behavior in
+    space and time}.'' Website. \aurl{https://jdmonaco.com/}}
+  \item \href{https://www.ncbi.nlm.nih.gov/pubmed/?term=monaco_jd+OR+(monaco_j+AND+muzzio_ia)}
+    {\itemtitle{PubMed Listing}. Website.
+      \aurl{https://www.ncbi.nlm.nih.gov/pubmed/?term=monaco\_jd+OR+(monaco\_j+AND+muzzio\_ia)}}
+  \item \href{https://jdmonaco.com/google-scholar}
+    {\itemtitle{Google Scholar}. Website. \aurl{https://scholar.google.com/citations?hl=en\& user=gceOLZEAAAAJ\&view\_op=list\_works\&sortby=pubdate}}
+  \item \href{https://github.com/jdmonaco}
+    {\itemtitle{GitHub Overview}. Website. \aurl{https://github.com/jdmonaco}}
+  \item \href{https://twitter.com/j_d_monaco}
+    {\itemtitle{Twitter Feed}. Social Media. \aurl{https://twitter.com/j\_d\_monaco}}
+\end{description}
+
+\section*{Media Releases}
+
+\begin{description}
+  \item \href{https://kavlijhu.org/news/32} {``\itemtitle{Can
+        robotic swarms navigate using learning rules devised for brain
+      dynamics?}'' JHU/Kavli Neuroscience Discovery Insitute. May 3, 2020.
+    \aurl{https://kavlijhu.org/news/32}}
+  \item \href{https://www.youtube.com/watch?v=ic4zEgVMSsA}
+    {``\itemtitle{Swarmalators}.'' JHUAPL Press Office. May 9, 2019.
+    \aurl{https://www.youtube.com/watch?v=ic4zEgVMSsA}}
+  \item \href{https://hub.jhu.edu/2018/10/02/brain-robot-swarms-study/}
+    {``\itemtitle{What do animal brains have in common with swarms of robots?
+      Maybe more than you think}.'' Geoff Brown/JHU Office of Communications. Oct 2,
+    2018. \aurl{https://hub.jhu.edu/2018/10/02/brain-robot-swarms-study/}}
+  \item \href{https://www.jhuapl.edu/PressRelease/181001}
+    {``\itemtitle{Do Robot Swarms Work Like Brains?}'' JHUAPL Press Office. October 1, 2018.
+    \aurl{https://www.jhuapl.edu/PressRelease/181001}}
+  \item \href{https://hub.jhu.edu/2014/04/14/memory-brain-place-cells/}
+    {``\itemtitle{Where does a memory begin? Johns Hopkins neuroscientists think they
+      know}.'' Latarsha Gatlin/JHU Office of Communications. April 14, 2014.
+    \aurl{https://hub.jhu.edu/2014/04/14/memory-brain-place-cells/}}
+  \item \href{https://www.youtube.com/watch?v=Jm8OiLJqKJQ}
+    {``\itemtitle{Johns Hopkins Researchers Probe Mysteries of
+      the Brain}.'' JHU Office of Communications. April 14, 2014.
+    \aurl{https://www.youtube.com/watch?v=Jm8OiLJqKJQ}}
+\end{description}
+
+\section*{Recognition \& Coverage of My Work}
+\label{sec:recognition}
+
+\subsection*{Awards \& Honors}
+
+\lefttabline{0.8in}{2022}{IEEE/ISEC Best Paper Award, First Place}
+\lefttabline{0.8in}{2003}{IEEE/IJCNN Student Paper Award, First Place}
+\lefttabline{0.8in}{2002}{U.Va. John A. Harrison III Undergraduate Research Award}
+\lefttabline{0.8in}{1999--2003}{U.Va. Echols Scholar}
+\lefttabline{0.8in}{1999}{State of Maryland Merit Scholastic Award}
+\lefttabline{0.8in}{1999}{AP Scholar with Distinction}
+\lefttabline{0.8in}{1999}{National Merit Scholarship Commended Student}
+\lefttabline{0.8in}{1999}{Johns Hopkins Mathematics Competition (2nd Place, Individual Calculus)}
+\lefttabline{0.8in}{1999}{Maryland Distinguished Scholar}
+
+\subsection*{News \& Views}
+
+\begin{itemize}
+  \item \href{https://dx.doi.org/10.1016/j.cub.2020.02.085}
+    {Place R, Nitz DA. (2020). \itemtitle{Cognitive Maps: Distortions of the Hippocampal 
+      Space Map Define Neighborhoods}. \emph{Current Biology}, 30(8): R340--R342.}
+  \item \href{https://dx.doi.org/10.1016/j.cell.2018.10.047}
+    {Colwell CS, Donlea J. (2018). \itemtitle{Temporal coding of sleep}. \emph{Cell}, 175(5): 1177--9.}
+  \item \href{https://dx.doi.org/10.1038/nn.3700}
+    {Dupret D, Csicsvari J. (2014). \itemtitle{Turning heads to remember
+    places}. \emph{Nature Neuroscience}, 17(5): 643--44.}
+\end{itemize}
+
+\subsection*{Post-Publication Reviews}
+
+\begin{itemize}
+  \item \href{https://facultyopinions.com/prime/718333676#eval793494783}
+    {Moser E, Rowland D. (May 12, 2014). ``\itemtitle{This exciting study finds
+        an unexpected relationship between exploratory head scanning behavior
+      and the development of new place fields in the rat hippocampus...}”
+    \emph{F1000/Faculty Opinions}.}
+  \item \href{https://facultyopinions.com/prime/718333676#eval793493493}
+    {Maler L. (April 10, 2014). ``\itemtitle{This elegant and original study has
+        demonstrated a strong link between the neural activity of hippocampal pyramidal
+        neurons (PNs) during head scanning behavior and their subsequent acquisition of
+    a new place field...}'' \emph{F1000/Faculty Opinions}.}
+  \item \href{https://facultyopinions.com/prime/11553956}
+    {Giocomo L, Moser E. (June 29, 2011) ``\itemtitle{This paper presents an
+        interesting computational model which utilizes grid-cell modularity to generate
+    robust remapping...}'' \emph{F1000/Faculty Opinions}.}
+\end{itemize}
+
+\subsection*{Other Press}
+\label{sec:press}
+
+\begin{itemize}
+  \item \href{https://www.fastcompany.com/90529833/best-workplaces-for-innovators-2020 -johns-hopkins-university-apl} 
+    {``\itemtitle{Johns Hopkins University APL is one of Fast Company’s Best Workplaces
+      for Innovators}.'' (July 29, 2020). \emph{Fast Company}.
+      \aurl{https://www.fastcompany.com/90529833/best-workplaces-for-innovators- 2020-johns-hopkins-university-apl}}
+      \itemnote{My NSF project (see Award No.~1835279 under
+        \emph{\nameref{sec:funding}} on p.\pageref{sec:funding}) was the basis for
+      \#3 ranking of JHUAPL.}
+  \item \href{https://blogs.plos.org/biologue/2019/03/20/better-use-of-mouse-models-skin-infection-dynamics-and-phaser-cells-in-navigation/}
+    {``\itemtitle{Better Use of Mouse Models, Skin Infection
+      Dynamics, and Phaser Cells in Navigation}.'' (March 20,
+      2019). \emph{PLOS Computational Biology: Biologue}.
+      \aurl{https://blogs.plos.org/biologue/2019/03/20/ 
+    better-use-of-mouse-models-skin-infection-dynamics-and-phaser-cells-in-navigation/}}
+  \itemnote{Editor-in-Chief's selection of papers.}
+  %\item \href{https://nationalsciencefoundation.tumblr.com/post/183448836933/brain-awareness-week-2019-rats-and-robots}
+    %{``\itemtitle{Brain Awareness Week 2019—Rats and Robots: NSF-funded researchers
+        %take a lesson from rat navigation instincts to improve algorithm[s] for
+      %robots}.'' (March 14, 2019). \emph{National Science Foundation/Tumblr}.
+    %\aurl{https://nationalsciencefoundation.tumblr.com/post/ 183448836933/brain-awareness-week-2019-rats-and-robots}}
+  \item \href{https://www.medicaldaily.com/cognitive-map-can-show-real-time-when-memories-form-thanks-place-cells-brain-276790}
+    {``\itemtitle{Cognitive Map Can Show In Real-Time When Memories Form, Thanks
+      To Place Cells In The Brain}.'' (April 15, 2014). Chris Weller/Medical Daily.
+    \aurl{https://www.medicaldaily.com/cognitive-map-can- show-real-time-when-memories-form-thanks-place-cells-brain-276790}}
+\end{itemize}
+
+\end{document}
