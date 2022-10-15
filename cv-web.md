@@ -75,9 +75,6 @@
     Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (2022). Bayesian optimization
     of distributed neurodynamical controller models for spatial navigation. *Array*,
     15, 100218. <nobr>doi:&nbsp;10.1016/j.array.2022.100218</nobr></a>
-<!--- **Monaco JD**, Rajan K, and Hwang GM. (*In revision*). A brain basis of-->
-    <!--dynamical intelligence for AI and computational neuroscience. *Nature Machine-->
-    <!--Intelligence*.-->
 - <a href="https://rdcu.be/b3lem" class="cv">**Monaco JD**, Hwang GM, Schultz
     KM, and Zhang K. (2020). Cognitive swarming in complex environments with
     attractor dynamics and oscillatory computing. *Biological Cybernetics*,
