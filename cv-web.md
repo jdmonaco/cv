@@ -27,14 +27,14 @@
 </blockquote>
 <b>Brandeis University</b>, Waltham, MA, 2003--2005
 <blockquote>
-• Volen Center for Complex Systems, <br />
+• Volen National Center for Complex Systems, <br />
 • Graduate Program in Neuroscience, <em>Continued at Columbia University</em><br />
-• Advisor: Larry Abbott <br />
+• Advisors: Michael Kahana; Larry Abbott <br />
 </blockquote>
 <b>University of Virginia</b>, Charlottesville, VA, 1999--2003
 <blockquote>
 • Laboratory of Computational Neurodynamics<br />
-• Degrees: B.A. Mathematics; B.A. Cognitive Science <br />
+• Degrees: B.A. Mathematics; B.A. Cognitive Science; Minor in Philosophy <br />
 • Advisor: William (Chip) Levy <br />
 • Echols Scholar
 </blockquote>
@@ -59,15 +59,18 @@
 • PI: James J. Knierim <br />
 </blockquote>
 
-<h5 style="text-align: center;">Journal Publications</h5>
+<h5 style="text-align: center;">Pending Publications</h5>
 
 - Levenstein D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin RC,
     Hasenstaub A, Iyer R, Jolivet RB, Marzen~S, **Monaco JD**, Prinz AA, Quraishi
     SA, Santamaria F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and
-    Redish AD. (*Under review*). On the role of theory and modeling in neuroscience.
+    Redish AD. (*In revision*). On the role of theory and modeling in neuroscience.
     *Journal of Neuroscience*.
 - **Monaco JD** and Hwang GM. (*In revision*). Neurodynamical computing at the
     information boundaries of intelligent systems. *Cognitive Computation*.
+
+<h5 style="text-align: center;">Journal Publications</h5>
+
 - <a href="https://doi.org/10.1016/j.array.2022.100218" class="cv">Hadzic A,
     Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (2022). Bayesian optimization
     of distributed neurodynamical controller models for spatial navigation. *Array*,
@@ -147,8 +150,8 @@
 - <a href="https://dx.doi.org/10.1109/IJCNN.2003.1223655" class="cv">**Monaco
     JD** and Levy WB. (2003). T-maze training of a recurrent CA3 model
     reveals the necessity of novelty-based modulation of LTP in hippocampal
-    region CA3. *Proceedings International Joint Conference on Neural
-    Networks*, 1655--1660. doi:&nbsp;10.1109/IJCNN.2003.1223655</a> 
+    region CA3. *Proceedings 2003 IEEE/INNS International Joint Conference on Neural
+    Networks (IJCNN'03)*, 1655--1660. doi:&nbsp;10.1109/IJCNN.2003.1223655</a> 
     <a href="/files/monaco-2003-tmaze.pdf">[pdf]</a>
   - **First Place, Student Paper Award** 
 
@@ -190,7 +193,7 @@
     No.&nbsp;AAT&nbsp;3393609*.</a> <a 
     href="/files/monaco-phdthesis-2009.pdf">[original]</a>
 
-<h5 style="text-align: center;">Funding History</h5>
+<h5 style="text-align: center;">Funding Awards</h5>
 
 * <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=
     false" class="cv">NSF/NCS FOUNDATIONS (BRAIN Initiative) Award No. 1835279,
@@ -211,6 +214,47 @@
     - *Learning to explore paths through space*
     - **PI:** Kechen Zhang, **Co-PI:** David J. Foster, **Research Associate:**
         Joseph D. Monaco
+
+<h5 style="text-align: center;">Patents</h5>
+
+- <a href="https://www.freepatentsonline.com/11378975.html" class="cv">Hwang
+    GM, Schultz KM, Chalmers RW, **Monaco JD**, Zhang K. Autonomous navigation
+    technology. US Patent 11,378,975 issued July 5, 2022. </a>
+
+<h5 style="text-align: center;">Scientific Peer Review &amp; Professional Service</h5>
+
+- Journals: 
+    * Neuron
+    * PLOS Computational Biology
+    * Nature Machine Intelligence
+    * Neural Computation
+    * Biological Cybernetics
+    * Neurocomputing
+    * Hippocampus
+    * Scientific Reports
+    * eLife
+    * PeerJ
+    * PLOS ONE
+    * Neuroscience
+    * Neuroscience and Biobehavioral Reviews
+    * IEEE Transactions in Biomedical Engineering
+    * IEEE/INNS Neural Networks
+- Funding Agencies:
+    * NSF CAREER Ad-Hoc Review, 2022
+    * NSF EFRI Preliminary Review Panel, 2022
+    * NSF EFRI Final Review Panel, 2022
+    * NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10,
+    2019, *Participant*
+    * NSF/BRAIN Initiative Workshop: <a
+    href="https://www.utsa.edu/SantamariaLab/Workshop/index.html" class="cv">Present
+    and Future Frameworks of Theoretical Neuroscience</a>, UTSA, San Antonio, TX,
+    Feb 3--7, 2019, *Postdoctoral participant*
+- Conferences:
+    * Cosyne, Review Committee, 2020--2021
+    * Cosyne, Review Committee, 2016
+- Societies:
+    * American Physical Society, *Regular Member (2022--2023)*
+    * Society for Neuroscience, *Postdoc/Regular Member (2011--2020)*
 
 <h5 style="text-align: center;">Talks</h5>
 
@@ -386,49 +430,14 @@
     synthase inhibitor ligand conformations. *NIH Poster Day*. Bethesda, MD. 
     August&nbsp;1997.
 
-<h5 style="text-align: center;">Patents</h5>
-
-- <a href="https://www.freepatentsonline.com/11378975.html" class="cv">Hwang
-    GM, Schultz KM, Chalmers RW, **Monaco JD**, Zhang K. Autonomous navigation
-    technology. US Patent 11,378,975 issued July 5, 2022. </a>
-
-<h5 style="text-align: center;">Professional</h5>
-
-- NSF EFRI Advisory Panel, 2022, *Panelist*
-- NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10,
-    2019, *Participant*
-- NSF/BRAIN Initiative Workshop: <a
-    href="https://www.utsa.edu/SantamariaLab/Workshop/index.html" class="cv">Present
-    and Future Frameworks of Theoretical Neuroscience</a>, UTSA, San Antonio, TX,
-    Feb 3--7, 2019, *Postdoctoral participant*
-- Society for Neuroscience, *Postdoc Member (2011--2018)*
-- Society for Neuroscience, *Regular Member (2019)*
-- COSYNE 2016, *Review committee*
-- COSYNE 2020--2021, *Review committee*
-- Reviewer for journals including: 
-    * Neuron
-    * PLOS Computational Biology
-    * Nature Machine Intelligence
-    * Neural Computation
-    * Biological Cybernetics
-    * Neurocomputing
-    * Hippocampus
-    * Scientific Reports
-    * eLife
-    * PeerJ
-    * PLOS ONE
-    * Neuroscience
-    * Neuroscience and Biobehavioral Reviews
-    * IEEE Transactions in Biomedical Engineering
-    * IEEE/INNS Neural Networks
-
-<h5 style="text-align: center;">Mentoring/Teaching</h5>
+<h5 style="text-align: center;">Mentoring &amp; Teaching</h5>
 
 - Darius Carr, *Student intern*, *High-school scientific outreach program (2021)*
 - Armin Hadzic, *ML Engineer*, *Johns Hopkins University Applied Physics Laboratory
     (2020--2022)*
-- Chia-Hsuan Wang, *Graduate student*, *Johns Hopkins University (2013--2015)*
-- Manning Zhang, *Undergraduate student*, *Shanghai Jiao Tong University (Summer
+- Sreelakshmi Rajendrakumar, *Masters student*, *Johns Hopkins University/BME (2019--2020)*
+- Chia-Hsuan Wang, *Graduate student*, *Johns Hopkins University/MBI (2013--2015)*
+- Manning Zhang, *Undergraduate exchange student*, *Shanghai Jiao Tong University (Summer
     2014)*
 - Teaching Assistant, *Biology Laboratory*, *Brandeis University (Spring 2005)*
 - Teaching Assistant (for Eve Marder), *Introduction to Neuroscience*, *Brandeis
@@ -441,9 +450,10 @@
 - John A. Harrison III Undergraduate Research Award (U.Va., 2002)
 - Echols Scholar at the University of Virginia (1999–2003)
 - Pre-university awards include:
-    <blockquote><p>Maryland Distinguished Scholar (1999) &ndash; Johns Hopkins
-    Mathematics Competition (2nd Place Individual Calculus, 1999) &ndash; National
-    Merit Scholarship Commended Student &ndash; AP Scholar with Distinction &ndash;
-    State of Maryland Merit Scholastic Award</p></blockquote>
+- Maryland Distinguished Scholar (1999) 
+- Johns Hopkins Mathematics Competition (2nd Place Individual Calculus, 1999) 
+- National Merit Scholarship Commended Student 
+- AP Scholar with Distinction
+- State of Maryland Merit Scholastic Award
 
 </div>
