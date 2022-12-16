@@ -11,6 +11,7 @@
 > <span>&#8594;</span> <b>GitHub</b>: [jdmonaco](https://github.com/jdmonaco)  
 > <span>&#8594;</span> <b>PubMed</b>: [monaco_jd](https://jdmonaco.com/pubmed)  
 > <span>&#8594;</span> <b>Twitter</b>: [j_d_monaco](https://www.twitter.com/j_d_monaco)  
+> <span>&#8594;</span> <b>Mastodon</b>: <a rel="me" href="https://sigmoid.social/@jdmonaco">@jdmonaco@sigmoid.social</a>  
 > <span>&#8594;</span> <b>Google Scholar</b>: [gceOLZEAAAAJ](https://jdmonaco.com/google-scholar)  
 > <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-0792-8322" href="https://orcid.org/0000-0003-0792-8322" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-0792-8322</a></div>
 
@@ -41,6 +42,10 @@
 
 <h5 style="text-align: center;">Positions</h5>
 
+<b>SelfMotion Labs</b>, Baltimore, MD, 2022--present
+<blockquote>
+• Founder &amp; Chief Scientist <br />
+</blockquote>
 <b>Johns Hopkins University School of Medicine</b>, Baltimore, MD, 2019--2022
 <blockquote>
 • Research Associate (Faculty) <br />
@@ -64,9 +69,9 @@
 - Levenstein D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin RC,
     Hasenstaub A, Iyer R, Jolivet RB, Marzen~S, **Monaco JD**, Prinz AA, Quraishi
     SA, Santamaria F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and
-    Redish AD. (*In revision*). On the role of theory and modeling in neuroscience.
+    Redish AD. (*Accepted*). On the role of theory and modeling in neuroscience.
     *Journal of Neuroscience*.
-- **Monaco JD** and Hwang GM. (*In revision*). Neurodynamical computing at the
+- **Monaco JD** and Hwang GM. (*In press*). Neurodynamical computing at the
     information boundaries of intelligent systems. *Cognitive Computation*.
 
 <h5 style="text-align: center;">Journal Publications</h5>
@@ -238,7 +243,7 @@
     * IEEE/INNS Neural Networks
 - Funding Agencies:
     * NSF CAREER Ad-Hoc Review, 2022
-    * NSF EFRI Preliminary Review Panel, 2022
+    * NSF EFRI Preliminary Review Panel (Served 3 Times), 2022
     * NSF EFRI Final Review Panel, 2022
     * NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10,
     2019, *Participant*
@@ -251,10 +256,17 @@
     * Cosyne, Review Committee, 2016
 - Societies:
     * American Physical Society, *Regular Member (2022--2023)*
-    * Society for Neuroscience, *Postdoc/Regular Member (2011--2020)*
+    * Society for Neuroscience, *Postdoc/Regular Member (2011--2022)*
 
 <h5 style="text-align: center;">Talks</h5>
 
+- &ldquo;Finding Causal Paths Across Scales: Embodied Control, Ethological
+    Interaction, and Theory-Driven Neural Data Science.&rdquo; *Invited Talk*.
+    Division of Neuroscience and Behavior, NIH/NIDA, Online. December 21, 2022
+- &ldquo;Finding Causal Paths Across Scales: Embodied Control, Ethological
+    Interaction, and Theory-Driven Neural Data Science.&rdquo; *Invited Talk*.
+    Division of Neuroscience and Basic Behavioral Science, NIH/NIMH, Online.
+    November 17, 2022
 - <a href="/files/monaco-2022-afrl-quest-slides.pdf" class="cv">&ldquo;Brain
     oscillations: From cortical computing to the existential nonduality of conscious
     agents.&rdquo; *Invited Public Seminar*. Qualia Exploitation for Sensor
@@ -289,7 +301,7 @@
     learning.&rdquo; *Invited Talk*. Department of Biological Sciences, University of
     Texas at El Paso, El Paso, TX. January 31, 2020
 - &ldquo;Oscillations, attractors, and sequences: Extending hippocampal computations
-    to artificial systems.&rdquo; *Invited Lecture*. Kavli Neuroscience Discovery
+    to artificial systems.&rdquo; *Invited Talk*. Kavli Neuroscience Discovery
     Institute, Johns Hopkins University, Baltimore, MD. October 2, 2019
 - <a href="https://spie.org/SI/conferencedetails/micro-nanotechnology-sensors-systems
     -applications?SSO=1#session-15" class="cv">&ldquo;Emergent dynamics of hippocampal
