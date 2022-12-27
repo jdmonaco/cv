@@ -71,12 +71,14 @@
     SA, Santamaria F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and
     Redish AD. (*Accepted*). On the role of theory and modeling in neuroscience.
     *Journal of Neuroscience*.
-- **Monaco JD** and Hwang GM. (*In press*). Neurodynamical computing at the
-    information boundaries of intelligent systems. *Cognitive Computation*.
 
 <h5 style="text-align: center;">Journal Publications</h5>
 
-- <a href="https://doi.org/10.1016/j.array.2022.100218" class="cv">Hadzic A,
+- <a href="https://dx.doi.org/10.1007/s12559-022-10081-9" class="cv">
+    **Monaco JD** and Hwang GM. (2022). Neurodynamical computing at the information 
+    boundaries of intelligent systems. *Cognitive Computation*. 
+    <nobr>doi:&nbsp;10.1007/s12559-022-10081-9</nobr>
+- <a href="https://dx.doi.org/10.1016/j.array.2022.100218" class="cv">Hadzic A,
     Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (2022). Bayesian optimization
     of distributed neurodynamical controller models for spatial navigation. *Array*,
     15, 100218. <nobr>doi:&nbsp;10.1016/j.array.2022.100218</nobr></a>
