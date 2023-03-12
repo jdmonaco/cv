@@ -42,6 +42,11 @@
 
 <h5 style="text-align: center;">Positions</h5>
 
+<b>National Institutes of Health</b>, Baltimore, MD, 2023--present
+<blockquote>
+• Scientific Program Manager <br />
+• Office of the BRAIN Director, NIH/NINDS <br />
+</blockquote>
 <b>SelfMotion Labs</b>, Baltimore, MD, 2022--present
 <blockquote>
 • Founder &amp; Chief Scientist <br />
@@ -64,20 +69,20 @@
 • PI: James J. Knierim <br />
 </blockquote>
 
-<h5 style="text-align: center;">Pending Publications</h5>
-
-- Levenstein D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin RC,
-    Hasenstaub A, Iyer R, Jolivet RB, Marzen~S, **Monaco JD**, Prinz AA, Quraishi
-    SA, Santamaria F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and
-    Redish AD. (*Accepted*). On the role of theory and modeling in neuroscience.
-    *Journal of Neuroscience*.
+<!--<h5 style="text-align: center;">Pending Publications</h5>-->
 
 <h5 style="text-align: center;">Journal Publications</h5>
 
+- <a href="https://doi.org/10.1523/JNEUROSCI.1179-22.2022" class="cv">Levenstein
+    D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin RC, Hasenstaub A,
+    Iyer R, Jolivet RB, Marzen~S, **Monaco JD**, Prinz AA, Quraishi SA, Santamaria
+    F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and Redish AD. (2023).
+    On the role of theory and modeling in neuroscience. *Journal of Neuroscience*,
+    43(7), 1074--88. <nobr>doi:&nbsp;10.1523/JNEUROSCI.1179-22.2022</nobr></a>
 - <a href="https://dx.doi.org/10.1007/s12559-022-10081-9" class="cv">
     **Monaco JD** and Hwang GM. (2022). Neurodynamical computing at the information 
     boundaries of intelligent systems. *Cognitive Computation*. 
-    <nobr>doi:&nbsp;10.1007/s12559-022-10081-9</nobr>
+    <nobr>doi:&nbsp;10.1007/s12559-022-10081-9</nobr></a>
 - <a href="https://dx.doi.org/10.1016/j.array.2022.100218" class="cv">Hadzic A,
     Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (2022). Bayesian optimization
     of distributed neurodynamical controller models for spatial navigation. *Array*,
@@ -246,7 +251,7 @@
 - Funding Agencies:
     * NSF CAREER Ad-Hoc Review, 2022
     * NSF EFRI Preliminary Review Panel (Served 3 Times), 2022
-    * NSF EFRI Final Review Panel, 2022
+    * NSF EFRI Final Review Panel (Served 2 Times), 2022--2023
     * NSF/Neural \& Cognitive Systems (NCS) PI Workshop, Washington, D.C., Apr 10,
     2019, *Participant*
     * NSF/BRAIN Initiative Workshop: <a
@@ -262,6 +267,12 @@
 
 <h5 style="text-align: center;">Talks</h5>
 
+- <a href="https://meetings.aps.org/Meeting/MAR23/Session/M01.13" class="cv">
+    &ldquo;Neurodynamical computing at the information boundaries of intelligent
+    systems.&rdquo; *Contributed Talk*. American Physical Society (APS) March
+    Meeting 2023, Las Vegas, NV. March 8, 2023</a> 
+    [<a href="/files/monaco-APS-March-Meeting-2023-slides.pptx">ppt</a>]
+    [<a href="/files/monaco-APS-March-Meeting-2023-slides.pdf">pdf</a>]
 - &ldquo;Finding Causal Paths Across Scales: Embodied Control, Ethological
     Interaction, and Theory-Driven Neural Data Science.&rdquo; *Invited Talk*.
     Division of Neuroscience and Behavior, NIH/NIDA, Online. December 21, 2022
