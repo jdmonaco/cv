@@ -19,7 +19,7 @@
 \raggedright
 \textheight=9in
 \setlength{\tabcolsep}{0in}
-\addtolength{\footskip}{-.2in}
+\addtolength{\footskip}{-.15in}
 \addtolength{\voffset}{-.6in}
 \addtolength{\textheight}{1in}
 \addtolength{\hoffset}{-.25in}
@@ -56,7 +56,11 @@
 \newcommand{\joehl}[1]{\hl{\textbf{#1}}}
 \newcommand{\doi}[1]{{\color{darkgray}doi:}~{\color{dimgray}\texttt{#1}}}
 \newcommand{\arxiv}[1]{\emph{ArXiv Preprint}.
-  {\color{darkgray}arxiv:}{\color{dimgray}\texttt{#1}}}
+  {\color{darkgray}arxiv:}~{\color{dimgray}\texttt{#1}}}
+\newcommand{\arxivlink}[1]{\href{https://arxiv.org/abs/#1}
+  {{\color{darkgray}arxiv:}~{\color{dimgray}\texttt{#1}}}}
+\newcommand{\biorxivlink}[1]{\href{https://dx.doi.org/#1}
+  {{\color{darkgray}biorxiv:}~{\color{dimgray}\texttt{#1}}}}
 \newcommand{\aurl}[1]{{\color{dimgray}\texttt{#1}}}
 \newcommand{\researchnote}[1]{
   \begin{description}
@@ -138,16 +142,17 @@
       Department of Biology & 2003--2005\\
       Volen Center for Complex Systems\\
       Graduate Program in Neuroscience, \textit{\ul{Continued at Columbia University}} \\
-      Advisors: Michael Kahana (\textcolor{hopkinsblue}{\href{mailto:kahana@psych.upenn.edu}{kahana@psych.upenn.edu}}); \\ 
-      \hspace{0.6in} Larry Abbott (\textcolor{hopkinsblue}{\href{mailto:lfa2103@columbia.edu}{lfa2103@columbia.edu}}) \\
+      Advisor: Michael Kahana (\textcolor{hopkinsblue}{\href{mailto:kahana@psych.upenn.edu}{kahana@psych.upenn.edu}}) \\ 
+      %Advisors: Michael Kahana (\textcolor{hopkinsblue}{\href{mailto:kahana@psych.upenn.edu}{kahana@psych.upenn.edu}}); \\ 
+      %\hspace{0.6in} Larry Abbott (\textcolor{hopkinsblue}{\href{mailto:lfa2103@columbia.edu}{lfa2103@columbia.edu}}) \\
     \end{tabular*}
   \item
     \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
       \textbf{University of Virginia} & Charlottesville, VA \\
       Laboratory of Computational Neurodynamics & 1999--2003\\
-      Degrees: B.A.~Mathematics; B.A.~Cognitive Science; Minor in Philosophy \\
-      Advisor: William (Chip) Levy (\textcolor{hopkinsblue}{\href{mailto:wbl@virginia.edu}{wbl@virginia.edu}})\\
-      Echols Scholar \\
+      Degrees: B.A.~Mathematics; B.A.~Cognitive Science; Minor, Philosophy \\
+      Advisor: William (`Chip') Levy (\textcolor{hopkinsblue}{\href{mailto:wbl@virginia.edu}{wbl@virginia.edu}})\\
+      %Echols Scholar \\
     \end{tabular*}
 \end{itemize}
 
@@ -156,15 +161,16 @@
 \begin{itemize}
   \item
     \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
-      \textbf{National Institutes of Health} & 2023--present\\
+      \textbf{National Institutes of Health} & Rockville, MD\\
+      National Institute of Neurological Disorders and Stroke & 2023--present \\
+      Office of the BRAIN Director \\
       Scientific Program Manager \\
-      Office of the BRAIN Director, NIH/NINDS \\
     \end{tabular*}
 
   \item
     \begin{tabular*}{6.3in}{l@{\extracolsep{\fill}}r}
-      \textbf{SelfMotion Labs} & 2022--present\\
-      Founder \& Chief Scientist \\
+      \textbf{SelfMotion Labs} (\emph{stealth mode}) & Baltimore, MD\\
+      Founder \& Chief Scientist & 2022--present\\
     \end{tabular*}
 
   \item
@@ -188,17 +194,24 @@
 % Insert the text for all the publication lists:
 \newsection{Publications}{pubs}
 
-%\renewcommand{\itemnote}[1]{}
-\input{pubs}
+\renewcommand{\itemnote}[1]{}
+%\input{pubs}
+\input{pubs-merged.tex}
 %\renewcommand{\itemnote}[1]{
 %\begin{description}
 %\item[$\rightarrow$] \hspace{.09in}{\color{darkgray}\it #1}
 %\end{description}
 %}
 
+
+\smallskip
 \newsection{Websites}{web}
 
 \begin{description}
+  \item \href{https://www.ninds.nih.gov/about-ninds/who-we-are/staff-directory/joseph-monaco}
+    {``\itemtitle{Joseph Monaco, Ph.D. -- Scientific
+      Program Manager, NIH BRAIN Initiative}.'' Website.
+    \aurl{https://www.ninds.nih.gov/about-ninds/who-we-are/staff-directory/joseph-monaco}}
   \item \href{https://jdmonaco.com/}
     {``\itemtitle{Briefly Balanced: Theoretical neuroscience of behavior in
     space and time}.'' Website. \aurl{https://jdmonaco.com/}}
@@ -213,38 +226,70 @@
     {\itemtitle{Twitter Feed}. Social Media. \aurl{https://twitter.com/j\_d\_monaco}}
 \end{description}
 
-\newsection{Media Releases}{pr}
 
+\renewcommand{\itemnote}[1]{
 \begin{description}
-  \item \href{https://www.jhuapl.edu/NewsStory/220919-stem-teaching-tool-recognized-ieee-isec-2022}{
-      ``\itemtitle{Novel Teaching Tool Earns Hopkins Collaborators
-      International Conference Honors}.'' JHUAPL Press Office. Sept 19, 2022.
-      \aurl{https://www.jhuapl.edu/NewsStory/220919-stem-teaching-tool-recognized- ieee-isec-2022}}
-  \item \href{https://kavlijhu.org/news/32} {``\itemtitle{Can
-        robotic swarms navigate using learning rules devised for brain
-      dynamics?}'' JHU/Kavli Neuroscience Discovery Insitute. May 3, 2020.
-    \aurl{https://kavlijhu.org/news/32}}
-  \item \href{https://www.youtube.com/watch?v=ic4zEgVMSsA}
-    {``\itemtitle{Swarmalators}.'' JHUAPL Press Office. May 9, 2019.
-    \aurl{https://www.youtube.com/watch?v=ic4zEgVMSsA}}
-  \item \href{https://hub.jhu.edu/2018/10/02/brain-robot-swarms-study/}
-    {``\itemtitle{What do animal brains have in common with swarms of robots?
-      Maybe more than you think}.'' Geoff Brown/JHU Office of Communications. Oct 2,
-    2018. \aurl{https://hub.jhu.edu/2018/10/02/brain-robot-swarms-study/}}
-  \item \href{https://www.jhuapl.edu/PressRelease/181001}
-    {``\itemtitle{Do Robot Swarms Work Like Brains?}'' JHUAPL Press Office. October 1, 2018.
-    \aurl{https://www.jhuapl.edu/PressRelease/181001}}
-  \item \href{https://hub.jhu.edu/2014/04/14/memory-brain-place-cells/}
-    {``\itemtitle{Where does a memory begin? Johns Hopkins neuroscientists think they
-      know}.'' Latarsha Gatlin/JHU Office of Communications. April 14, 2014.
-    \aurl{https://hub.jhu.edu/2014/04/14/memory-brain-place-cells/}}
-  \item \href{https://www.youtube.com/watch?v=Jm8OiLJqKJQ}
-    {``\itemtitle{Johns Hopkins Researchers Probe Mysteries of
-      the Brain}.'' JHU Office of Communications. April 14, 2014.
-    \aurl{https://www.youtube.com/watch?v=Jm8OiLJqKJQ}}
+\item[$\rightarrow$] \hspace{.09in}{\color{darkgray}\it #1}
 \end{description}
+}
 
-\newsection{Coverage of My Work}{press}
+\smallskip
+\newsection{Funding Awards}{grants}
+
+\begin{itemize}\label{sec:nsfaward}
+  \item \href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=false}
+    {\itemtitle{NCS-FO: Spatial intelligence for swarms based on hippocampal
+    dynamics}}\hspace{\stretch{1}}2018--2021
+    \begin{itemize}
+      \item NSF\slash NCS FOUNDATIONS (BRAIN Initiative) Award No.~1835279: \$862K/\$997K (Direct/Total)
+      \item \textbf{Lead PI:} Kechen Zhang
+      \item \textbf{Co-PIs, JHUAPL}: Grace Hwang, Robert W. Chalmers, Kevin
+        Schultz, and M. Dwight Carr
+      \item \textbf{Research Associate (FY19)/Co-PI (FY20--FY21): \joehl{Joseph D. Monaco}}
+    \end{itemize}
+    \itemnote{I co-developed this project and co-wrote the proposal with a
+      JHUAPL colleague (see \nameonpdot{nsfgrant}). As a Research Associate
+    faculty at JHU as of FY20, my project role was promoted to co-PI.}
+    \itemnote{This project was the basis for JHUAPL's 2020 ranking
+      as a top workplace for innovation: \\
+      \href{https://www.fastcompany.com/90529833/best-workplaces-for-innovators-2020-johns-hopkins-university-apl}
+      {``\itemtitle{Johns Hopkins University APL is one of Fast Company’s Best Workplaces
+      for Innovators}.'' (July 29, 2020). \emph{Fast Company}.}}
+\end{itemize}
+
+\begin{itemize}\label{sec:nihaward}
+  \item \href{https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&icde=42555668&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball=}
+    {\itemtitle{Spiking network models of sharp-wave ripple sequences with\\
+    gamma-locked attractor dynamics}}\hspace{\stretch{1}}2018--2020
+    \begin{itemize}
+      \item NIH/NINDS R03 Award No.~NS109923: \$50K/\$82K (Direct/Total)
+      \item \textbf{PI:} Kechen Zhang
+      \item \textbf{Research Associate:} \joehl{Joseph D. Monaco}
+    \end{itemize}
+    \itemnote{I conceived this project, generated preliminary data, and wrote
+      the proposal (see \nameonpdot{nihgrant}). As a Postdoctoral Fellow, JHU
+    policy precluded a PI role.}
+\end{itemize}
+
+\begin{itemize}\label{sec:sliaward}
+  \item \href{https://jdmonaco.com/files/ScienceOfLearning-2016-award-brief.pdf}
+    {\itemtitle{Learning to explore paths through space}}\hspace{\stretch{1}}2016--2018
+    \begin{itemize}
+      \item JHU/Science of Learning Institute (SLI) Award: \$150K
+      \item \textbf{PI:} Kechen Zhang
+      \item \textbf{Co-PI:} David J.~Foster (now at UC Berkeley)
+      \item \textbf{Research Associate:} \joehl{Joseph D.~Monaco}
+    \end{itemize}
+    \itemnote{I conceived this project, initiated the collaboration between the
+    Zhang and Foster labs, and wrote the proposal (see \nameonpdot{sligrant}).
+    As a Postdoctoral Fellow, JHU policy precluded a PI role.}
+\end{itemize}
+
+\renewcommand{\itemnote}[1]{}
+
+
+\smallskip
+\newsection{Community Coverage of My Work}{press}
 
 \subsection*{News \& Views}
 
@@ -278,85 +323,457 @@
     robust remapping...}'' \emph{F1000/Faculty Opinions}.}
 \end{itemize}
 
-\subsection*{Other Press}
 
-\begin{itemize}
-  \item \href{https://www.fastcompany.com/90529833/best-workplaces-for-innovators-2020 -johns-hopkins-university-apl} 
-    {``\itemtitle{Johns Hopkins University APL is one of Fast Company’s Best Workplaces
-      for Innovators}.'' (July 29, 2020). \emph{Fast Company}.
-    \aurl{https://www.fastcompany.com/90529833/best-workplaces-for-innovators- 2020-johns-hopkins-university-apl}}
-    \itemnote{My NSF project (see Award No.~1835279 below) was the basis for \#3 ranking of JHUAPL.}
-  \item \href{https://blogs.plos.org/biologue/2019/03/20/better-use-of-mouse-models-skin-infection-dynamics-and-phaser-cells-in-navigation/}
-    {``\itemtitle{Better Use of Mouse Models, Skin Infection
-      Dynamics, and Phaser Cells in Navigation}.'' (March 20,
-      2019). \emph{PLOS Computational Biology: Biologue}.
-      \aurl{https://blogs.plos.org/biologue/2019/03/20/ 
-    better-use-of-mouse-models-skin-infection-dynamics-and-phaser-cells-in-navigation/}}
-    \itemnote{Editor-in-Chief's selection of papers.}
-  \item \href{https://nationalsciencefoundation.tumblr.com/post/183448836933/brain-awareness-week-2019-rats-and-robots}
-    {``\itemtitle{Brain Awareness Week 2019—Rats and Robots: NSF-funded researchers
-        take a lesson from rat navigation instincts to improve algorithm[s] for
-      robots}.'' (March 14, 2019). \emph{National Science Foundation/Tumblr}.
-    \aurl{https://nationalsciencefoundation.tumblr.com/post/ 183448836933/brain-awareness-week-2019-rats-and-robots}}
-  \item \href{https://www.medicaldaily.com/cognitive-map-can-show-real-time-when-memories-form-thanks-place-cells-brain-276790}
-    {``\itemtitle{Cognitive Map Can Show In Real-Time When Memories Form, Thanks
-      To Place Cells In The Brain}.'' (April 15, 2014). Chris Weller/Medical Daily.
-    \aurl{https://www.medicaldaily.com/cognitive-map-can- show-real-time-when-memories-form-thanks-place-cells-brain-276790}}
-\end{itemize}
+\smallskip
+\newsection{Media Releases}{pr}
+
+\begin{description}
+  \item \href{https://www.jhuapl.edu/NewsStory/220919-stem-teaching-tool-recognized-ieee-isec-2022}{
+      ``\itemtitle{Novel Teaching Tool Earns Hopkins Collaborators
+      International Conference Honors}.'' JHUAPL Press Office. Sept 19, 2022.
+      \aurl{https://www.jhuapl.edu/NewsStory/220919-stem-teaching-tool-recognized- ieee-isec-2022}}
+  \item \href{https://kavlijhu.org/news/32} {``\itemtitle{Can
+        robotic swarms navigate using learning rules devised for brain
+      dynamics?}'' JHU/Kavli Neuroscience Discovery Insitute. May 3, 2020.
+    \aurl{https://kavlijhu.org/news/32}}
+  \item \href{https://www.youtube.com/watch?v=ic4zEgVMSsA}
+    {``\itemtitle{Swarmalators}.'' JHUAPL Press Office. May 9, 2019.
+    \aurl{https://www.youtube.com/watch?v=ic4zEgVMSsA}}
+  \item \href{https://hub.jhu.edu/2018/10/02/brain-robot-swarms-study/}
+    {``\itemtitle{What do animal brains have in common with swarms of robots?
+      Maybe more than you think}.'' Geoff Brown/JHU Office of Communications. Oct 2,
+    2018. \aurl{https://hub.jhu.edu/2018/10/02/brain-robot-swarms-study/}}
+  \item \href{https://www.jhuapl.edu/PressRelease/181001}
+    {``\itemtitle{Do Robot Swarms Work Like Brains?}'' JHUAPL Press Office. October 1, 2018.
+    \aurl{https://www.jhuapl.edu/PressRelease/181001}}
+  \item \href{https://hub.jhu.edu/2014/04/14/memory-brain-place-cells/}
+    {``\itemtitle{Where does a memory begin? Johns Hopkins neuroscientists think they
+      know}.'' Latarsha Gatlin/JHU Office of Communications. April 14, 2014.
+    \aurl{https://hub.jhu.edu/2014/04/14/memory-brain-place-cells/}}
+  \item \href{https://www.youtube.com/watch?v=Jm8OiLJqKJQ}
+    {``\itemtitle{Johns Hopkins Researchers Probe Mysteries of
+      the Brain}.'' JHU Office of Communications. April 14, 2014.
+    \aurl{https://www.youtube.com/watch?v=Jm8OiLJqKJQ}}
+\end{description}
 
 
 \smallskip
+\newsection{Recognition}{awards}
 
-\newsection{Funding Awards}{grants}
-
-\begin{itemize}\label{sec:nsfaward}
-  \item \href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835279&HistoricalAwards=false}
-    {\itemtitle{NCS-FO: Spatial intelligence for swarms based on hippocampal
-    dynamics}}\hspace{\stretch{1}}2018--2021
-    \begin{itemize}
-      \item NSF\slash NCS FOUNDATIONS (BRAIN Initiative) Award No.~1835279: \$862K/\$997K (Direct/Total)
-      \item \textbf{Lead PI:} Kechen Zhang
-      \item \textbf{Co-PIs, JHUAPL}: Grace Hwang, Robert W. Chalmers, Kevin
-        Schultz, and M. Dwight Carr
-      \item \textbf{Research Associate (FY19)/Co-PI (FY20--FY21): \joehl{Joseph D. Monaco}}
-    \end{itemize}
-    \itemnote{I co-developed this project and co-wrote the proposal with a
-      JHUAPL colleague (see \nameonpdot{nsfgrant}). As a Research Associate
-    faculty at JHU as of FY20, my project role was promoted to co-PI.}
-\end{itemize}
-
-\begin{itemize}\label{sec:nihaward}
-  \item \href{https://projectreporter.nih.gov/project_info_description.cfm?aid=9652210&icde=42555668&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball=}
-    {\itemtitle{Spiking network models of sharp-wave ripple sequences with\\
-    gamma-locked attractor dynamics}}\hspace{\stretch{1}}2018--2020
-    \begin{itemize}
-      \item NIH/NINDS R03 Award No.~NS109923: \$50K/\$82K (Direct/Total)
-      \item \textbf{PI:} Kechen Zhang
-      \item \textbf{Research Associate:} \joehl{Joseph D. Monaco}
-    \end{itemize}
-    \itemnote{I conceived this project, generated preliminary data, and wrote
-      the proposal (see \nameonpdot{nihgrant}). As a Postdoctoral Fellow, JHU
-    policy precluded a PI role.}
-\end{itemize}
-
-\begin{itemize}\label{sec:sliaward}
-  \item \href{https://scienceoflearning.jhu.edu/research/learning-to-explore-paths-through-space/}
-    {\itemtitle{Learning to explore paths through space}}\hspace{\stretch{1}}2016--2018
-    \begin{itemize}
-      \item JHU/Science of Learning Institute (SLI) Award: \$150K
-      \item \textbf{PI:} Kechen Zhang
-      \item \textbf{Co-PI:} David J.~Foster (now at UC Berkeley)
-      \item \textbf{Research Associate:} \joehl{Joseph D.~Monaco}
-    \end{itemize}
-    \itemnote{I conceived this project, initiated the collaboration between the
-    Zhang and Foster labs, and wrote the proposal (see \nameonpdot{sligrant}).
-    As a Postdoctoral Fellow, JHU policy precluded a PI role.}
-\end{itemize}
+\lefttabline{0.8in}{2022}{IEEE/ISEC Best Paper Award, First Place}
+\lefttabline{0.8in}{2003}{International Joint Conference on Neural Networks (IJCNN) Student Paper Award, First Place}
+\lefttabline{0.8in}{2002}{U.Va. John A. Harrison III Undergraduate Research Award}
+\lefttabline{0.8in}{1999--2003}{U.Va. Echols Scholar}
+\lefttabline{0.8in}{1999}{State of Maryland Merit Scholastic Award}
+\lefttabline{0.8in}{1999}{AP Scholar with Distinction}
+\lefttabline{0.8in}{1999}{National Merit Scholarship Commended Student}
+\lefttabline{0.8in}{1999}{Johns Hopkins Mathematics Competition (2nd Place, Individual Calculus)}
+\lefttabline{0.8in}{1999}{Maryland Distinguished Scholar}
 
 
+\smallskip
+\newsection{Professional Service \& Scientific Review}{service}
+
+\subsection*{Journals --- Editorial Boards}\label{sec:edboards}
+
+\lefttabline{1.1in}{2023--present}{Frontiers in Computational Neuroscience}
+\lefttabline{1.1in}{2023--present}{Frontiers in Neural Circuits}
+
+\subsection*{Journals --- Peer Review}\label{sec:review}
+
+\lefttabline{0.8in}{2023}{Nature Communications}
+\lefttabline{0.8in}{2021}{PLOS Computational Biology}
+\lefttabline{0.8in}{2021}{Nature Machine Intelligence}
+\lefttabline{0.8in}{2020}{Neuroscience and Biobehavioral Reviews}
+\lefttabline{0.8in}{2020}{Scientific Reports}
+\lefttabline{0.8in}{2019}{eLife}
+\lefttabline{0.8in}{2019}{Hippocampus}
+\lefttabline{0.8in}{2018--2019}{Neuron}
+\lefttabline{0.8in}{2018}{Neural Computation (including as `Communicator')}
+\lefttabline{0.8in}{2018}{PLOS ONE}
+\lefttabline{0.8in}{2017}{PeerJ}
+\lefttabline{0.8in}{2015}{IEEE Transactions in Biomedical Engineering}
+\lefttabline{0.8in}{2012--2020}{IEEE Neural Networks}
+\lefttabline{0.8in}{2012}{Biological Cybernetics}
+\lefttabline{0.8in}{2012}{Neurocomputing}
+\lefttabline{0.8in}{2012}{Neuroscience}
+
+\subsection*{Funding Agencies}\label{sec:programsvc}
+
+\lefttabline{0.8in}{2022}{NSF CAREER Ad-Hoc Reviewer}
+\lefttabline{0.8in}{2022}{NSF Emerging Frontiers in Research and Innovation (EFRI) Preliminary Review (3 Panels)}
+\lefttabline{0.8in}{2022--2023}{NSF EFRI Final-Round Review (1 Panel, 1 Ad Hoc)}
+\lefttabline{0.8in}{2020--2022}{NSF EFRI Program Development, Extramural Contributor}
+\lefttabline{0.8in}{2014}{IARPA Program Development, Extramural Contributor}
+
+\subsection*{Conferences}\label{sec:confsvc}
+
+\lefttabline{0.8in}{2020--2021}{Cosyne, Review Committee}
+\lefttabline{0.8in}{2016}{Cosyne, Review Committee}
+
+\subsection*{Societies}\label{sec:societies}
+
+\lefttabline{0.8in}{2022--2024}{American Physical Society, Regular Member}
+\lefttabline{0.8in}{2011--2022}{Society for Neuroscience, Postdoc/Regular Member}
+
+
+\smallskip
+\newsection{Workshops, Seminars, and Talks}{talks}
+
+\smallskip
+\subsection*{International}
+\label{sec:talksintl}
+
+\begin{longtable}{@{\hspace{0.1in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  10/13/2023 & \href{https://jdmonaco.com/files/monaco-IAPCT-2023-slides.pdf}
+    {``\itemtitle{Cognitive-narrative dynamics of self-perspective control
+    across the lifespan}.''} \emph{Invited Talk}. 33rd Annual International
+    Association for Perceptual Control Theory (IAPCT) Conference, 
+  \href{https://www.iapct.org/uncategorized/utc-4-boston-time-zone/}
+  {Session 7 on \unpubtitle{\emph{Consciousness and the Self}}}, Virtual
+  [\href{https://jdmonaco.com/files/monaco-IAPCT-2023-slides.pdf}{\unpubtitle{pdf}}] \\
+  \tabularnewline
+  10/12/2023 & \href{https://odin.mit.edu/schedule.html}
+    {``\itemtitle{Beyond ‘FAIR’: What does sustainable protocolization of
+    open data in neuroscience look like?}'' \emph{Invited Panelist \& Keynote
+    Speaker}. Open Data in Neuroscience (ODIN) Symposium, Massachusetts Institute
+  of Technology, Boston, MA} \\
+  \tabularnewline
+  3/8/2023 & \href{https://meetings.aps.org/Meeting/MAR23/Session/M01.13}
+  {``\itemtitle{Neurodynamical computing at the information boundaries of
+    intelligent systems}.'' \emph{Contributed Talk}. American Physical Society (APS)
+  March Meeting, Las Vegas, NV}
+  [\href{https://jdmonaco.com/files/monaco-APS-March-Meeting-2023-slides.pdf}{\unpubtitle{pdf}}] \\
+  \tabularnewline
+  2/1/2022 \hspace{0.2in} & ``\unpubtitle{Theory-Driven Data Science to
+  Understand the Neural Dynamics of Memory and Behavior}.'' \emph{Invited Talk}.
+  Department of Cell \& Systems Biology, University of Toronto, Canada, Virtual \\
+  \tabularnewline
+  12/1/2021 \hspace{0.2in} & ``\unpubtitle{Learning as swarming: Cognitive
+  flexibility from the neural dynamics of phase-coupled attractor maps}.''
+  \emph{Contributed Talk}. Neuromatch 4.0 Conference, Virtual \\
+  \tabularnewline
+  %\href{https://youtu.be/3mKkLksOyfk}{``\unpubtitle{Learning as swarming:
+      %Cognitive flexibility from the neural dynamics of phase-coupled attractor
+    %maps}.'' \emph{Contributed Talk}. Neuromatch 4.0 Conference, Virtual
+  %\itemtitle{[YouTube]}} \\
+  %\tabularnewline
+  10/29/2020 \hspace{0.2in} & ``\unpubtitle{Spatial theta-phase coding in
+  the lateral septum: A theory of allocentric feedback during navigation}.''
+  \emph{Contributed Talk}. Neuromatch 3.0 Conference, Virtual \\
+  \tabularnewline
+  %\href{https://www.youtube.com/watch?v=WwYDMpD7j4Q}{``\unpubtitle{Spatial
+      %theta-phase coding in the lateral septum: A theory of allocentric feedback
+    %during navigation}.'' \emph{Contributed Talk}. Neuromatch 3.0 Conference,
+  %Virtual \itemtitle{[YouTube]}} \\
+  %\tabularnewline
+  10/7/2020 \hspace{0.2in} & ``\unpubtitle{Computing path integration with
+  oscillatory phase codes in biological and artificial systems}.'' \emph{Data
+  Blitz}. iNAV Symposium 2020, Virtual \\
+  \tabularnewline
+  7/1/2010 \hspace{0.2in} & ``\unpubtitle{Medial versus lateral modes for
+  reconfiguring hippocampal representations}.'' \emph{Invited Talk}. Grid
+  Cell Meeting, Gatsby Computational Neuroscience Unit, UCL, UK \\
+\end{longtable}
+
+
+\smallskip
+\subsection*{National}
+\label{talks:natl}
+
+\begin{longtable}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  9/26--28/2023 & BRAIN Initiative Cell Atlas Network (BICAN)
+  Knowledge Base Workshop. \emph{BRAIN Liaison \& Invited Participant}. Allen
+  Institute for Brain Sciences, Seattle, WA \\
+  \tabularnewline
+  7/17--18/2023 \hspace{0.2in} &
+  \href{https://event.roseliassociates.com/brain-newg-ws-july-2023/}
+  {\itemtitle{Workshop on Ethics of Sharing Individual Level Human Brain
+    Data Collected in Biomedical Research}. \emph{Co-Organizer, Breakout
+    Moderator/Reporter}. BRAIN Initiative Neuroethics Working Group (NEWG), NIH,
+  Bethesda, MD \& Hybrid} \\
+  \tabularnewline
+  5/9/2023 \hspace{0.2in} & 
+  \href{https://jdmonaco.com/files/monaco_TheoryOfTheory_slides.pdf}
+  {``\itemtitle{Theory of theory: On the role of
+  theory and modeling in neuroscience}.'' \emph{Invited Extramural Seminar}.
+  NIH, Virtual [\unpubtitle{pdf}]} \\
+  \tabularnewline
+  4/28/2023 \hspace{0.3in} & 
+  \href{https://jdmonaco.com/files/monaco-2023-afrl-quest-slides.pdf}
+  {``\itemtitle{Neurodynamical Articulation: Decoupling Intelligence from the
+  Experiencing Self}.'' \emph{Invited Public Seminar}. QuEST, Air Force Research
+  Lab/Autonomous Capabilities Team 3 (AFRL/ACT3), Virtual [\unpubtitle{pdf}]} \\
+  \tabularnewline
+  12/21/2022 \hspace{0.3in} & ``\unpubtitle{Finding Causal Paths Across Scales:
+  Embodied Control, Ethological Interaction, and Theory-Driven Neural Data
+  Science}.'' \emph{Invited Talk}. Division of Neuroscience and Behavior,
+  NIH/NIDA, Virtual \\
+  \tabularnewline
+  11/17/2022 \hspace{0.3in} & ``\unpubtitle{Finding Causal Paths Across Scales:
+  Embodied Control, Ethological Interaction, and Theory-Driven Neural Data
+  Science}.'' \emph{Invited Talk}. Division of Neuroscience and Basic Behavioral
+  Science, NIH/NIMH, Virtual \\
+  \tabularnewline
+  8/26/2022 \hspace{0.3in} &
+  \href{https://jdmonaco.com/files/monaco-2022-afrl-quest-slides.pdf}
+  {``\itemtitle{Brain oscillations: From cortical computing to the existential
+  nonduality of conscious agents}.'' \emph{Invited Public Seminar}. Qualia
+  Exploitation for Sensor Technology (QuEST), Air Force Research Lab/Autonomous
+  Capabilities Team 3 (AFRL/ACT3), Virtual [\unpubtitle{pdf}]}\\
+  \tabularnewline
+  6/1/2020
+  \hspace{0.3in} &
+  \href{https://youtu.be/2jy1ENYHRAw?t=902}
+  {``\itemtitle{Can Transitory Neurodynamics Unify Learning Theories for Brains
+  and Machines?}'' \emph{Invited Talk \& Panel Discussion}.}
+  6th Annual BRAIN Initiative Investigators Meeting,
+  \href{https://www.labroots.com/webinar/symposium-1-dynamical-systems-neuroscience-reciprocally-advance-machine-learning}
+  {Symposium 1 on \unpubtitle{\emph{How Can Dynamical Systems Neuroscience
+  Reciprocally Advance Machine Learning?}}}, NIH, Virtual 
+  [\href{https://youtu.be/2jy1ENYHRAw?t=902}{{\itemtitle{\bf YouTube}}}] \\
+  \tabularnewline
+  5/18/2020 \hspace{0.3in} & ``\unpubtitle{Computational Approaches to the
+  Neural Dynamics of Time, Memory, and Behavior}.'' \emph{Invited Talk}.
+  Department of Neuroscience, Medical Discovery Team for Optical Imaging,
+  University of Minnesota, Virtual \\
+  \tabularnewline
+  2/24/2020 \hspace{0.3in} & ``\unpubtitle{Computational Mechanisms of Memory:
+  Linking Behavior, Space, \& Time}.'' \emph{Invited Talk}. Department of
+  Psychology, University of Nevada, Las Vegas, NV \\
+  \tabularnewline
+  1/31/2020 \hspace{0.3in} & ``\unpubtitle{Attractors, memory, and oscillations:
+  Computational motifs of spatial learning}.'' \emph{Invited Talk}.
+  Department of Biological Sciences, University of Texas at El Paso, El Paso, TX \\
+  \tabularnewline
+  4/17/2019 \hspace{0.3in} & ``\unpubtitle{Emergent dynamics of hippocampal
+  circuitry as a basis for robust self-organized planning in mobile swarms}.''
+  \emph{Invited Talk}. International Society for Optics and Photonics (SPIE)
+  Defense \& Commercial Sensing 2019 Conference, Baltimore, MD \\
+  \tabularnewline
+  4/10/2019 & NSF/Neural \& Cognitive Systems (NCS) PI
+  Workshop. \emph{Invited Participant}. Marriott Wardman Park Hotel, Washington, D.C. \\
+  \tabularnewline
+  2/3--7/2019 & NSF/BRAIN Initiative Workshop: Present and Future Frameworks
+  of Theoretical Neuroscience. \emph{Invited Participant}. University of Texas,
+  San Antonio, TX \\
+  \tabularnewline
+  1/3/2014 & \href{https://jdmonaco.com/files/ScanningSlide.pdf}
+  {``\itemtitle{Head scans drive the formation and potentiation of place
+  fields during exploration}.'' \emph{Data Blitz}. 38th Winter Conference on
+  Neurobiology of Learning \& Memory, Park City, UT} \\
+  \tabularnewline
+  4/10/2009 & ``\unpubtitle{Rapid spatial map formation and remapping by
+  competing over grid cell inputs}.'' \emph{Thesis Seminar}. Department of
+  Neurobiology \& Behavior, Columbia University, New York, NY 
+  [\href{https://jdmonaco.com/files/monaco-2009-thesis-seminar-Keynote.mp4}
+  {\unpubtitle{Keynote Movie Export (mp4)}}] \\
+\end{longtable}
+
+\smallskip
+\subsection*{Regional}
+
+\begin{longtable}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  10/2/2019 \hspace{0.1in} & ``\unpubtitle{Oscillations, attractors, and
+  sequences: Extending hippocampal computations to artificial systems}.''
+  \emph{Invited Talk}. Kavli Neuroscience Discovery Institute, Johns Hopkins
+  University, Baltimore, MD\\
+  \tabularnewline
+  1/22/2016 & ``\unpubtitle{Hippocampal circuits for space, memory, and
+  navigation: From minimal models to biologically inferred networks}.''
+  \emph{Invited Talk}. Department of Pharmacology, University of Maryland,
+  Baltimore, MD\\
+  \tabularnewline
+  9/6/2014 & ``\unpubtitle{Stopping to look: How attentive scanning behavior
+  reveals the formation of new memories}.'' \emph{Department Retreat Seminar}.
+  Department of Neuroscience, Johns Hopkins University, Baltimore, MD\\
+  \tabularnewline
+  4/21/2014 & ``\unpubtitle{Landmark influence: How attention to sensory cues
+  stabilizes and updates the hippocampal cognitive representation of space}.''
+  \emph{Advanced Researcher Seminar}. Zanvyl Krieger Mind/Brain Institute, Johns
+  Hopkins University, Baltimore, MD\\
+  \tabularnewline
+  4/1/2014 & ``\unpubtitle{Hippocampus and declarative memory:
+  Head scanning}.'' \emph{Department `Lab Lunch' Seminar}. Department of
+  Neuroscience, Johns Hopkins University, Baltimore, MD\\
+\end{longtable}
+
+
+\smallskip
+\newsection{Scientific Conference Presentations}{posters}
+
+\begin{description}
+  \item[\quad]
+    \href{https://www.cvent.com/events/6th-annual-brain-initiative-investigators-meeting/custom-116-4e2aadaa6cd549a3a4b53113cd172ad2.aspx}
+    {\joehl{Monaco JD}, Hwang GM, Schultz K, Zhang K. (2020).
+      \itemtitle{Cognitive swarming in complex environments with attractor
+      dynamics and oscillatory computing}. \emph{6th Annual BRAIN Initiative
+    Investigators Meeting}. Virtual, with audio narration. June~2020.}
+  \item[\quad]
+    \href{https://www.fens.org/Meetings/The-Brain-Conferences/Dynamics-of-the-brain/}
+    {\joehl{Monaco JD}, Hwang GM, De Guzman RM, Blair HT, Zhang K. (2019).
+      \itemtitle{Spatial rate-phase coding in lateral septal ‘phaser cells’:
+      single-unit data and theta-bursting models}. \emph{FENS (Federation of
+        European Neuroscience Societies) Dynamics of the brain: Temporal aspects of
+    computation}. North Copenhagen, Denmark. June~2019.}
+  \item[\quad]
+    \joehl{Monaco JD}. (2019). \unpubtitle{Decoding septohippocampal theta cells
+    during exploration reveals unbiased environmental cues in firing phase}.
+    Kavli Neuroscience Discovery Institute, Baltimore, MD. October~2019.
+  \item[\quad]
+    \href{https://www.cvent.com/events/5th-annual-brain-initiative-investigators-meeting/event-summary-de9c0d8f934b46eb8d80b55bcfbfe96a.aspx}
+    {\joehl{Monaco JD}, Hwang GM, Schultz K, Zhang K. (2019).
+      \itemtitle{Self-organized swarm control using neural principles of spatial
+      phase coding}. \emph{5th Annual BRAIN Initiative Investigators Meeting}.
+    Washington, D.C. April~2019.} 
+  \item[\quad]
+    \href{https://abstractsonline.com/pp8/#!/4649/presentation/10884}
+    {Hwang GM, Schultz K, \joehl{Monaco JD}, Chalmers RW, Lau SW, Yeh BY,
+      Zhang K. (2018). \itemtitle{Self-organized swarm control using neural
+      principles of spatial phase coding}. \emph{Society for Neuroscience}.
+    San Diego, CA. November~2018.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/pp8/#!/4376/presentation/6085}
+    {\joehl{Monaco J}, Blair HT, Zhang K. (2017). \itemtitle{Decoding
+        septohippocampal theta cells during exploration reveals unbiased
+      environmental cues in firing phase}. \emph{Society for Neuroscience}.
+    Washington, D.C. November~2017.}
+  \item[\quad]
+    \joehl{Monaco JD}. (2016). \unpubtitle{Spatial rate/phase correlations in
+    theta cells can stabilize randomly drifting path integrators}. \emph{Greater
+    Baltimore SfN Meeting}, Baltimore, MD. October~2016
+  \item[\quad]
+    \href{https://jdmonaco.com/files/monaco-paper-cosyne15.pdf}
+    {\joehl{Monaco JD}, Blair HT, Zhang K. (2015). \itemtitle{Spatial
+        rate/phase correlations in theta cells can stabilize randomly drifting path
+    integrators}. \emph{Cosyne}. Salt Lake City, UT. March~2015.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=973d2662-ba7a-4ad2-aff9-fe0d4b77c262&cKey=9917ffaf-9e31-4213-acb9-4aab498ab4cd&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7}
+    {\joehl{Monaco J}, Blair HT, Zhang K. (2014). \itemtitle{Spatial rate/phase
+        codes provide landmark-based error correction in a temporal model of theta
+    cells}. \emph{Society for Neuroscience}. Washington, D.C.  November~2014.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=bfb59866-8deb-44a6-9515-a7aab630507b&cKey=d201b3aa-7725-452e-b0dd-c41d204b5b54&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7}
+    {Wang CH, Rao G, \joehl{Monaco JD}, Deshmukh SS, Knierim JJ. (2014).
+      \itemtitle{Potentiation of place fields along the CA1 transverse axis by
+      investigatory head-scanning behavior}. \emph{Society for Neuroscience}. 
+    Washington, D.C. November~2014.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=32eccac1-4e1d-4e81-bf5c-f39bcb605757&cKey=4710dece-cc8e-4b48-8764-49ea174b91ef&mKey=8d2a5bec-4825-4cd6-9439-b42bb151d1cf}
+    {\joehl{Monaco J}, Rao G, Knierim JJ. (2013). \itemtitle{Scanning behavior
+        in novel environments promotes \emph{de novo} formation of hippocampal place
+    fields in rats}. \emph{Society for Neuroscience}. San Diego, CA. November~2013.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=f5b9fa94-7d15-48c7-9d67-b89cd2883025&cKey=a53349ca-41b1-4664-b022-85d0d1fe59b8&mKey=70007181-01C9-4DE9-A0A2-EEBFA14CD9F1}
+    {\joehl{Monaco J}, Rao G, Knierim JJ. (2012). \itemtitle{Hippocampal LFP
+      during rodent head-scanning behavior: Theta and sharp-wave ripples}.
+    \emph{Society for Neuroscience}. New Orleans, LA. October~2012.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=c48e9f5f-1274-4486-85bf-38ee591629e1&cKey=190bd951-c183-428d-a4c5-01eb61556d79&mKey=8334BE29-8911-4991-8C31-32B32DD5E6C8}
+    {\joehl{Monaco J}, Rao G, Knierim JJ. (2011). \itemtitle{Hippocampal place
+        cell firing during head-scanning movements is associated with the formation
+    of new place fields}. \emph{Society for Neuroscience}. Washington, D.C. November~2011.}
+  \item[\quad]
+    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=c48e9f5f-1274-4486-85bf-38ee591629e1&cKey=3ec26e6f-8c59-4be2-bad3-e1572d75e07e&mKey=8334BE29-8911-4991-8C31-32B32DD5E6C8}
+    {Rao G, \joehl{Monaco J}, Knierim JJ. (2011). \itemtitle{Environmental
+        novelty promotes rodent head-scanning behavior linked to enhanced entorhinal
+      activity}. \emph{Society for Neuroscience}. Washington,
+    D.C. November~2011.}
+  \item[\quad]
+    \href{https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00192/event_abstract}
+    {\joehl{Monaco JD}, Zhang K, Blair HT, Knierim JJ. (2010).
+      \itemtitle{Cue-based feedback enables remapping in a multiple oscillator
+      model of place cell activity}. \emph{Cosyne}. Salt Lake City, UT.
+    February~2010.}
+  \item[\quad] \joehl{Monaco JD}, Abbott LF. (2009). \unpubtitle{Dynamic
+      hippocampal remapping using recurrent inhibition on realigning grid cell
+    inputs}. \emph{Cosyne}. Salt Lake City, UT. February~2009.
+  \item[\quad] \joehl{Monaco JD}, Muzzio IA, Levita L, Abbott LF. (2006).
+    \unpubtitle{Entorhinal input and global remapping of hippocampal place
+    fields}. \emph{CNS}. Edinburgh, UK. July~2006.
+  \item[\quad] \joehl{Monaco JD}, Abbott LF. (2006). \unpubtitle{Entorhinal
+    input and the remapping of hippocampal place fields}. \emph{Cosyne}. Salt Lake
+    City, UT. March~2006.
+  \item[\quad] \joehl{Monaco JD}, Levy WB. (2003). \unpubtitle{T-maze training
+      of a recurrent CA3 model reveals the necessity of novelty-based modulation of
+    LTP in hippocampal region CA3}. \emph{IJCNN}. Portland, OR. July~2003.
+  \item[\quad] \joehl{Monaco JD}, Perlstein RP. (1997). \unpubtitle{Monte-Carlo
+    analysis of deoxyhypusine synthase inhibitor ligand conformations}. \emph{NIH
+    Poster Day}. Bethesda, MD. August~1997.
+\end{description}
+
+
+\smallskip
+\newsection{Teaching \& Mentoring}{teaching}
+
+\subsection*{Educational Programming}
+
+\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  2018--2021 \hspace{0.1in} & My NSF project with JHUAPL (see
+  \nameonpdottwo{nsfaward}{nsfgrant}) was successfully funded with a substantial
+  STEM component for high-school students involving the development of both
+  a 12-week course and an intense 2-day seminar called ``Swarming Powered by
+  Neuroscience.'' I worked with our STEM education collaborators at JHUAPL to
+  develop computational resources required for the curricula. Additionally, I
+  participated in and delivered two zoom lectures about our research for the
+  virtual 4-day STEM workshop (developed due to Covid requirements) with 40+
+  students that was held Jan 2021.
+\end{tabular}
+
+\pagebreak
+\subsection*{Mentoring \& Supervision}
+
+\begin{longtable}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  Spring 2021 \hspace{0.05in} & Darius Carr, STEM high school student; I mentored
+  Darius as part of a local high school program that facilitates research
+  internships for underrepresented students. I developed a computational
+  research project with him that deepened his current interests in neuroscience,
+  python programming, and scientific research. \\
+  \tabularnewline
+  2020--2022 \hspace{0.1in} & Armin Hadzic, junior machine learning engineer
+  at JHUAPL; I supervised Armin in translating computational neuroscience
+  models into the domain of reinforcement learning and Bayesian optimization
+  to investigate autonomous swarming with neural control. Our project led to
+  a first author peer-reviewed research publication for Armin in Array (see
+  \nameonpdot{hadzicpub}). In 2022, I provided letters of recommendation in
+  support of Armin's applications to Ph.D. programs in computer science. \\
+  \tabularnewline
+  2019--2023 & Sreelakshmi Rajendrakumar, master's student in JHU/Biomedical
+  Engineering (BME); I mentored Sreelakshmi in hippocampal physiology and
+  single-unit data analysis. In 2023, I provided letters of recommendation in
+  support of Sree's applications to Ph.D. programs in operations research and
+  causal inference. \\
+  \tabularnewline
+  2014 & Manning Zhang, M.S., graduate student in JHU/BME; I mentored Manning
+  through an exchange program with Shanghai Jiao Tong University and submitted
+  a letter of recommendation supporting her admission to the JHU/BME master's
+  program. \\
+  \tabularnewline
+  2013--2015 & Chia-Hsuan Wang, Ph.D., graduate student at the JHU/MBI; I worked
+  extensively with Chia-Hsuan to take over my previous studies of behavior
+  and place cells in the Knierim lab, leading to a Society for Neuroscience
+  conference poster in 2014. I supported her subsequent thesis research based on
+  my analytics and informatics software, resulting in a paper in Current Biology
+  (see \nameonpdot{wangpub}). \\
+\end{longtable}
+
+
+\subsection*{Classroom Instruction}
+
+\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
+  Fall 2004 & Teaching Assistant for undergraduate ``Introduction to
+  Neuroscience'' course, Brandeis University; I assisted Prof. Eve Marder by
+  supervising classes, grading examinations, and giving review lectures.\\
+  \tabularnewline
+  Spring 2005 \hspace{.1in} & Teaching Assistant for undergraduate ``Biology
+  Laboratory'' course, Brandeis University \\
+\end{tabular}
+
+
+\smallskip
 \newsection{Research Program Development}{research}
 
-\subsection*{Leadership \& Project Management}
+\subsection*{Leadership \& Team Coordination}
 \label{sec:res}
 
 \researchactivity
@@ -526,8 +943,8 @@ interaction.}
   to understanding the cognitive dynamics that enable mice to perform spatial
 goal-directed memory tasks.}
 
-\medskip
 
+\smallskip
 \subsection*{Inventions \& Patents}
 \label{sec:patents}
 
@@ -541,354 +958,5 @@ Applications, provisional patent, 62/845,957}
 \lefttabline{0.8in}{1/3/2019}{Inventor, Neuroinspired Algorithms for Swarming
 Applications, provisional patent, 62/787,891}
 
-
-\newsection{Professional Service \& Scientific Peer Review}{service}
-\label{sec:service}
-
-\subsection*{Journals}\label{sec:review}
-
-\lefttabline{0.8in}{2021}{PLOS Computational Biology}
-\lefttabline{0.8in}{2021}{Nature Machine Intelligence}
-\lefttabline{0.8in}{2020}{Neuroscience and Biobehavioral Reviews}
-\lefttabline{0.8in}{2020}{Scientific Reports}
-\lefttabline{0.8in}{2019}{eLife}
-\lefttabline{0.8in}{2019}{Hippocampus}
-\lefttabline{0.8in}{2018--2019}{Neuron}
-\lefttabline{0.8in}{2018}{Neural Computation (including as `Communicator')}
-\lefttabline{0.8in}{2018}{PLOS ONE}
-\lefttabline{0.8in}{2017}{PeerJ}
-\lefttabline{0.8in}{2015}{IEEE Transactions in Biomedical Engineering}
-\lefttabline{0.8in}{2012--2020}{IEEE Neural Networks}
-\lefttabline{0.8in}{2012}{Biological Cybernetics}
-\lefttabline{0.8in}{2012}{Neurocomputing}
-\lefttabline{0.8in}{2012}{Neuroscience}
-
-\subsection*{Funding Agencies}\label{sec:programsvc}
-
-\lefttabline{0.8in}{2022}{NSF CAREER Ad-Hoc Reviewer}
-\lefttabline{0.8in}{2022}{NSF EFRI Preliminary Review Panel (Served 3 Times)}
-\lefttabline{0.8in}{2022}{NSF EFRI Final Review Panel}
-\lefttabline{0.8in}{2020--2022}{NSF EFRI Program Development, Extramural Contributor}
-\lefttabline{0.8in}{2014}{IARPA Program Development, Extramural Contributor}
-
-\subsection*{Conferences}\label{sec:confsvc}
-
-\lefttabline{0.8in}{2020--2021}{Cosyne, Review Committee}
-\lefttabline{0.8in}{2016}{Cosyne, Review Committee}
-
-\subsection*{Societies}\label{sec:societies}
-
-\lefttabline{0.8in}{2022--2023}{American Physical Society, Regular Member}
-\lefttabline{0.8in}{2011--2022}{Society for Neuroscience, Postdoc/Regular Member}
-
-
-\medskip
-
-\newsection{Scientific Presentations}{talks}
-
-\subsection*{Workshops, Seminars, and Talks --- Regional}
-
-\begin{longtable}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  10/2/2019 \hspace{0.1in} & ``\unpubtitle{Oscillations, attractors, and
-  sequences: Extending hippocampal computations to artificial systems}.''
-  \emph{Invited Talk}. Kavli Neuroscience Discovery Institute, Johns Hopkins
-  University, Baltimore, MD\\
-  \tabularnewline
-  9/25/2019 & ``\unpubtitle{Decoding septohippocampal theta cells during
-  exploration reveals unbiased environmental cues in firing phase}.''
-  \emph{Poster Session}. Kavli Neuroscience Discovery Institute, Johns Hopkins
-  University, Baltimore, MD\\
-  \tabularnewline
-  12/7/2016 & ``\unpubtitle{Spatial rate/phase correlations in theta cells
-  can stabilize randomly drifting path integrators}.'' \emph{Poster Session}.
-  Greater Baltimore SfN Meeting, Baltimore, MD\\
-  \tabularnewline
-  1/22/2016 & ``\unpubtitle{Hippocampal circuits for space, memory, and
-  navigation: From minimal models to biologically inferred networks}.''
-  \emph{Invited Talk}. Department of Pharmacology, University of Maryland,
-  Baltimore, MD\\
-  \tabularnewline
-  9/6/2014 & ``\unpubtitle{Stopping to look: How attentive scanning behavior
-  reveals the formation of new memories}.'' \emph{Department Retreat Seminar}.
-  Department of Neuroscience, Johns Hopkins University, Baltimore, MD\\
-  \tabularnewline
-  4/21/2014 & ``\unpubtitle{Landmark influence: How attention to sensory cues
-  stabilizes and updates the hippocampal cognitive representation of space}.''
-  \emph{Advanced Researcher Seminar}. Zanvyl Krieger Mind/Brain Institute, Johns
-  Hopkins University, Baltimore, MD\\
-  \tabularnewline
-  4/1/2014 & ``\unpubtitle{Hippocampus and declarative memory:
-  Head scanning}.'' \emph{Department `Lab Lunch' Seminar}. Department of
-  Neuroscience, Johns Hopkins University, Baltimore, MD\\
-\end{longtable}
-
-\subsection*{Workshops, Seminars, and Talks --- National}
-\label{talks:natl}
-
-\begin{longtable}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  12/21/2022 \hspace{0.3in} & ``\unpubtitle{Finding Causal Paths Across Scales:
-  Embodied Control, Ethological Interaction, and Theory-Driven Neural Data
-  Science}.'' \emph{Invited Talk}. Division of Neuroscience and Behavior,
-  NIH/NIDA, Online\\
-  \tabularnewline
-  11/17/2022 \hspace{0.3in} & ``\unpubtitle{Finding Causal Paths Across Scales:
-  Embodied Control, Ethological Interaction, and Theory-Driven Neural Data
-  Science}.'' \emph{Invited Talk}. Division of Neuroscience and Basic Behavioral
-  Science, NIH/NIMH, Online\\
-  \tabularnewline
-  8/26/2022 \hspace{0.3in} &
-  \href{https://jdmonaco.com/files/monaco-2022-afrl-quest-slides.pdf}
-  {``\unpubtitle{Brain oscillations: From cortical computing to the existential
-  nonduality of conscious agents}.'' \emph{Invited Public Seminar}. Qualia
-  Exploitation for Sensor Technology (QuEST), Air Force Research Lab/Autonomous
-  Capabilities Team 3 (AFRL/ACT3), Online. \itemtitle{[PDF]}}\\
-  \tabularnewline
-  6/1/2020 \hspace{0.3in} &
-  \href{https://youtu.be/2jy1ENYHRAw?t=902}{``\unpubtitle{Can Transitory
-  Neurodynamics Unify Learning Theories for Brains and Machines?}''
-  \emph{Invited Talk \& Panel Discussion}. Symposium on ``How Can Dynamical
-  Systems Neuroscience Reciprocally Advance Machine Learning?'', 6th Annual
-  BRAIN Initiative Investigators Meeting, NIH, Online. \itemtitle{[YouTube]}}\\
-  \tabularnewline
-  5/18/2020 \hspace{0.3in} & ``\unpubtitle{Computational Approaches to the
-  Neural Dynamics of Time, Memory, and Behavior}.'' \emph{Invited Talk}.
-  Department of Neuroscience, Medical Discovery Team for Optical Imaging,
-  University of Minnesota, Online\\
-  \tabularnewline
-  2/24/2020 \hspace{0.3in} & ``\unpubtitle{Computational Mechanisms of Memory:
-  Linking Behavior, Space, \& Time}.'' \emph{Invited Talk}. Department of
-  Psychology, University of Nevada, Las Vegas, NV\\
-  \tabularnewline
-  1/31/2020 \hspace{0.3in} & ``\unpubtitle{Attractors, memory, and oscillations:
-  Computational motifs of spatial learning}.'' \emph{Invited Talk}.
-  Department of Biological Sciences, University of Texas at El Paso, El Paso, TX\\
-  \tabularnewline
-  4/17/2019 \hspace{0.3in} & ``\unpubtitle{Emergent dynamics of hippocampal
-  circuitry as a basis for robust self-organized planning in mobile swarms}.''
-  \emph{Invited Talk}. SPIE (International society for optics and photonics)
-  Defense \& Commercial Sensing 2019 conference, Baltimore, MD\\
-  \tabularnewline
-  4/10/2019 & NSF/Neural \& Cognitive Systems (NCS) PI
-  Workshop. \emph{Participant}. Marriott Wardman Park Hotel, Washington, D.C.\\
-  \tabularnewline
-  2/3--2/7/2019 & NSF/BRAIN Initiative Workshop: Present and Future Frameworks
-  of Theoretical Neuroscience. \emph{Invited Participant}. University of Texas,
-  San Antonio, TX\\
-  \tabularnewline
-  1/3/2014 & ``\unpubtitle{Head scans drive the formation and potentiation
-  of place fields during exploration}.'' \emph{Data Blitz}. 38th Winter
-  Conference on Neurobiology of Learning \& Memory, Park City, UT\\
-  \tabularnewline
-  4/10/2009 & ``\unpubtitle{Rapid spatial map formation and remapping by
-  competing over grid cell inputs}.'' \emph{Thesis Seminar}. Department of
-  Neurobiology \& Behavior, Columbia University, New York, NY\\
-\end{longtable}
-
-\subsection*{Workshops, Seminars, and Talks --- International}
-\label{sec:talksintl}
-
-\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  3/8/2023 \hspace{0.2in} & \href{https://meetings.aps.org/Meeting/MAR23/Session/M01.13}{
-    ``\unpubtitle{Neurodynamical computing at the information boundaries of
-    intelligent systems}.'' \emph{Contributed Talk}. American Physical Society (APS)
-  March Meeting 2023, Las Vegas, NV} \\
-  \tabularnewline
-  2/1/2022 \hspace{0.2in} & ``\unpubtitle{Theory-Driven Data Science to
-  Understand the Neural Dynamics of Memory and Behavior}.'' \emph{Invited Talk}.
-  Department of Cell \& Systems Biology, University of Toronto, Canada, Online \\
-  \tabularnewline
-  12/1/2021 \hspace{0.2in} &
-  \href{https://youtu.be/3mKkLksOyfk}{``\unpubtitle{Learning as swarming:
-      Cognitive flexibility from the neural dynamics of phase-coupled attractor
-    maps}.'' \emph{Contributed Talk}. Neuromatch 4.0 Conference, Online.
-  \itemtitle{[YouTube]}}\\
-  \tabularnewline
-  10/29/2020 \hspace{0.2in} &
-  \href{https://www.youtube.com/watch?v=WwYDMpD7j4Q}{``\unpubtitle{Spatial
-      theta-phase coding in the lateral septum: a theory of allocentric feedback
-    during navigation}.'' \emph{Contributed Talk}. Neuromatch 3.0 Conference,
-  Online. \itemtitle{[YouTube]}}\\
-  \tabularnewline
-  10/7/2020 \hspace{0.2in} & ``\unpubtitle{Computing path integration with
-  oscillatory phase codes in biological and artificial systems}.'' \emph{Data
-  Blitz}. iNAV Symposium 2020, Online\\
-  \tabularnewline
-  7/1/2010 \hspace{0.2in} & ``\unpubtitle{Medial versus lateral modes for
-  reconfiguring hippocampal representations}.'' \emph{Invited Talk}. Grid
-  Cell Meeting, Gatsby Computational Neuroscience Unit, UCL, UK\\
-\end{tabular}
-
-
-\pagebreak
-\subsection*{Conference Presentations}
-\label{sec:posters}
-
-\begin{description}
-  \item[\quad]
-    \href{https://www.cvent.com/events/6th-annual-brain-initiative-investigators-meeting/custom-116-4e2aadaa6cd549a3a4b53113cd172ad2.aspx}
-    {\joehl{Monaco JD}, Hwang GM, Schultz K, Zhang K. (2020).
-      \itemtitle{Cognitive swarming in complex environments with attractor
-      dynamics and oscillatory computing}. \emph{6th Annual BRAIN Initiative
-    Investigators Meeting}. Online, with audio narration. June~2020.}
-  \item[\quad]
-    \href{https://www.fens.org/Meetings/The-Brain-Conferences/Dynamics-of-the-brain/}
-    {\joehl{Monaco JD}, Hwang GM, De Guzman RM, Blair HT, Zhang K. (2019).
-      \itemtitle{Spatial rate-phase coding in lateral septal ‘phaser cells’:
-      single-unit data and theta-bursting models}. \emph{FENS (Federation of
-        European Neuroscience Societies) Dynamics of the brain: Temporal aspects of
-    computation}. North Copenhagen, Denmark. June~2019.}
-  \item[\quad]
-    \href{https://www.cvent.com/events/5th-annual-brain-initiative-investigators-meeting/event-summary-de9c0d8f934b46eb8d80b55bcfbfe96a.aspx}
-    {\joehl{Monaco JD}, Hwang GM, Schultz K, Zhang K. (2019).
-      \itemtitle{Self-organized swarm control using neural principles of spatial
-      phase coding}. \emph{5th Annual BRAIN Initiative Investigators Meeting}.
-    Washington, D.C. April~2019.} 
-  \item[\quad]
-    \href{https://abstractsonline.com/pp8/#!/4649/presentation/10884}
-    {Hwang GM, Schultz K, \joehl{Monaco JD}, Chalmers RW, Lau SW, Yeh BY,
-      Zhang K. (2018). \itemtitle{Self-organized swarm control using neural
-      principles of spatial phase coding}. \emph{Society for Neuroscience}.
-    San Diego, CA. November~2018.}
-  \item[\quad]
-    \href{https://www.abstractsonline.com/pp8/#!/4376/presentation/6085}
-    {\joehl{Monaco J}, Blair HT, Zhang K. (2017). \itemtitle{Decoding
-        septohippocampal theta cells during exploration reveals unbiased
-      environmental cues in firing phase}. \emph{Society for Neuroscience}.
-    Washington, D.C. November~2017.}
-  \item[\quad]
-    \href{https://jdmonaco.com/files/monaco-paper-cosyne15.pdf}
-    {\joehl{Monaco JD}, Blair HT, Zhang K. (2015). \itemtitle{Spatial
-        rate/phase correlations in theta cells can stabilize randomly drifting path
-    integrators}. \emph{Cosyne}. Salt Lake City, UT. March~2015.}
-  \item[\quad]
-    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=973d2662-ba7a-4ad2-aff9-fe0d4b77c262&cKey=9917ffaf-9e31-4213-acb9-4aab498ab4cd&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7}
-    {\joehl{Monaco J}, Blair HT, Zhang K. (2014). \itemtitle{Spatial rate/phase
-        codes provide landmark-based error correction in a temporal model of theta
-    cells}. \emph{Society for Neuroscience}. Washington, D.C.  November~2014.}
-  \item[\quad]
-    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=bfb59866-8deb-44a6-9515-a7aab630507b&cKey=d201b3aa-7725-452e-b0dd-c41d204b5b54&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7}
-    {Wang CH, Rao G, \joehl{Monaco JD}, Deshmukh SS, Knierim JJ. (2014).
-      \itemtitle{Potentiation of place fields along the CA1 transverse axis by
-      investigatory head-scanning behavior}. \emph{Society for Neuroscience}. 
-    Washington, D.C. November~2014.}
-  \item[\quad]
-    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=32eccac1-4e1d-4e81-bf5c-f39bcb605757&cKey=4710dece-cc8e-4b48-8764-49ea174b91ef&mKey=8d2a5bec-4825-4cd6-9439-b42bb151d1cf}
-    {\joehl{Monaco J}, Rao G, Knierim JJ. (2013). \itemtitle{Scanning behavior
-        in novel environments promotes \emph{de novo} formation of hippocampal place
-    fields in rats}. \emph{Society for Neuroscience}. San Diego, CA. November~2013.}
-  \item[\quad]
-    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=f5b9fa94-7d15-48c7-9d67-b89cd2883025&cKey=a53349ca-41b1-4664-b022-85d0d1fe59b8&mKey=70007181-01C9-4DE9-A0A2-EEBFA14CD9F1}
-    {\joehl{Monaco J}, Rao G, Knierim JJ. (2012). \itemtitle{Hippocampal LFP
-      during rodent head-scanning behavior: Theta and sharp-wave ripples}.
-    \emph{Society for Neuroscience}. New Orleans, LA. October~2012.}
-  \item[\quad]
-    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=c48e9f5f-1274-4486-85bf-38ee591629e1&cKey=190bd951-c183-428d-a4c5-01eb61556d79&mKey=8334BE29-8911-4991-8C31-32B32DD5E6C8}
-    {\joehl{Monaco J}, Rao G, Knierim JJ. (2011). \itemtitle{Hippocampal place
-        cell firing during head-scanning movements is associated with the formation
-    of new place fields}. \emph{Society for Neuroscience}. Washington, D.C. November~2011.}
-  \item[\quad]
-    \href{https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=c48e9f5f-1274-4486-85bf-38ee591629e1&cKey=3ec26e6f-8c59-4be2-bad3-e1572d75e07e&mKey=8334BE29-8911-4991-8C31-32B32DD5E6C8}
-    {Rao G, \joehl{Monaco J}, Knierim JJ. (2011). \itemtitle{Environmental
-        novelty promotes rodent head-scanning behavior linked to enhanced entorhinal
-      activity}. \emph{Society for Neuroscience}. Washington,
-    D.C. November~2011.}
-  \item[\quad]
-    \href{https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00192/event_abstract}
-    {\joehl{Monaco JD}, Zhang K, Blair HT, Knierim JJ. (2010).
-      \itemtitle{Cue-based feedback enables remapping in a multiple oscillator
-      model of place cell activity}. \emph{Cosyne}. Salt Lake City, UT.
-    February~2010.}
-  \item[\quad] \joehl{Monaco JD}, Abbott LF. (2009). \unpubtitle{Dynamic
-      hippocampal remapping using recurrent inhibition on realigning grid cell
-    inputs}. \emph{Cosyne}. Salt Lake City, UT. February~2009.
-  \item[\quad] \joehl{Monaco JD}, Muzzio IA, Levita L, Abbott LF. (2006).
-    \unpubtitle{Entorhinal input and global remapping of hippocampal place
-    fields}. \emph{CNS}. Edinburgh, UK. July~2006.
-  \item[\quad] \joehl{Monaco JD}, Abbott LF. (2006). \unpubtitle{Entorhinal
-    input and the remapping of hippocampal place fields}. \emph{Cosyne}. Salt Lake
-    City, UT. March~2006.
-  \item[\quad] \joehl{Monaco JD}, Levy WB. (2003). \unpubtitle{T-maze training
-      of a recurrent CA3 model reveals the necessity of novelty-based modulation of
-    LTP in hippocampal region CA3}. \emph{IJCNN}. Portland, OR. July~2003.
-  \item[\quad] \joehl{Monaco JD}, Perlstein RP. (1997). \unpubtitle{Monte-Carlo
-    analysis of deoxyhypusine synthase inhibitor ligand conformations}. \emph{NIH
-    Poster Day}. Bethesda, MD. August~1997.
-\end{description}
-
-
-\pagebreak
-\newsection{Teaching \& Outreach}{teaching}
-
-\subsection*{Educational Program Building}
-
-\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  2018--2021 \hspace{0.1in} & My NSF project with JHUAPL (see
-  \nameonpdottwo{nsfaward}{nsfgrant}) was successfully funded with a substantial
-  STEM component for high-school students involving the development of both
-  a 12-week course and an intense 2-day seminar called ``Swarming Powered by
-  Neuroscience.'' I worked with our STEM education collaborators at JHUAPL to
-  develop computational resources required for the curricula. Additionally, I
-  participated in and delivered two zoom lectures about our research for the
-  virtual 4-day STEM workshop (developed due to Covid requirements) with 40+
-  students that was held Jan 2021.
-\end{tabular}
-
-\subsection*{Mentoring \& Supervision}
-
-\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  Spring 2021 \hspace{0.05in} & Darius Carr, STEM high school student; I mentored
-  Darius as part of a local high school program that facilitates research
-  internships for underrepresented students. I developed a computational
-  research project with him that deepened his current interests in neuroscience,
-  python programming, and scientific research. \\
-  \tabularnewline
-  2020--2022 \hspace{0.1in} & Armin Hadzic, junior machine learning engineer
-  at JHUAPL; I supervised Armin in translating computational neuroscience
-  models into the domain of reinforcement learning and Bayesian optimization
-  to investigate autonomous swarming with neural control. Our project led to
-  a first author peer-reviewed research publication for Armin in Array (see
-  \nameonpdot{hadzicpub}). I am providing letters of reference in support of
-  Armin's applications to Ph.D. programs in computer science. \\
-  \tabularnewline
-  2019--2020 & Sreelakshmi Rajendrakumar, masters student in
-  JHU/Biomedical Engineering (BME); I mentored Sreelakshmi in hippocampal
-  physiology and single-unit data analysis. \\
-  \tabularnewline
-  2014 & Manning Zhang, M.S., graduate student in JHU/BME; I mentored Manning
-  through an exchange program with Shanghai Jiao Tong University and submitted
-  a letter of recommendation supporting her admission to the JHU/BME masters
-  program. \\
-  \tabularnewline
-  2013--2015 & Chia-Hsuan Wang, Ph.D., graduate student at the JHU/MBI; I worked
-  extensively with Chia-Hsuan to take over my previous studies of behavior
-  and place cells in the Knierim lab, leading to a Society for Neuroscience
-  conference poster in 2014. I supported her subsequent thesis research based on
-  my analytics and informatics software, resulting in a paper in Current Biology
-  (see \nameonpdot{wangpub}). \\
-\end{tabular}
-
-\subsection*{Classroom Instruction}
-
-\begin{tabular}{@{\hspace{0.2in}}l>{\raggedright\arraybackslash}p{.82\textwidth}}
-  Fall 2004 & Teaching Assistant for undergraduate ``Introduction to
-  Neuroscience'' course, Brandeis University; I assisted Prof. Eve Marder by
-  supervising classes, grading examinations, and giving review lectures.\\
-  \tabularnewline
-  Spring 2005 \hspace{.1in} & Teaching Assistant for undergraduate ``Biology
-  Laboratory'' course, Brandeis University \\
-\end{tabular}
-
-
-\newsection{Recognition \& Awards}{awards}
-
-\lefttabline{0.8in}{2022}{IEEE/ISEC Best Paper Award, First Place}
-\lefttabline{0.8in}{2003}{IEEE/IJCNN Student Paper Award, First Place}
-\lefttabline{0.8in}{2002}{U.Va. John A. Harrison III Undergraduate Research Award}
-\lefttabline{0.8in}{1999--2003}{U.Va. Echols Scholar}
-\lefttabline{0.8in}{1999}{State of Maryland Merit Scholastic Award}
-\lefttabline{0.8in}{1999}{AP Scholar with Distinction}
-\lefttabline{0.8in}{1999}{National Merit Scholarship Commended Student}
-\lefttabline{0.8in}{1999}{Johns Hopkins Mathematics Competition (2nd Place, Individual Calculus)}
-\lefttabline{0.8in}{1999}{Maryland Distinguished Scholar}
 
 \end{document}
