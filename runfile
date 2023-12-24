@@ -39,7 +39,7 @@ edit)
     if [[ -e Session.vim ]]; then
         mvim -S Session.vim
     else
-        mvim +Obsession --servername VIM -O cv.tex cv-web.md
+        mvim +Obsession --servername VIM cv.tex cv-web.md pubs.tex header.tex
     fi
     ;;
 
