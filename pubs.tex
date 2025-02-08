@@ -1,4 +1,4 @@
-%!TEX root = cv.tex
+%!TEX root = cv-ninds-hsa.tex
 %\subsection*{Pending}
 %\label{sec:pendingpubs}
 
@@ -9,11 +9,16 @@
 \label{sec:journalpubs}
 
 \begin{description}
-  \item Hwang GM, Kulwatno J, Cruz TH, Chen D, Ajisafe T, \joehl{Monaco
-    JD}, Nitkin R, George SM, Lucas C, Zehnder SM, and Zhang L.
-    (\emph{\color{lightred}In press}). \unpubtitle{Transforming Modeling in
-    Neurorehabilitation: Perspectives and Opportunities from US Funding Agencies}.
-    \emph{Journal of Neural Engineering Research}
+  \item \href{https://dx.doi.org/10.1007/s12559-022-10081-9}
+    {\joehl{Monaco JD} and Hwang GM. (2024). \itemtitle{Neurodynamical computing
+      at the information boundaries of intelligent systems}. \emph{Cognitive
+    Computation}, 16, 1--13. \doi{10.1007/s12559-022-10081-9}}
+  \item \href{https://doi.org/10.1186/s12984-024-01308-x}
+    {Hwang GM, Kulwatno J, Cruz TH, Chen D, Ajisafe T, \joehl{Monaco
+      JD}, Nitkin R, George SM, Lucas C, Zehnder SM, and Zhang L.
+      (2024). \itemtitle{NSF DARE --- Transforming Modeling in
+      Neurorehabilitation: Perspectives and Opportunities from US Funding Agencies}.
+    \emph{Journal of NeuroEngineering and Rehabilitiation}, 21(17).}
   \item \href{https://doi.org/10.1523/JNEUROSCI.1179-22.2022}
     {Levenstein D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin
       RC, Hasenstaub A, Iyer R, Jolivet RB, Marzen~S, \joehl{Monaco JD}, Prinz
@@ -21,10 +26,6 @@
       HG, Nadim F, and Redish AD. (2023). \itemtitle{On the role of theory and
       modeling in neuroscience}. \emph{Journal of Neuroscience}, 43(7), 1074--88.
     \doi{10.1523/JNEUROSCI.1179-22.2022}} [\arxivlink{2003.13825}]
-  \item \href{https://dx.doi.org/10.1007/s12559-022-10081-9}
-    {\joehl{Monaco JD} and Hwang GM. (2022). \itemtitle{Neurodynamical computing
-      at the information boundaries of intelligent systems}. \emph{Cognitive
-    Computation}. \doi{10.1007/s12559-022-10081-9}}
   \item \href{https://doi.org/10.1016/j.array.2022.100218}{Hadzic
       A, Hwang GM, Zhang K, Schultz KM, and \joehl{Monaco JD}. (2022).
       \itemtitle{Bayesian optimization of distributed neurodynamical
@@ -92,6 +93,13 @@
     \doi{10.1101/lm.363207}}
 \end{description}
 
+% TODO Remove this temporary re-enabling of itemnote display for HSA application
+\renewcommand{\itemnote}[1]{
+  \begin{description}
+    \item[$\rightarrow$] \hspace{.09in}{\color{darkgray}\it #1}
+  \end{description}
+}
+
 \subsection*{Conference Papers}
 \label{sec:confpapers}
 
@@ -124,7 +132,11 @@
         International Joint Conference on Neural Networks (IJCNN'03)}, 1655--1660.
       \doi{10.1109/IJCNN.2003.1223655}}
       [\href{https://jdmonaco.com/files/monaco-2003-tmaze.pdf}{\unpubtitle{pdf}}]
+    \itemnote{This paper received First Place in the IJCNN Best Student Poster competition.}
 \end{description}
+
+% TODO and this...
+\renewcommand{\itemnote}[1]{}
 
 \subsection*{Preprints}
 \label{sec:preprints}

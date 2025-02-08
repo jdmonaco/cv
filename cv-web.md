@@ -234,7 +234,6 @@
 - IEEE/IJCNN Student Paper Competition, First Place (2003)
 - John A. Harrison III Undergraduate Research Award (U.Va., 2002)
 - Echols Scholar at the University of Virginia (1999–2003)
-- Pre-university awards include:
 - Maryland Distinguished Scholar (1999) 
 - Johns Hopkins Mathematics Competition (2nd Place Individual Calculus, 1999) 
 - National Merit Scholarship Commended Student 
