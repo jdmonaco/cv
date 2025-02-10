@@ -49,7 +49,6 @@ pdf)
     ;;
 
 update)
-    mkdir -p build-std
     xelatex --output-directory=build-std cv >/dev/null && \
         xelatex --output-directory=build-std cv >/dev/null && \
         cp build-std/cv.pdf "$CVPATH" && \
