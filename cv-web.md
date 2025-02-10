@@ -9,13 +9,13 @@
 > <span>&#8594;</span> <b>Email</b>: joe [at] selfmotion [dot] net  
 > <span>&#8594;</span> <b>Web</b>: [jdmonaco.com](https://jdmonaco.com)  
 > <span>&#8594;</span> <b>GitHub</b>: [jdmonaco](https://github.com/jdmonaco)  
-> <span>&#8594;</span> <b>PubMed</b>: [monaco_jd](https://jdmonaco.com/pubmed)  
-> <span>&#8594;</span> <b>Twitter</b>: [j_d_monaco](https://www.twitter.com/j_d_monaco)  
-> <span>&#8594;</span> <b>Mastodon</b>: <a rel="me" href="https://sigmoid.social/@jdmonaco">@jdmonaco@sigmoid.social</a>  
+> <span>&#8594;</span> <b>LinkedIn</b>: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  
 > <span>&#8594;</span> <b>Google Scholar</b>: [gceOLZEAAAAJ](https://jdmonaco.com/google-scholar)  
+> <span>&#8594;</span> <b>PubMed</b>: [monaco_jd](https://jdmonaco.com/pubmed)  
 > <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-0792-8322" href="https://orcid.org/0000-0003-0792-8322" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-0792-8322</a></div>
 
-<!--<span>&#8594;</span> <b>LinkedIn</b>: [jdmonaco](https://www.linkedin.com/in/jdmonaco)  -->
+<!--<span>&#8594;</span> <b>Twitter</b>: [j_d_monaco](https://www.twitter.com/j_d_monaco)-->
+<!--<span>&#8594;</span> <b>Mastodon</b>: <a rel="me" href="https://sigmoid.social/@jdmonaco">@jdmonaco@sigmoid.social</a>-->
 
 <h5 style="text-align: center;">Education</h5>
 
@@ -46,9 +46,10 @@
 <blockquote>
 • National Institute of Neurological Disorders and Stroke <br />
 • Office of the BRAIN Director <br />
-• Scientific Program Manager ([NINDS Staff Bio](https://www.ninds.nih.gov/about-ninds/who-we-are/staff-directory/joseph-monaco))<br />
+• Scientific Program Manager ([NINDS Staff Bio](https://www.ninds.nih.gov/about-ninds/who-we-are/staff-directory/joseph-monaco)) <br />
+• *Employed under contract by Kelly Government Services* <br />
 </blockquote>
-<b>SelfMotion Labs</b> (<em>stealth mode</em>), Baltimore, MD, 2022--present
+<b>SelfMotion Labs</b>, Baltimore, MD, 2022--2023
 <blockquote>
 • Founder &amp; Chief Scientist <br />
 </blockquote>
@@ -74,20 +75,17 @@
 
 <h5 style="text-align: center;">Journal Articles</h5>
 
-- Hwang GM, Kulwatno J, Cruz TH, Chen D, Ajisafe T, **Monaco JD**, Nitkin
-    R, George SM, Lucas C, Zehnder SM, and Zhang L. (<em style="color:red;">In
-    press</em>). Transforming Modeling in Neurorehabilitation: Perspectives and
-    Opportunities from US Funding Agencies. *Journal of Neural Engineering Research*
-- <a href="https://doi.org/10.1523/JNEUROSCI.1179-22.2022" class="cv">Levenstein
-    D, Alvarez VA, Amarasingham A, Azab H, Zhe S. Chen, Gerkin RC, Hasenstaub A,
-    Iyer R, Jolivet RB, Marzen~S, **Monaco JD**, Prinz AA, Quraishi SA, Santamaria
-    F, Shivkumar S, Singh MF, Traub R, Rotstein HG, Nadim F, and Redish AD. (2023).
-    On the role of theory and modeling in neuroscience. *Journal of Neuroscience*,
-    43(7), 1074--88. <nobr>doi:&nbsp;10.1523/JNEUROSCI.1179-22.2022</nobr></a>
 - <a href="https://dx.doi.org/10.1007/s12559-022-10081-9" class="cv">
-    **Monaco JD** and Hwang GM. (2022). Neurodynamical computing at the information 
-    boundaries of intelligent systems. *Cognitive Computation*. 
+    **Monaco JD** and Hwang GM. (2024). Neurodynamical computing at
+    the information boundaries of intelligent systems}. *Cognitive
+    Computation*, 16, 1--13. Advance online publication, December&nbsp;27, 2022.
     <nobr>doi:&nbsp;10.1007/s12559-022-10081-9</nobr></a>
+- <a href="https://doi.org/10.1186/s12984-024-01308-x" class="cv">
+    Hwang GM, Kulwatno J, Cruz TH, Chen D, Ajisafe T, **Monaco JD**, Nitkin
+    R, George SM, Lucas C, Zehnder SM, and Zhang L. (2024). NSF DARE &mdash;
+    Transforming Modeling in Neurorehabilitation: Perspectives and Opportunities
+    from US Funding Agencies. *Journal of NeuroEngineering and Rehabilitiation*,
+    21(17). <nobr>doi:&nbsp;10.1186/s12984-024-01308-x</nobr></a>
 - <a href="https://dx.doi.org/10.1016/j.array.2022.100218" class="cv">Hadzic A,
     Hwang GM, Zhang K, Schultz KM, and **Monaco JD**. (2022). Bayesian optimization
     of distributed neurodynamical controller models for spatial navigation. *Array*,
@@ -230,8 +228,8 @@
 
 <h5 style="text-align: center;">Recognition</h5>
 
-- IEEE/ISEC Best Paper Competition, First Place (2022)
-- IEEE/IJCNN Student Paper Competition, First Place (2003)
+- IEEE/ISEC Best Paper Award, First Place (2022)
+- IEEE/IJCNN Student Paper Award, First Place (2003)
 - John A. Harrison III Undergraduate Research Award (U.Va., 2002)
 - Echols Scholar at the University of Virginia (1999–2003)
 - Maryland Distinguished Scholar (1999) 
@@ -242,11 +240,60 @@
 
 <h5 style="text-align: center;">Talks</h5>
 
-- <a href="https://www.iapct.org/uncategorized/utc-4-boston-time-zone/"
-    class="cv"> &ldquo;Cognitive-narrative dynamics of self-perspective control
-    across the lifespan.&rdquo; *Invited Talk*. 33rd Annual International
-    Association for Perceptual Control Theory (IAPCT) Conference, Session 7 on
-    *Consciousness and the Self*, Virtual. October&nbsp;13, 2023</a>
+- <a href="https://neurips.cc/virtual/2024/workshop/84721" class="cv">
+    &ldquo;Looking forward from the BRAIN workshop to a transformative
+    future for NeuroAI.&rdquo; *Invited Speaker*. NeuroAI
+    Workshop, NeurIPS (Neural Information Processing Systems) 2024
+    Conference, Vancouver, BC, Canada. December&nbsp;14, 2024</a> 
+    [<a href="https://neurips.cc/virtual/2024/84817">SlidesLive</a>]
+- <a href="https://braininitiative.nih.gov/news-events/events/brain-neuroai-workshop" class="cv">
+    &ldquo;Introduction to the Workshop: Gaps, Questions, and
+    Opportunities.&rdquo; *Organizer, Speaker, Moderator*. BRAIN NeuroAI Workshop,
+    NIH Main Campus, Bethesda, MD (Hybrid). November&nbsp;12&ndash;13, 2024</a>
+    [<a href="https://videocast.nih.gov/watch=55160">VideoCast Day 1 &amp;
+    <a href="https://videocast.nih.gov/watch=55262">Day 2</a>] 
+    [<a href="https://braininitiative.nih.gov/sites/default/files/documents/BRAIN%20NeuroAI%20Workshop%20Summary_2024_508c.pdf">Meeting Summary</a>]
+- <a href="https://www.sfn.org/meetings/neuroscience-2024/sessions-and-events/professional-development-workshops#Saturday,-October-05" class="cv">
+    &ldquo;The NIH BRAIN Initiative: Working with AI in Neuroscience.&rdquo;
+    *Invited Speaker, Panelist*. Society for Neuroscience 2024, Professional
+    Development Workshop on *Working With and Working For AI*, Chicago, IL. 
+    October&nbsp;5, 2024</a>
+- <a href="https://neuroinformatics.incf.org/2024/sessions" class="cv">
+    &ldquo;The present and future of the BRAIN data ecosystem for neuroscience
+    and beyond.&rdquo; *Co-Organizer, Speaker, Panelist*. INCF (International
+    Neuroinformatics Coordinating Facility) Assembly. Panel on *BRAIN Initiative
+    Informatics Perspectives: Funding and Building a Sustainable Data
+    Ecosystem*. Austin, TX. September&nbsp;25, 2024</a>
+- <a href="https://www.aim-ahead.net/webinar-series/ai-cares/" class="cv">
+    &ldquo;The NIH BRAIN Initiative: AI in Neuroscience.&rdquo;
+    *Invited Talk*. AI-CARES (AI Career Advancement and Resources)
+    Webinar Series, AIM-AHEAD, Virtual. August&nbsp;28, 2024</a> 
+    [<a href="https://www.aim-ahead.net/media/u3bmfrsa/ai-cares-dr-monaco.pdf">pdf</a>]
+- <a href="https://braininitiative.nih.gov/sites/default/files/documents/BRAIN%20NEWG_Agenda_Aug%202024%20v8_508C.pdf" class="cv">
+    &ldquo;Introduction and Overview of AI, Neuroscience, and Ethics.&rdquo;
+    *Co-Organizer, Speaker*. BRAIN Neuroethics Working Group (NEWG)
+    Workshop, NIH/NINDS, Virtual. August&nbsp;21, 2024</a> 
+    [<a href="https://videocast.nih.gov/watch=54989">VideoCast</a>]
+- <a href="https://iconsneuromorphic.cc/schedule/" class="cv">
+    &ldquo;Discussion Panel on Neuromorphic Systems and U.S. Government.&rdquo;
+    *Invited Speaker, Panelist*. IEEE/ACM ICONS (International Conference
+    on Neuromorphic Systems) 2024, George Mason University, Arlington, VA.
+    July&nbsp;31, 2024</a>
+- <a href="https://sites.google.com/view/telluride-2024/home" class="cv">
+    &ldquo;Coordination dynamics of behavior and cognitive computation:
+    Rethinking emergent control.&rdquo; *Invited Talk*. Telluride
+    Neuromorphic Workshop 2024, Telluride, CO. July&nbsp;12, 2024</a> 
+    [<a href="https://youtu.be/7b69GXB2jBc?si=xuzXOZDqXWl6I_sO">YouTube</a>]
+- <a href="https://brainmeeting.swoogo.com/2024/agenda#Wednesday" class="cv">
+    &ldquo;Specialty Session: BRAIN and the Future of Computing: Emerging
+    Perspectives on Embodied NeuroAI Research.&rdquo; *Co-Organizer, Moderator*.
+    10th Annual BRAIN Initiative Conference, Rockville, MD. June&nbsp;18, 2024</a>
+    [<a href="https://youtu.be/3W0o0Mmc60o?si=ejmzy70NFG0jAOp_">YouTube</a>]
+- <a href="https://www.iapct.org/uncategorized/utc-4-boston-time-zone/" class="cv">
+    &ldquo;Cognitive-narrative dynamics of self-perspective control across the
+    lifespan.&rdquo; *Invited Talk*. 33rd Annual International Association for
+    Perceptual Control Theory (IAPCT) Conference, Session 7 on *Consciousness
+    and the Self*, Virtual. October&nbsp;13, 2023</a>
     [<a href="/files/monaco-IAPCT-2023-slides.pdf">pdf</a>]
 - <a href="https://odin.mit.edu/schedule.html" class="cv">&ldquo;Beyond
      &lsquo;FAIR&rsquo;: What does sustainable protocolization of open data in neuroscience
@@ -461,6 +508,8 @@
     * IEEE/INNS Neural Networks
 
 - Funding Agencies:
+    * AFOSR (Air Force Ofc of Sponsored Research), Ad-Hoc Reviewer, 2024
+    * NIH BRAIN Initiative, Extramural SME \& Programmatic Review, 2023--present
     * NSF CAREER Ad-Hoc Review, 2022
     * NSF Emerging Frontiers in Research and Innovation (EFRI) Preliminary Review, 2022
     * NSF EFRI Final-Round Review, 2022--2023
@@ -468,12 +517,13 @@
     * IARPA Program Development, Extramural Contributor, 2014
 
 - Conferences:
+    * NICE (Neuro-Inspired Computational Elements) Conference, Ad-Hoc Reviewer, 2024
     * Cosyne, Review Committee, 2020--2021
     * Cosyne, Review Committee, 2016
 
 - Societies:
+    * Society for Neuroscience, *Postdoc/Regular Member (2011--present)*
     * American Physical Society, *Regular Member (2022--2024)*
-    * Society for Neuroscience, *Postdoc/Regular Member (2011--2022)*
 
 <h5 style="text-align: center;">Teaching</h5>
 

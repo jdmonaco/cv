@@ -49,13 +49,14 @@ pdf)
     ;;
 
 update)
-    xelatex --output-directory=build cv >/dev/null && \
-        xelatex --output-directory=build cv >/dev/null && \
-        cp build/cv.pdf "$CVPATH" && \
-        cp build/cv.pdf ~/Sites/jdmonaco_com/files/ && \
+    mkdir -p build-std
+    xelatex --output-directory=build-std cv >/dev/null && \
+        xelatex --output-directory=build-std cv >/dev/null && \
+        cp build-std/cv.pdf "$CVPATH" && \
+        cp build-std/cv.pdf ~/Sites/jdmonaco_com/files/ && \
         cp cv-web.md ~/Sites/jdmonaco_com-pages/cv/index.md && \
         cd ../publications && run update && \
-        open http://jdmonaco.com/cv/
+        open https://jdmonaco.com/cv/
     ;;
 
 highlights)

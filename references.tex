@@ -9,7 +9,6 @@
 \usepackage[hidelinks,xetex]{hyperref}
 \usepackage{multirow}
 \usepackage{sectsty}
-\usepackage{enumitem}
 \usepackage{tabu}
 \usepackage{longtable}
 \usepackage{soul}
@@ -93,28 +92,24 @@
 % PDF document info and setup
 \hypersetup{
   baseurl=https://jdmonaco.com/cv-monaco.pdf,
-  pdftitle=Curriculum Vitae for Joseph D. Monaco,
+  pdftitle=Professional References for Joseph D. Monaco,
   pdfauthor=Joseph D. Monaco,
   pdfdisplaydoctitle=true,
   pdfpagemode=UseThumbs,
   pdfstartview=FitV,
-  pdfpagelayout=TwoColumnLeft,
   pdftoolbar=false,
   pdfwindowui=false,
   pdfcenterwindow=true,
 }
 
 % "See section ..." macro
-\newcommand{\see}[1]{[\textcolor{hopkinsblue}{p.\pageref{sec:#1}}]}
-\newcommand{\cfonly}[1]{\textcolor{hopkinsblue}{\emph{\nameref{sec:#1}} on p.\pageref{sec:#1}}}
-\newcommand{\cfcf}[2]{\textcolor{hopkinsblue}{\emph{\nameref{sec:#1}} on
+\newcommand{\pdot}[1]{[\textcolor{hopkinsblue}{p.\pageref{sec:#1}}]}
+\newcommand{\nameonpdot}[1]{\textcolor{hopkinsblue}{\emph{\nameref{sec:#1}} on p.\pageref{sec:#1}}}
+\newcommand{\nameonpdottwo}[2]{\textcolor{hopkinsblue}{\emph{\nameref{sec:#1}} on
   p.\pageref{sec:#1}} and \textcolor{hopkinsblue}{\emph{\nameref{sec:#2}} on p.\pageref{sec:#2}}}
 
 % Typesetting
-\setlength{\parskip}{0.75em}
-\setlist{noitemsep}
-
-% Section-heading macros
+\setlength{\parskip}{0em}
 \newcommand{\newsection}[2]{%
   \section*{#1}
   \vspace{-.1in}
@@ -122,77 +117,24 @@
   \vspace{.2in}
   \label{sec:#2}
 }
-\newcommand{\newsubsection}[2]{%
-  \subsection*{#1}
-  \vspace{-.15in}
-  \hrule
-  \vspace{.15in}
-  \label{sec:#2}
-}
 
 \begin{document}
 
-%%% HEADER %%%
-
 \input{header}
 
+\section*{Professional \& Academic References}
+\label{sec:references}
+\vspace{-.1in}
+\hrule
+\vspace{.3in}
 
-%%% Educational History %%%
+% Insert the text for all the references:
+\input{../../jobsearch/package/refcontacts/references_nih}
+%\input{../../jobsearch/package/refcontacts/references}
+%\input{../../jobsearch/package/refcontacts/referenee_info}
+%\input{../../jobsearch/package/refcontacts/referenee_info_full}
 
-\input{education}
-
-
-%%% Positions History %%%
-
-\input{positions}
-
-
-%%% Publications %%%
-
-\renewcommand{\itemnote}[1]{}
-\input{pubs}
-
-
-%%% Funding Award History %%%
-
-\smallskip
-\input{funding}
-
-
-%%% Professional Service --- Scientific Peer Review %%%
-
-\smallskip
-\input{service}
-
-
-%%% Communications & Media %%%
-
-\smallskip
-\input{comms_media}
-
-
-%%% Recognition and Coverage of My Work %%%
-
-\smallskip
-\input{recognition}
-
-
-%%% Scientific Presentations %%%
-
-\smallskip
-\input{presentations}
-
-
-%%% Research Program Development %%%
-
-\smallskip
-\input{research_development}
-
-
-%%% Educational Activities %%%
-
-\smallskip
-\input{teaching}
+\pagestyle{empty}
 
 
 \end{document}
