@@ -508,7 +508,7 @@
     * IEEE/INNS Neural Networks
 
 - Funding Agencies:
-    * AFOSR (Air Force Ofc of Sponsored Research), Ad-Hoc Reviewer, 2024
+    * AFOSR (Air Force Office of Scientific Research), Ad-Hoc Reviewer, 2024
     * NIH BRAIN Initiative, Extramural SME \& Programmatic Review, 2023--present
     * NSF CAREER Ad-Hoc Review, 2022
     * NSF Emerging Frontiers in Research and Innovation (EFRI) Preliminary Review, 2022

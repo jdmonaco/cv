@@ -10,7 +10,7 @@ set -ue
 USAGE="Usage: run (-e | <command>) ..."
 
 PDFOPEN="skimr"
-VITAE="$HOME/JoeCloud/Vitae"
+VITAE="$HOME/Vitae"
 CVPATH="$VITAE/jobsearch/materials/cv-monaco.pdf"
 
 CMDHELP=$(

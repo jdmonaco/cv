@@ -98,11 +98,11 @@
   pdfdisplaydoctitle=true,
   pdfpagemode=UseThumbs,
   pdfstartview=FitV,
-  pdfpagelayout=TwoColumnLeft,
   pdftoolbar=false,
   pdfwindowui=false,
   pdfcenterwindow=true,
 }
+  %pdfpagelayout=TwoColumnLeft,
 
 % "See section ..." macro
 \newcommand{\see}[1]{[\textcolor{hopkinsblue}{p.\pageref{sec:#1}}]}
@@ -117,16 +117,16 @@
 % Section-heading macros
 \newcommand{\newsection}[2]{%
   \section*{#1}
-  \vspace{-.1in}
+  \vspace{-.125in}
   \hrule
-  \vspace{.2in}
+  \vspace{.1in}
   \label{sec:#2}
 }
 \newcommand{\newsubsection}[2]{%
   \subsection*{#1}
-  \vspace{-.15in}
+  \vspace{-.125in}
   \hrule
-  \vspace{.15in}
+  \vspace{.1in}
   \label{sec:#2}
 }
 
@@ -153,46 +153,55 @@
 \input{pubs}
 
 
-%%% Funding Award History %%%
-
-\smallskip
-\input{funding}
-
-
-%%% Professional Service --- Scientific Peer Review %%%
-
-\smallskip
-\input{service}
-
-
 %%% Communications & Media %%%
 
-\smallskip
+%\smallskip
 \input{comms_media}
-
-
-%%% Recognition and Coverage of My Work %%%
-
-\smallskip
-\input{recognition}
 
 
 %%% Scientific Presentations %%%
 
-\smallskip
+%\smallskip
 \input{presentations}
+
+
+%%% Professional Service --- Scientific Peer Review %%%
+
+%\smallskip
+\input{service}
+
+
+%%% Recognition and Coverage of My Work %%%
+
+%\smallskip
+\input{recognition}
+
+
+%%% Funding Award History %%%
+
+%\smallskip
+\input{funding}
 
 
 %%% Research Program Development %%%
 
-\smallskip
+%\smallskip
 \input{research_development}
 
 
 %%% Educational Activities %%%
 
-\smallskip
+%\smallskip
 \input{teaching}
 
 
+%%% References %%%
+
+%\pagebreak
+%\input{header}
+
+%\newsection{Professional \& Academic References}{contacts}
+%\input{../../jobsearch/references/references_nih}
+
 \end{document}
+
