@@ -1,0 +1,154 @@
+%! TEX program = xelatex
+%
+% Curriculum vitae for Joseph D. Monaco
+%
+\documentclass[10pt]{article}
+
+\usepackage{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[hidelinks,xetex]{hyperref}
+\usepackage{multirow}
+\usepackage{sectsty}
+\usepackage{enumitem}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{soul}
+\usepackage{fontspec}
+
+% Page geometry formatting
+\raggedbottom
+\raggedright
+\textheight=9in
+\setlength{\tabcolsep}{0in}
+\addtolength{\footskip}{-.15in}
+\addtolength{\voffset}{-.6in}
+\addtolength{\textheight}{1in}
+\addtolength{\hoffset}{-.25in}
+\addtolength{\textwidth}{.25in}
+
+% Define colors
+\definecolor{hopkinsblue}{RGB}{0,48,130}
+\definecolor{lightblue}{rgb}{.88,.92,.97}
+\definecolor{lightgold}{rgb}{1,.80,0}
+\definecolor{lightred}{rgb}{1,.3,.2}
+\definecolor{lightgray}{rgb}{.80,.80,.80}
+\definecolor{dimgray}{rgb}{.50,.50,.50}
+\definecolor{darkgray}{rgb}{.30,.30,.30}
+
+% Set up highlighting and underlining
+\sethlcolor{lightblue}
+\setul{0.13ex}{}
+
+% Choose font package
+\setmainfont[Ligatures=TeX]{Helvetica Neue LT Std} 
+
+% Section section* formatting
+\sectionfont{\large\color{hopkinsblue}\bfseries}
+\subsectionfont{\vspace{-1.5ex}\color{hopkinsblue}\normalsize\bfseries}
+
+% Formatting macros
+\newcommand{\itemtitle}[1]{{\color{hopkinsblue}\ul{#1}}}
+\newcommand{\unpubtitle}[1]{{\color{hopkinsblue} #1}}
+\newcommand{\itemnote}[1]{
+  \begin{description}
+    \item[$\rightarrow$] \hspace{.09in}{\color{darkgray}\it #1}
+  \end{description}
+}
+\newcommand{\joehl}[1]{\hl{\textbf{#1}}}
+\newcommand{\doi}[1]{{\color{darkgray}doi:}~{\color{dimgray}\texttt{#1}}}
+\newcommand{\arxiv}[1]{\emph{ArXiv Preprint}.
+  {\color{darkgray}arxiv:}~{\color{dimgray}\texttt{#1}}}
+\newcommand{\arxivlink}[1]{\href{https://arxiv.org/abs/#1}
+  {{\color{darkgray}arxiv:}~{\color{dimgray}\texttt{#1}}}}
+\newcommand{\biorxivlink}[1]{\href{https://dx.doi.org/#1}
+  {{\color{darkgray}biorxiv:}~{\color{dimgray}\texttt{#1}}}}
+\newcommand{\aurl}[1]{{\color{dimgray}\texttt{#1}}}
+\newcommand{\researchnote}[1]{
+  \begin{description}
+    \item[] {\hspace{2.2ex}\color{darkgray} #1}
+  \end{description}
+}
+\newcommand{\researchactivity}[4]{
+  \begin{minipage}[t]{\textwidth}
+    \begin{tabular}{@{\hspace{2ex}}l>{\raggedright\arraybackslash}p{.8\textwidth}}
+      \makebox[1.2in][l]{#1} & \textbf{#2:}
+      ``\unpubtitle{#3}'' 
+    \end{tabular}
+  \researchnote{\hspace{1ex} #4}
+  \end{minipage}
+  \medbreak
+}
+\newcommand{\whitepaper}[4]{
+  \begin{minipage}[t]{\textwidth}
+    \begin{tabular}{@{\hspace{2ex}}l>{\raggedright\arraybackslash}p{.8\textwidth}}
+      \makebox[1.2in][l]{#1} & \textbf{White Paper:} #2.
+      ``\unpubtitle{#3}'' 
+    \end{tabular}
+  \researchnote{\hspace{1ex} #4}
+  \end{minipage}
+  \medbreak
+}
+\newcommand{\lefttabline}[3]{\hspace{2ex}\makebox[#1][l]{#2} #3\\}
+
+% PDF document info and setup
+\hypersetup{
+  baseurl=https://jdmonaco.com/cv-monaco.pdf,
+  pdftitle=Curriculum Vitae for Joseph D. Monaco,
+  pdfauthor=Joseph D. Monaco,
+  pdfdisplaydoctitle=true,
+  pdfpagemode=UseThumbs,
+  pdfstartview=FitV,
+  pdftoolbar=false,
+  pdfwindowui=false,
+  pdfcenterwindow=true,
+}
+  %pdfpagelayout=TwoColumnLeft,
+
+% "See section ..." macro
+\newcommand{\see}[1]{[\textcolor{hopkinsblue}{p.\pageref{sec:#1}}]}
+\newcommand{\cfonly}[1]{\textcolor{hopkinsblue}{\emph{\nameref{sec:#1}} on p.\pageref{sec:#1}}}
+\newcommand{\cfcf}[2]{\textcolor{hopkinsblue}{\emph{\nameref{sec:#1}} on
+  p.\pageref{sec:#1}} and \textcolor{hopkinsblue}{\emph{\nameref{sec:#2}} on p.\pageref{sec:#2}}}
+
+% Typesetting
+\setlength{\parskip}{0.75em}
+\setlist{noitemsep}
+
+% Section-heading macros
+\newcommand{\newsection}[2]{%
+  \section*{#1}
+  \vspace{-.125in}
+  \hrule
+  \vspace{.1in}
+  \label{sec:#2}
+}
+\newcommand{\newsubsection}[2]{%
+  \subsection*{#1}
+  \vspace{-.125in}
+  \hrule
+  \vspace{.1in}
+  \label{sec:#2}
+}
+
+\begin{document}
+
+%%% HEADER %%%
+
+\input{header}
+
+
+%%% Single-section inclusion %%%
+
+% \input{workexp}
+
+
+%%% References %%%
+
+%\pagebreak
+%\input{header}
+
+\newsection{Professional \& Academic References}{contacts}
+\input{../../jobsearch/references/references_nih}
+
+\end{document}
+
